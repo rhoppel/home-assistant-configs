@@ -1,0 +1,76 @@
+# Current weather
+  - platform: yr
+    name: Weather
+    monitored_conditions:
+      - temperature
+      - precipitation
+ 
+  - platform: yr
+    name: Weather in 1 hours
+    forecast: 1
+    monitored_conditions:
+      - precipitation
+  
+  # Pi hardware stuff: https://home-assistant.io/components/sensor.systemmonitor/ 
+  - platform: systemmonitor
+    resources:
+      - type: disk_use_percent
+        arg: /home
+      - type: memory_free
+      - type: disk_free
+        arg: /
+      - type: memory_use_percent
+      - type: network_in
+        arg: eth0
+      - type: processor_use
+      - type: since_last_boot
+
+#### SWITCH #####
+  - platform: mqtt
+    name: "TEMP1"
+    state_topic: "smartthings/TEMP1/switch/state"
+
+#### MOTION DETECTOR ####
+  - platform: mqtt
+    name: "TEMP2"
+    state_topic: "smartthings/TEMP2/motion"
+    state_topic: "smartthings/TEMP2/temperature"
+    state_topic: "smartthings/TEMP2/battery"
+    
+#### MULTI SENSOR ####
+  - platform: mqtt
+    name: "TEMP"
+    state_topic: "smartthings/TEMP3/contact"
+    state_topic: "smartthings/TEMP3/temperature"
+    state_topic: "smartthings/TEMP3/battery"
+    
+#### WATER SENSOR ####
+  - platform: mqtt
+    name: "TEMP"
+    state_topic: "smartthings/TEMP4/water"
+    state_topic: "smartthings/TEMP4/temperature"
+    state_topic: "smartthings/TEMP4/battery"
+
+#### SMOKE SENSOR ####
+  - platform: mqtt
+    name: "TEMP"
+    state_topic: "smartthings/TEMP5/carbonMonoxide"
+    state_topic: "smartthings/TEMP5/temperature"
+    state_topic: "smartthings/TEMP5/smoke"
+
+#### OUTLET SENSOR ####
+  - platform: mqtt
+    name: "TEMP6"
+    state_topic: "smartthings/TEMP6/power"
+    state_topic: "smartthings/TEMP6/temperature"
+
+#### ALARM SENSOR ####
+  - platform: mqtt
+    name: "TEMP7"
+    state_topic: "smartthings/TEMP/alarm"
+
+#### PRESENCE SENSOR ####
+  - platform: mqtt
+    name: "TEMP"
+    state_topic: "smartthings/TEMP/presence"
+

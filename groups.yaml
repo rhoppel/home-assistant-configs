@@ -1,0 +1,16 @@
+# Example configuration.yaml entry
+trafficLight1:
+  view: true
+  name: Traffic Light 1
+  entities:
+     - light.tRed
+     - light.tYellow
+     - light.tGreen
+
+trafficLight2:
+  view: true
+  name: Traffic Light 2
+  entities:
+     - light.tRed2
+     - light.tYellow2
+     - light.tGreen2

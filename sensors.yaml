@@ -25,510 +25,82 @@
       - type: processor_use
       - type: since_last_boot
 
-
+#### SWITCH #####
   - platform: mqtt
-    name: "Xiaomi Zigbee Aqara Button AQ2 - switch"
-    state_topic: "smartthings/Xiaomi Zigbee Aqara Button AQ2/switch/state"
-     #cmd_topic: "smartthings/Xiaomi Zigbee Aqara Button AQ2/switch/cmd"
+    name: "Spotlights"
+    state_topic: "smartthings/Spotlights/switch"
 
-
+#### MOTION DETECTOR ####
   - platform: mqtt
-    name: "Xiaomi Zigbee Aqara Button AQ2 - button"
-    state_topic: "smartthings/Xiaomi Zigbee Aqara Button AQ2/button/state"
-     #cmd_topic: "smartthings/Xiaomi Zigbee Aqara Button AQ2/button/cmd"
-
-#### MAILBOX ####
+    name: "Motion - Kitchen"
+    state_topic: "smartthings/Motion - Kitchen/motion"
   - platform: mqtt
-    name: "Mailbox"
-    state_topic: "smartthings/Mailbox/contact/state"
-
-#### GUEST BATHROOM SENSOR (Formerly Garage Temp) ####
-  - platform: mqtt
-    name: "Guest Bath temperature"
-    state_topic: "smartthings/Guest Bath Sensor/temperature/state"
+    name: "Motion - Kitchen"
+    state_topic: "smartthings/Motion - Kitchen/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Guest Bath humidity"
-    state_topic: "smartthings/Guest Bath Sensor/humidity/state"
-  - platform: mqtt
-    name: "Guest Bath Sensor - battery"
-    state_topic: "smartthings/Guest Bath Sensor/battery/state"
-    unit_of_measurement: "%"
-
-#### BATHROOM SENSOR (Master bathroom) ####
-  - platform: mqtt
-    name: "Bathroom temperature"
-    state_topic: "smartthings/Bathroom Sensor/temperature/state"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Bathroom humidity"
-    state_topic: "smartthings/Bathroom Sensor/humidity/state"
-  - platform: mqtt
-    name: "Bathroom battery"
-    state_topic: "smartthings/Bathroom Sensor/battery/state"
-    unit_of_measurement: "%"
-
-#### GARAGE MOTION DETECTOR ####
-  - platform: mqtt
-    name: "Garage Motion Detector"
-    state_topic: "smartthings/Garage Motion Detector/motion/state"
-    
-#### GARAGE MOTION DETECTOR ####
-  - platform: mqtt
-    name: "Guest Bathroom Motion"
-    state_topic: "smartthings/Guest Bathroom Motion/motion/state"
-
-#### OFFICE MOTION DETECTOR ####
-  - platform: mqtt
-    name: "Office Motion"
-    state_topic: "smartthings/Office Motion/motion/state"
-
-#### OFFICE SMOKE CO DETECTOR ####
-  - platform: mqtt
-    name: "Office Smoke Detector"
-    state_topic: "smartthings/Smoke CO Office/smoke/state"
-
-#### COMPANION CUBE ####
-  - platform: mqtt
-    name: "Xiaomi Mi Cube - battery"
-    state_topic: "smartthings/Xiaomi Mi Cube/battery/state"
-    unit_of_measurement: "%"
-     #cmd_topic: "smartthings/Xiaomi Mi Cube/battery/cmd"
-  - platform: mqtt
-    name: "Xiaomi Mi Cube - button"
-    state_topic: "smartthings/Xiaomi Mi Cube/button/state"
-     #cmd_topic: "smartthings/Xiaomi Mi Cube/button/cmd"
-
-#### LAUNDRY ROOM MOTION DETECTOR ####
-  - platform: mqtt
-    name: "Laundry Room Motion"
-    state_topic: "smartthings/Laundry Room Motion/motion/state"
-     #cmd_topic: "smartthings/Laundry Room Motion/motion/cmd"
-  - platform: mqtt
-    name: "Laundry Room Motion battery"
-    state_topic: "smartthings/Laundry Room Motion/battery/state"
-    unit_of_measurement: "%"
-     #cmd_topic: "smartthings/Laundry Room Motion/battery/cmd"
-
-  - platform: mqtt
-    name: "Xiaomi Zigbee Aqara Button AQ2 - battery"
-    state_topic: "smartthings/Xiaomi Zigbee Aqara Button AQ2/battery/state"
-    unit_of_measurement: "%"
-
-#### PRESENCE SENSORS ####
-  - platform: mqtt
-    name: "Nichol"
-    state_topic: "smartthings/Nichol/presence/state"
-
-  - platform: mqtt
-    name: "Neff"
-    state_topic: "smartthings/Neff/presence/state"
-
-#### Kitchen Window ####
-  - platform: mqtt
-    name: "Kitchen Window temperature"
-    state_topic: "smartthings/Window Kitchen/temperature/state"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Kitchen Window contact"
-    state_topic: "smartthings/Window Kitchen/contact/state"
-  - platform: mqtt
-    name: "Kitchen Window battery"
-    state_topic: "smartthings/Window Kitchen/battery/state"
-    unit_of_measurement: "%"
-
-#### Office Window ####
-  - platform: mqtt
-    name: "Office Window temperature"
-    state_topic: "smartthings/Window Office/temperature/state"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Office Window contact"
-    state_topic: "smartthings/Window Office/contact/state"
-  - platform: mqtt
-    name: "Office Window battery"
-    state_topic: "smartthings/Window Office/battery/state"
-    #unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Office Window acceleration"
-  #   state_topic: "smartthings/Window Office/acceleration/state"
-  # - platform: mqtt
-  #   name: "Office Window threeAxis"
-  #   state_topic: "smartthings/Window Office/threeAxis/state"
-
-#### Bathroom Window ####
-  - platform: mqtt
-    name: "Bathroom Window temperature"
-    state_topic: "smartthings/Window Bathroom/temperature/state"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Bathroom Window contact"
-    state_topic: "smartthings/Window Bathroom/contact/state"
-  - platform: mqtt
-    name: "Bathroom Window battery"
-    state_topic: "smartthings/Window Bathroom/battery/state"
-    unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Bathroom Window threeAxis"
-  #   state_topic: "smartthings/Window Bathroom/threeAxis/state"
-  # - platform: mqtt
-  #   name: "Bathroom Window acceleration"
-  #   state_topic: "smartthings/Window Bathroom/acceleration/state"
-
-#### Bedroom Window ####
-
-  - platform: mqtt
-    name: "Bedroom Window temperature"
-    state_topic: "smartthings/Window Bedroom/temperature/state"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Bedroom Window contact"
-    state_topic: "smartthings/Window Bedroom/contact/state"
-  - platform: mqtt
-    name: "Bedroom Window battery"
-    state_topic: "smartthings/Window Bedroom/battery/state"
-    unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Bedroom Window threeAxis"
-  #   state_topic: "smartthings/Window Bedroom/threeAxis/state"
-  # - platform: mqtt
-  #   name: "Bedroom Window acceleration"
-  #   state_topic: "smartthings/Window Bedroom/acceleration/state"
-
-#### FRONT LEFT WINDOW (Xiaomi Origional contact sensor using A4refill pad) ####
-  - platform: mqtt
-    name: "Front Left Window contact"
-    state_topic: "smartthings/Window Front Left/contact/state"
-  - platform: mqtt
-    name: "Front Left Window battery"
-    state_topic: "smartthings/Window Front Left/battery/state"
-    unit_of_measurement: "%"
-
-#### FRONT Right WINDOW (Xiaomi Aqara contact sensor using bspranger fork of A4 refill pad DH) ####
-# https://github.com/bspranger/Xiaomi/blob/master/devicetypes/a4refillpad/xiaomi-aqara-door-window-sensor.src/xiaomi-aqara-door-window-sensor.groovy
-# Looks like they are still working on the battery issue:
-# https://community.smartthings.com/t/xiaomi-vs-aqara-door-window-sensors/90738/14
-  - platform: mqtt
-    name: "Front Right Window contact"
-    state_topic: "smartthings/Window Front Right/contact/state"
-  - platform: mqtt
-    name: "Front Right Window battery"
-    state_topic: "smartthings/Window Front Right/battery/state"
-    unit_of_measurement: "%"
-
-#### NICHOLS OFFICE WINDOW ####
-  - platform: mqtt
-    name: "Nichols Office Window contact"
-    state_topic: "smartthings/Window Nichols Office/contact/state"
-  - platform: mqtt
-    name: "Nichols Office Window battery"
-    state_topic: "smartthings/Window Nichols Office/battery/state"
+    name: "Motion - Kitchen"
+    state_topic: "smartthings/Motion - Kitchen/battery"
     unit_of_measurement: "%"
     
-#### Garage Door ####
+#### MULTI SENSOR ####
   - platform: mqtt
-    name: "Garage Door"
-    state_topic: "smartthings/Garage Door/contact/state"
-
-#### Front Door ####
+    name: "Door - Front"
+    state_topic: "smartthings/Door - Front/contact"
   - platform: mqtt
-    name: "Front Door temperature"
-    state_topic: "smartthings/Door Frontdoor/temperature/state"
+    name: "Door - Front"
+    state_topic: "smartthings/Door - Front/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Front Door contact"
-    state_topic: "smartthings/Door Frontdoor/contact/state"
-  - platform: mqtt
-    name: "Front Door battery"
-    state_topic: "smartthings/Door Frontdoor/battery/state"
+    name: "Door - Front"
+    state_topic: "smartthings/Door - Front/battery"
     unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Front Door acceleration"
-  #   state_topic: "smartthings/Door Frontdoor/acceleration/state"
-  # - platform: mqtt
-  #   name: "Front Door threeAxis"
-  #   state_topic: "smartthings/Door Frontdoor/threeAxis/state"
-
-#### Backdoor Slider ####
+    
+#### WATER SENSOR ####
   - platform: mqtt
-    name: "Backdoor Slider temperature"
-    state_topic: "smartthings/Door Deck Slider/temperature/state"
+    name: "Water Sensor - Sump Pump"
+    state_topic: "smartthings/Water Sensor - Sump Pump/water"
+  - platform: mqtt
+    name: "Water Sensor - Sump Pump"
+    state_topic: "smartthings/Water Sensor - Sump Pump/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Backdoor Slider contact"
-    state_topic: "smartthings/Door Deck Slider/contact/state"
-  - platform: mqtt
-    name: "Backdoor Slider battery"
-    state_topic: "smartthings/Door Deck Slider/battery/state"
+    name: "Water Sensor - Sump Pump"
+    state_topic: "smartthings/Water Sensor - Sump Pump/battery"
     unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Backdoor Slider acceleration"
-  #   state_topic: "smartthings/Door Deck Slider/acceleration/state"
-  # - platform: mqtt
-  #   name: "Backdoor Slider threeAxis"
-  #   state_topic: "smartthings/Door Deck Slider/threeAxis/state"
 
-#### Catio Door ####
+#### SMOKE SENSOR ####
   - platform: mqtt
-    name: "Catio Door temperature"
-    state_topic: "smartthings/Door Catio/temperature/state"
+    name: "First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)"
+    state_topic: "smartthings/First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)/carbonMonoxide"
+  - platform: mqtt
+    name: "First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)"
+    state_topic: "smartthings/First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)/smoke"
+  - platform: mqtt
+    name: "First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)"
+    state_topic: "smartthings/First Alert Smoke Detector and Carbon Monoxide Alarm (ZCOMBO)/battery"
+    unit_of_measurement: "%"
+
+#### OUTLET SENSOR ####
+  - platform: mqtt
+    name: "Outlet(C) - Kitchen"
+    state_topic: "smartthings/Outlet(C) - Kitchen/switch"
+  - platform: mqtt
+    name: "Outlet(C) - Kitchen"
+    state_topic: "smartthings/Outlet(C) - Kitchen/power"
+    unit_of_measurement: "WattsF"
+  - platform: mqtt
+    name: "Outlet(C) - Kitchen"
+    state_topic: "smartthings/Outlet(C) - Kitchen/temperature"
     unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Catio Door contact"
-    state_topic: "smartthings/Door Catio/contact/state"
-  - platform: mqtt
-    name: "Catio Door battery"
-    state_topic: "smartthings/Door Catio/battery/state"
-    unit_of_measurement: "%"
-  # - platform: mqtt
-  #   name: "Catio Door threeAxis"
-  #   state_topic: "smartthings/Door Catio/threeAxis/state"
-  # - platform: mqtt
-  #   name: "Catio Door acceleration"
-  #   state_topic: "smartthings/Door Catio/acceleration/state"
 
-#### Attic Door (Xiaomi Origional contact sensor using A4refill pad) ####
+#### ALARM SENSOR ####
   - platform: mqtt
-    name: "Attic Door contact"
-    state_topic: "smartthings/Attic Door Sensor/contact/state"
+    name: "Aeon Labs Siren (Gen 5)"
+    state_topic: "smartthings/Aeon Labs Siren (Gen 5)/alarm"
 
-#### Mi Flora ####    
-  - platform: miflora
-    name: Lemon Tree
-    mac: 'C4:7C:8D:65:BF:66'
-    median: 3
-      # monitored_conditions:
-      # - moisture
-      # - light
-      # - temperature
-      # - conductivity
-      # - battery
-
-#### Fitbit ####
-  # - platform: fitbit
-  #   clock_format: 12H
-  #   monitored_resources:
-  #     # - activities/activityCalories
-  #     - activities/calories
-  #     - activities/caloriesBMR
-  #     - activities/distance
-  #     # - activities/elevation
-  #     # - activities/floors
-  #     - activities/heart
-  #     - activities/minutesFairlyActive
-  #     - activities/minutesLightlyActive
-  #     - activities/minutesSedentary
-  #     - activities/minutesVeryActive
-  #     - activities/steps
-  #     # - activities/tracker/activityCalories
-  #     - activities/tracker/calories
-  #     - activities/tracker/distance
-  #     # - activities/tracker/elevation
-  #     # - activities/tracker/floors
-  #     - activities/tracker/minutesFairlyActive
-  #     - activities/tracker/minutesLightlyActive
-  #     - activities/tracker/minutesSedentary
-  #     - activities/tracker/minutesVeryActive
-  #     - activities/tracker/steps
-  #     - body/bmi
-  #     - body/fat
-  #     - body/weight
-  #     - devices/battery
-  #     - sleep/awakeningsCount
-  #     - sleep/efficiency
-  #     - sleep/minutesAfterWakeup
-  #     - sleep/minutesAsleep
-  #     - sleep/minutesAwake
-  #     - sleep/minutesToFallAsleep
-  #     - sleep/startTime
-  #     - sleep/timeInBed
-
-#### DOOR TEMPLATES ####
-  - platform: template
-    sensors:
-      catio_door_contact_template:
-        friendly_name: "Catio Door"
-        value_template: "{{ states('sensor.catio_door_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.catio_door_contact', 'open') %}
-            mdi:door-open
-          {% elif is_state('sensor.catio_door_contact', 'closed') %}
-            mdi:door-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      front_door_contact_template:
-        friendly_name: "Front Door"
-        value_template: "{{ states('sensor.front_door_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.front_door_contact', 'open') %}
-            mdi:door-open
-          {% elif is_state('sensor.front_door_contact', 'closed') %}
-            mdi:door-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      backdoor_slider_contact_template:
-        friendly_name: "Backdoor Slider"
-        value_template: "{{ states('sensor.backdoor_slider_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.backdoor_slider_contact', 'open') %}
-            mdi:door-open
-          {% elif is_state('sensor.backdoor_slider_contact', 'closed') %}
-            mdi:door-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      garage_door_template:
-        friendly_name: "Garage Door"
-        value_template: "{{ states('sensor.garage_door') }}"
-        icon_template: >
-          {% if is_state('sensor.garage_door', 'open') %}
-            mdi:garage-open
-          {% elif is_state('sensor.garage_door', 'closed') %}
-            mdi:garage
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-#### WINDOW TEMPLATES ####
-  - platform: template
-    sensors:
-      office_window_contact_template:
-        friendly_name: "Office Window"
-        value_template: "{{ states('sensor.office_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.office_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.office_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      bedroom_window_contact_template:
-        friendly_name: "Bedroom Window"
-        value_template: "{{ states('sensor.bedroom_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.bedroom_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.bedroom_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      bathroom_window_contact_template:
-        friendly_name: "Bathroom Window"
-        value_template: "{{ states('sensor.bathroom_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.bathroom_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.bathroom_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      front_left_window_contact_template:
-        friendly_name: "Front Left Window"
-        value_template: "{{ states('sensor.front_left_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.front_left_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.front_left_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      front_right_window_contact_template:
-        friendly_name: "Front Right Window"
-        value_template: "{{ states('sensor.front_right_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.front_right_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.front_right_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      kitchen_window_contact_template:
-        friendly_name: "Kitchen Window"
-        value_template: "{{ states('sensor.kitchen_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.kitchen_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.kitchen_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  - platform: template
-    sensors:
-      nichols_office_window_contact_template:
-        friendly_name: "Nichols Office Window"
-        value_template: "{{ states('sensor.nichols_office_window_contact') }}"
-        icon_template: >
-          {% if is_state('sensor.nichols_office_window_contact', 'open') %}
-            mdi:window-open
-          {% elif is_state('sensor.nichols_office_window_contact', 'closed') %}
-            mdi:window-closed
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-          
-  - platform: template
-    sensors:
-      mailbox_template:
-        friendly_name: "Mailbox"
-        value_template: "{{ states('sensor.mailbox') }}"
-        icon_template: >
-          {% if is_state('sensor.mailbox', 'open') %}
-            mdi:email-alert
-          {% elif is_state('sensor.mailbox', 'closed') %}
-            mdi:email
-          {% else %}
-            mdi:alert-decagram
-          {% endif %}
-  # - platform: octoprint
-  #   name: OctoPrint
-  #   monitored_conditions:
-  #     - Current State
-  #     - Temperatures
-  #     - Job Percentage
-
-  #### OctoPrint MQTT Sensors ####
+#### PRESENCE SENSOR ####
   - platform: mqtt
-    state_topic: 'octoprint/event/PrinterStateChanged'
-    name: 'Printer Status'
-    value_template: '{{ value_json.state_string }}'
- 
-  - platform: mqtt
-    state_topic: "octoprint/temperature/bed"
-    unit_of_measurement: "°C"
-    name: "Bed Temp"
-    value_template: '{{ value_json.actual }}'
+    name: "Richard Hoppel's Android"
+    state_topic: "smartthings/Richard Hoppel's Android/presence"
 
-  - platform: mqtt
-    state_topic: "octoprint/temperature/tool0"
-    unit_of_measurement: "°C"
-    name: "Nozzle Temp"
-    value_template: '{{ value_json.actual }}'
-
-  - platform: mqtt
-    state_topic: "octoprint/progress/printing"
-    unit_of_measurement: "%"
-    name: "Percentage Done"
-    value_template: '{{ value_json.progress }}'

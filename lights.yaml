@@ -1,28 +1,262 @@
-# These lights are connected to a Smartthings hub, connected to Hass.io Via vkorns MQTT Bridge
-# IMPORTANT: If you are using the Smartthings hub, you must keep the retain flag to false.
-# If you initially configure the devices with a retain: true, and later change it, you 
-# will see odd behavior. If that happens, you must uninstall then re-install the mqtt hass.io
-# component to refresh the database.
-
-# GE Z-wave Wireless In-Wall paddle switch 12722
 - platform: mqtt
-  name: "Virtual Switch 1"
-  state_topic: "smartthings/Virtual Switch 1/switch"
-  command_topic: "smartthings/Virtual Switch 1/switch"
+  name: "Spotlights"
+  command_topic: "smartthings/Spotlights/switch"
+  state_topic: "smartthings/Spotlights/switch"
+  qos: 2
   payload_on: "on"
   payload_off: "off"
-  retain: false
-  optimistic: false
-  qos: 2
-
+  retain: true
 
 - platform: mqtt
   name: "Hallway"
-  state_topic: "smartthings/Hallway/switch"
   command_topic: "smartthings/Hallway/switch"
+  state_topic: "smartthings/Hallway/switch"
+  brightness_command_topic: "smartthings/Hallway/level"
+  brightness_state_topic: "smartthings/Hallway/level"
+  qos: 2
   payload_on: "on"
   payload_off: "off"
-  retain: false
-  optimistic: false
+  retain: true
+
+- platform: mqtt
+  name: "Deck - Bedroom 1"
+  command_topic: "smartthings/Deck - Bedroom 1/switch"
+  state_topic: "smartthings/Deck - Bedroom 1/switch"
+  brightness_command_topic: "smartthings/Deck - Bedroom 1/level"
+  brightness_state_topic: "smartthings/Deck - Bedroom 1/level"
   qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Deck - Bedroom 2"
+  command_topic: "smartthings/Deck - Bedroom 2/switch"
+  state_topic: "smartthings/Deck - Bedroom 2/switch"
+  brightness_command_topic: "smartthings/Deck - Bedroom 2/level"
+  brightness_state_topic: "smartthings/Deck - Bedroom 2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Deck - Rear"
+  command_topic: "smartthings/Deck - Rear/switch"
+  state_topic: "smartthings/Deck - Rear/switch"
+  brightness_command_topic: "smartthings/Deck - Rear/level"
+  brightness_state_topic: "smartthings/Deck - Rear/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Desk 1"
+  command_topic: "smartthings/Desk 1/switch"
+  state_topic: "smartthings/Desk 1/switch"
+  brightness_command_topic: "smartthings/Desk 1/level"
+  brightness_state_topic: "smartthings/Desk 1/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Desk 2"
+  command_topic: "smartthings/Desk 2/switch"
+  state_topic: "smartthings/Desk 2/switch"
+  brightness_command_topic: "smartthings/Desk 2/level"
+  brightness_state_topic: "smartthings/Desk 2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Entrance"
+  command_topic: "smartthings/Entrance/switch"
+  state_topic: "smartthings/Entrance/switch"
+  brightness_command_topic: "smartthings/Entrance/level"
+  brightness_state_topic: "smartthings/Entrance/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "GE Link Daylight - Sump"
+  command_topic: "smartthings/GE Link Daylight - Sump/switch"
+  state_topic: "smartthings/GE Link Daylight - Sump/switch"
+  brightness_command_topic: "smartthings/GE Link Daylight - Sump/level"
+  brightness_state_topic: "smartthings/GE Link Daylight - Sump/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "GE Link Daylight - Utility Room"
+  command_topic: "smartthings/GE Link Daylight - Utility Room/switch"
+  state_topic: "smartthings/GE Link Daylight - Utility Room/switch"
+  brightness_command_topic: "smartthings/TEMP/level"
+  brightness_state_topic: "smartthings/TEMP/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "GE Link Flood - Back Stairway"
+  command_topic: "smartthings/GE Link Flood - Back Stairway/switch"
+  state_topic: "smartthings/GE Link Flood - Back Stairway/switch"
+  brightness_command_topic: "smartthings/GE Link Flood - Back Stairway/level"
+  brightness_state_topic: "smartthings/GE Link Flood - Back Stairway/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Hallway 1"
+  command_topic: "smartthings/Hallway 1/switch"
+  state_topic: "smartthings/Hallway 1/switch"
+  brightness_command_topic: "smartthings/Hallway 1/level"
+  brightness_state_topic: "smartthings/Hallway 1/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Hallway 2"
+  command_topic: "smartthings/Hallway 2/switch"
+  state_topic: "smartthings/Hallway 2/switch"
+  brightness_command_topic: "smartthings/Hallway 2/level"
+  brightness_state_topic: "smartthings/Hallway 2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Hutch Lamp"
+  command_topic: "smartthings/Hutch Lamp/switch"
+  state_topic: "smartthings/Hutch Lamp/switch"
+  brightness_command_topic: "smartthings/Hutch Lamp/level"
+  brightness_state_topic: "smartthings/Hutch Lamp/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Pantry"
+  command_topic: "smartthings/Pantry/switch"
+  state_topic: "smartthings/Pantry/switch"
+  brightness_command_topic: "smartthings/Pantry/level"
+  brightness_state_topic: "smartthings/Pantry/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Stairway"
+  command_topic: "smartthings/Stairway/switch"
+  state_topic: "smartthings/Stairway/switch"
+  brightness_command_topic: "smartthings/Stairway/level"
+  brightness_state_topic: "smartthings/Stairway/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Stairwell - Rear"
+  command_topic: "smartthings/Stairwell - Rear/switch"
+  state_topic: "smartthings/Stairwell - Rear/switch"
+  brightness_command_topic: "smartthings/Stairwell - Rear/level"
+  brightness_state_topic: "smartthings/Stairwell - Rear/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Table"
+  command_topic: "smartthings/Table/switch"
+  state_topic: "smartthings/Table/switch"
+  brightness_command_topic: "smartthings/Table/level"
+  brightness_state_topic: "smartthings/Table/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tGreen"
+  command_topic: "smartthings/tGreen/switch"
+  state_topic: "smartthings/tGreen/switch"
+  brightness_command_topic: "smartthings/tGreen/level"
+  brightness_state_topic: "smartthings/tGreen/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tGreen2"
+  command_topic: "smartthings/tGreen2/switch"
+  state_topic: "smartthings/tGreen2/switch"
+  brightness_command_topic: "smartthings/tGreen2/level"
+  brightness_state_topic: "smartthings/tGreen2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tRed"
+  command_topic: "smartthings/tRed/switch"
+  state_topic: "smartthings/tRed/switch"
+  brightness_command_topic: "smartthings/tRed/level"
+  brightness_state_topic: "smartthings/tRed/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tRed2"
+  command_topic: "smartthings/tRed2/switch"
+  state_topic: "smartthings/tRed2/switch"
+  brightness_command_topic: "smartthings/tRed2/level"
+  brightness_state_topic: "smartthings/tRed2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tYellow"
+  command_topic: "smartthings/tYellow/switch"
+  state_topic: "smartthings/tYellow/switch"
+  brightness_command_topic: "smartthings/tYellow/level"
+  brightness_state_topic: "smartthings/tYellow/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "tYellow2"
+  command_topic: "smartthings/tYellow2/switch"
+  state_topic: "smartthings/tYellow2/switch"
+  brightness_command_topic: "smartthings/tYellow2/level"
+  brightness_state_topic: "smartthings/tYellow2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
 
