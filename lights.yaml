@@ -1,0 +1,28 @@
+# These lights are connected to a Smartthings hub, connected to Hass.io Via vkorns MQTT Bridge
+# IMPORTANT: If you are using the Smartthings hub, you must keep the retain flag to false.
+# If you initially configure the devices with a retain: true, and later change it, you 
+# will see odd behavior. If that happens, you must uninstall then re-install the mqtt hass.io
+# component to refresh the database.
+
+# GE Z-wave Wireless In-Wall paddle switch 12722
+- platform: mqtt
+  name: "Virtual Switch 1"
+  state_topic: "smartthings/Virtual Switch 1/switch"
+  command_topic: "smartthings/Virtual Switch 1/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: false
+  optimistic: false
+  qos: 2
+
+
+- platform: mqtt
+  name: "Hallway"
+  state_topic: "smartthings/Hallway/switch"
+  command_topic: "smartthings/Hallway/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: false
+  optimistic: false
+  qos: 2
+

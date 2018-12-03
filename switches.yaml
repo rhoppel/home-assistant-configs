@@ -1,0 +1,9 @@
+- platform: mqtt
+  name: "Kitchen Outlet"
+  command_topic: "smartthings/Outlet(C) - Kitchen/switch"
+  state_topic: "smartthings/Outlet(C) - Kitchen/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+

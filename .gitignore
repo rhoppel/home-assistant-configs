@@ -1,0 +1,12 @@
+.icloud/
+deps/
+*.log
+*.db
+*SAVE*
+tts/
+.storage/
+.storage/
+.storage.bak/
+.uuid
+*.swp
+
