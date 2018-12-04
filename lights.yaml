@@ -1,4 +1,15 @@
 - platform: mqtt
+  name: "Table"
+  command_topic: "smartthings/Table/switch"
+  state_topic: "smartthings/Table/switch"
+  brightness_command_topic: "smartthings/Table/level"
+  brightness_state_topic: "smartthings/Table/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
   name: "Spotlights"
   command_topic: "smartthings/Spotlights/switch"
   state_topic: "smartthings/Spotlights/switch"
@@ -178,17 +189,6 @@
   state_topic: "smartthings/Stairwell - Rear/switch"
   brightness_command_topic: "smartthings/Stairwell - Rear/level"
   brightness_state_topic: "smartthings/Stairwell - Rear/level"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
-
-- platform: mqtt
-  name: "Table"
-  command_topic: "smartthings/Table/switch"
-  state_topic: "smartthings/Table/switch"
-  brightness_command_topic: "smartthings/Table/level"
-  brightness_state_topic: "smartthings/Table/level"
   qos: 2
   payload_on: "on"
   payload_off: "off"

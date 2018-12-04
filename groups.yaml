@@ -1,16 +1,122 @@
-# Example configuration.yaml entry
+#
+#    Hoppel Lodge Group
+#
 trafficLight1:
   view: true
   name: Traffic Light 1
   entities:
+     - light.tGreen
      - light.tRed
      - light.tYellow
-     - light.tGreen
 
 trafficLight2:
   view: true
   name: Traffic Light 2
   entities:
+
+     - light.tGreen2
      - light.tRed2
      - light.tYellow2
-     - light.tGreen2
+
+door:
+  view: true
+  name: door
+  entities:
+      - sensor.door__front
+      - sensor.door__garage
+      - sensor.door__garage_entry
+      - sensor.door__rear_stairs
+
+water:
+  view: true
+  name: water
+  entities:
+      - sensor.water_sensor__pool_room
+      - sensor.water_sensor__sump_pump
+
+motion:
+  view: true
+  name: motion
+  entities:
+      - sensor.motion__hallway
+      - sensor.motion__kitchen
+      - sensor.motion__workshop
+      - sensor.motion__basement
+
+outside:
+  view: true
+  name: outside
+  entities:
+      - light.entrance
+      - light.deck__rear
+      - light.deck__bedroom_1
+      - light.deck__bedroom_2
+      - light.pantry
+
+kitchen:
+  view: true
+  name: kitchen
+  entities:
+      - light.table
+      - light.desk_1
+      - light.desk_2
+      - light.hallway_1
+      - light.hallway_2
+#      - table_slider
+      - input_number.dimmer
+
+outlet:
+  view: true
+  name: outlet
+  entities:
+      -  switch.outleta__workshop
+      -  switch.outletb__mancave_heater
+      -  switch.outletc__kitchen
+      -  sensor.outleta__workshop
+      -  sensor.outletc__kitchen
+      -  sensor.outletb__mancave_heater
+      -  sensor.outleta__workshop_2
+      -  sensor.outletb__mancave_heater_2
+      -  sensor.outletc__kitchen_2
+      -  sensor.outleta__workshop_3
+      -  sensor.outletb__mancave_heater_3
+      -  sensor.outletc__kitchen_3
+
+other:
+  view: true
+  name: other
+  entities:
+      -  switch.spotlights
+      -  switch.virtual_switch_1
+      -  light.stairwell__rear
+      -  light.stairwell
+
+temperature:
+  view: true
+  name: temperature
+  entities:
+      - sensor.door__front_2
+      - sensor.door__garage_2
+      - sensor.door__garage_entry_2
+      - sensor.door__rear_stairs_2
+      - sensor.motion__hallway_2
+      - sensor.motion__kitchen_2
+      - sensor.motion__workshop_2
+      - sensor.motion__basement_2
+      - sensor.water_sensor__pool_room_2
+      - sensor.water_sensor__sump_pump_2
+
+battery:
+  view: true
+  name: battery
+  entities:
+      - sensor.door__front_3
+      - sensor.door__garage_3
+      - sensor.door__garage_entry_3
+      - sensor.door__rear_stairs_3
+      - sensor.motion__hallway_3
+      - sensor.motion__kitchen_3
+      - sensor.motion__workshop_3
+      - sensor.motion__basement_3
+      - sensor.water_sensor__pool_room_3
+      - sensor.water_sensor__sump_pump_3

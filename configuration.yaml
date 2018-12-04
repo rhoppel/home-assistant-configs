@@ -16,8 +16,11 @@ homeassistant:
 # Show links to resources in log and frontend
 introduction:
 
+input_select: !include input_select.yaml
+
 # Enables the frontend
 frontend:
+  themes: !include_dir_merge_named themes/
 
 # Enables configuration UI
 config:
@@ -70,9 +73,18 @@ mqtt:
   discovery: true
   discovery_prefix: smartthings
 
-group: !include groups.yaml
+input_number:
+  dimmer:
+    name: Dimmer Brightness
+    initial: 1
+    min: 1
+    max: 100
+    step: 5
+
+
+group:      !include groups.yaml
 automation: !include automations.yaml
-script: !include scripts.yaml
-sensor: !include sensors.yaml
-light: !include lights.yaml
-switch: !include switches.yaml
+script:     !include scripts.yaml
+sensor:     !include sensors.yaml
+light:      !include lights.yaml
+switch:     !include switches.yaml

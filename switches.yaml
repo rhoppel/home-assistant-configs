@@ -16,14 +16,14 @@
   payload_off: "off"
   retain: true
 
-- platform: mqtt
-  name: "Hallway"
-  command_topic: "smartthings/Hallway/switch"
-  state_topic: "smartthings/Hallway/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Hallway"
+#  command_topic: "smartthings/Hallway/switch"
+#  state_topic: "smartthings/Hallway/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
 - platform: mqtt
   name: "Outlet(C) - Kitchen"
@@ -61,201 +61,201 @@
   payload_off: "off"
   retain: true
 
-- platform: mqtt
-  name: "Deck - Bedroom 1"
-  command_topic: "smartthings/Deck - Bedroom 1/switch"
-  state_topic: "smartthings/Deck - Bedroom 1/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Deck - Bedroom 1"
+#  command_topic: "smartthings/Deck - Bedroom 1/switch"
+#  state_topic: "smartthings/Deck - Bedroom 1/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Deck - Bedroom 2"
-  command_topic: "smartthings/Deck - Bedroom 2/switch"
-  state_topic: "smartthings/Deck - Bedroom 2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Deck - Bedroom 2"
+#  command_topic: "smartthings/Deck - Bedroom 2/switch"
+#  state_topic: "smartthings/Deck - Bedroom 2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Deck - Rear"
-  command_topic: "smartthings/Deck - Rear/switch"
-  state_topic: "smartthings/Deck - Rear/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Deck - Rear"
+#  command_topic: "smartthings/Deck - Rear/switch"
+#  state_topic: "smartthings/Deck - Rear/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Desk 1"
-  command_topic: "smartthings/Desk 1/switch"
-  state_topic: "smartthings/Desk 1/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Desk 1"
+#  command_topic: "smartthings/Desk 1/switch"
+#  state_topic: "smartthings/Desk 1/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Desk 2"
-  command_topic: "smartthings/Desk 2/switch"
-  state_topic: "smartthings/Desk 2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Desk 2"
+#  command_topic: "smartthings/Desk 2/switch"
+#  state_topic: "smartthings/Desk 2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Entrance"
-  command_topic: "smartthings/Entrance/switch"
-  state_topic: "smartthings/Entrance/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Entrance"
+#  command_topic: "smartthings/Entrance/switch"
+#  state_topic: "smartthings/Entrance/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "GE Link Daylight - Sump"
-  command_topic: "smartthings/GE Link Daylight - Sump/switch"
-  state_topic: "smartthings/GE Link Daylight - Sump/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "GE Link Daylight - Sump"
+#  command_topic: "smartthings/GE Link Daylight - Sump/switch"
+#  state_topic: "smartthings/GE Link Daylight - Sump/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "GE Link Daylight - Utility Room"
-  command_topic: "smartthings/GE Link Daylight - Utility Room/switch"
-  state_topic: "smartthings/GE Link Daylight - Utility Room/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "GE Link Daylight - Utility Room"
+#  command_topic: "smartthings/GE Link Daylight - Utility Room/switch"
+#  state_topic: "smartthings/GE Link Daylight - Utility Room/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "GE Link Flood - Back Stairway"
-  command_topic: "smartthings/GE Link Flood - Back Stairway/switch"
-  state_topic: "smartthings/GE Link Flood - Back Stairway/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "GE Link Flood - Back Stairway"
+#  command_topic: "smartthings/GE Link Flood - Back Stairway/switch"
+#  state_topic: "smartthings/GE Link Flood - Back Stairway/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Hallway 1"
-  command_topic: "smartthings/Hallway 1/switch"
-  state_topic: "smartthings/Hallway 1/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Hallway 1"
+#  command_topic: "smartthings/Hallway 1/switch"
+#  state_topic: "smartthings/Hallway 1/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Hallway 2"
-  command_topic: "smartthings/Hallway 2/switch"
-  state_topic: "smartthings/Hallway 2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Hallway 2"
+#  command_topic: "smartthings/Hallway 2/switch"
+#  state_topic: "smartthings/Hallway 2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Hutch Lamp"
-  command_topic: "smartthings/Hutch Lamp/switch"
-  state_topic: "smartthings/Hutch Lamp/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Hutch Lamp"
+#  command_topic: "smartthings/Hutch Lamp/switch"
+#  state_topic: "smartthings/Hutch Lamp/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Pantry"
-  command_topic: "smartthings/Pantry/switch"
-  state_topic: "smartthings/Pantry/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Pantry"
+#  command_topic: "smartthings/Pantry/switch"
+#  state_topic: "smartthings/Pantry/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Stairway"
-  command_topic: "smartthings/Stairway/switch"
-  state_topic: "smartthings/Stairway/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Stairway"
+#  command_topic: "smartthings/Stairway/switch"
+#  state_topic: "smartthings/Stairway/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Stairwell - Rear"
-  command_topic: "smartthings/Stairwell - Rear/switch"
-  state_topic: "smartthings/Stairwell - Rear/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Stairwell - Rear"
+#  command_topic: "smartthings/Stairwell - Rear/switch"
+#  state_topic: "smartthings/Stairwell - Rear/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "Table"
-  command_topic: "smartthings/Table/switch"
-  state_topic: "smartthings/Table/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "Table"
+#  command_topic: "smartthings/Table/switch"
+#  state_topic: "smartthings/Table/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tGreen"
-  command_topic: "smartthings/tGreen/switch"
-  state_topic: "smartthings/tGreen/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tGreen"
+#  command_topic: "smartthings/tGreen/switch"
+#  state_topic: "smartthings/tGreen/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tGreen2"
-  command_topic: "smartthings/tGreen2/switch"
-  state_topic: "smartthings/tGreen2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tGreen2"
+#  command_topic: "smartthings/tGreen2/switch"
+#  state_topic: "smartthings/tGreen2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tRed"
-  command_topic: "smartthings/tRed/switch"
-  state_topic: "smartthings/tRed/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tRed"
+#  command_topic: "smartthings/tRed/switch"
+#  state_topic: "smartthings/tRed/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tRed2"
-  command_topic: "smartthings/tRed2/switch"
-  state_topic: "smartthings/tRed2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tRed2"
+#  command_topic: "smartthings/tRed2/switch"
+#  state_topic: "smartthings/tRed2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tYellow"
-  command_topic: "smartthings/tYellow/switch"
-  state_topic: "smartthings/tYellow/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tYellow"
+#  command_topic: "smartthings/tYellow/switch"
+#  state_topic: "smartthings/tYellow/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 
-- platform: mqtt
-  name: "tYellow2"
-  command_topic: "smartthings/tYellow2/switch"
-  state_topic: "smartthings/tYellow2/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
+#- platform: mqtt
+#  name: "tYellow2"
+#  command_topic: "smartthings/tYellow2/switch"
+#  state_topic: "smartthings/tYellow2/switch"
+#  qos: 2
+#  payload_on: "on"
+#  payload_off: "off"
+#  retain: true
 

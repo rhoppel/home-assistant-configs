@@ -12,6 +12,8 @@ alias   ha-error='sudo journalctl -f -u home-assistant@pi | grep -i "error"'
 alias    ha-full='sudo systemctl restart home-assistant@pi && sudo journalctl -f -u home-assistant@pi'
 
 alias     mbridge='cd ~/.homeassistant; smartthings-mqtt-bridge'
-alias        pm2r='cd ~/.homeassistant; pm2 start smartthings-mqtt-bridge'
+alias     pm2mqtt='cd ~/.homeassistant; pm2 start smartthings-mqtt-bridge'
 alias mbridge-log='pm2 logs smartthings-mqtt-bridge'
 alias        pm2l='pm2 logs --raw smartthings-mqtt-bridge'
+
+alias pm2startup='sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u pi --hp /home/pi'

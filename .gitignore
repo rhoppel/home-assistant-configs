@@ -9,4 +9,4 @@ tts/
 .storage.bak/
 .uuid
 *.swp
-
+state.json

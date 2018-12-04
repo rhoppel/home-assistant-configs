@@ -5,6 +5,8 @@ info: Subscribing to
 
 smartthings/Aeon Labs Siren (Gen 5)/alarm,
 
+smartthings/Door - Garage/threeAxis = 12,51,1035
+
 smartthings/Door - Front/battery,
 smartthings/Door - Garage Entry/battery,
 smartthings/Door - Garage/battery,

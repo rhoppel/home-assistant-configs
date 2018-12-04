@@ -43,6 +43,42 @@
     state_topic: "smartthings/Motion - Kitchen/battery"
     unit_of_measurement: "%"
     
+  - platform: mqtt
+    name: "Motion - Basement"
+    state_topic: "smartthings/Motion - Basement/motion"
+  - platform: mqtt
+    name: "Motion - Basement"
+    state_topic: "smartthings/Motion - Basement/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Motion - Basement"
+    state_topic: "smartthings/Motion - Basement/battery"
+    unit_of_measurement: "%"
+    
+  - platform: mqtt
+    name: "Motion - Hallway"
+    state_topic: "smartthings/Motion - Hallway/motion"
+  - platform: mqtt
+    name: "Motion - Hallway"
+    state_topic: "smartthings/Motion - Hallway/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Motion - Hallway"
+    state_topic: "smartthings/Motion - Hallway/battery"
+    unit_of_measurement: "%"
+    
+  - platform: mqtt
+    name: "Motion - Workshop"
+    state_topic: "smartthings/Motion - Workshop/motion"
+  - platform: mqtt
+    name: "Motion - Workshop"
+    state_topic: "smartthings/Motion - Workshop/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Motion - Workshop"
+    state_topic: "smartthings/Motion - Workshop/battery"
+    unit_of_measurement: "%"
+    
 #### MULTI SENSOR ####
   - platform: mqtt
     name: "Door - Front"
@@ -56,6 +92,42 @@
     state_topic: "smartthings/Door - Front/battery"
     unit_of_measurement: "%"
     
+  - platform: mqtt
+    name: "Door - Garage Entry"
+    state_topic: "smartthings/Door - Garage Entry/contact"
+  - platform: mqtt
+    name: "Door - Garage Entry"
+    state_topic: "smartthings/Door - Garage Entry/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Door - Garage Entry"
+    state_topic: "smartthings/Door - Garage Entry/battery"
+    unit_of_measurement: "%"
+    
+  - platform: mqtt
+    name: "Door - Garage"
+    state_topic: "smartthings/Door - Garage/contact"
+  - platform: mqtt
+    name: "Door - Garage"
+    state_topic: "smartthings/Door - Garage/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Door - Garage"
+    state_topic: "smartthings/Door - Garage/battery"
+    unit_of_measurement: "%"
+    
+  - platform: mqtt
+    name: "Door - Rear Stairs"
+    state_topic: "smartthings/Door - Rear Stairs/contact"
+  - platform: mqtt
+    name: "Door - Rear Stairs"
+    state_topic: "smartthings/Door - Rear Stairs/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Door - Rear Stairs"
+    state_topic: "smartthings/Door - Rear Stairs/battery"
+    unit_of_measurement: "%"
+    
 #### WATER SENSOR ####
   - platform: mqtt
     name: "Water Sensor - Sump Pump"
@@ -67,6 +139,18 @@
   - platform: mqtt
     name: "Water Sensor - Sump Pump"
     state_topic: "smartthings/Water Sensor - Sump Pump/battery"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    name: "Water Sensor - Pool Room"
+    state_topic: "smartthings/Water Sensor - Pool Room/water"
+  - platform: mqtt
+    name: "Water Sensor - Pool Room"
+    state_topic: "smartthings/Water Sensor - Pool Room/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Water Sensor - Pool Room"
+    state_topic: "smartthings/Water Sensor - Pool Room/battery"
     unit_of_measurement: "%"
 
 #### SMOKE SENSOR ####
@@ -94,6 +178,30 @@
     state_topic: "smartthings/Outlet(C) - Kitchen/temperature"
     unit_of_measurement: "°F"
 
+  - platform: mqtt
+    name: "Outlet(A) - Workshop"
+    state_topic: "smartthings/Outlet(A) - Workshop/switch"
+  - platform: mqtt
+    name: "Outlet(A) - Workshop"
+    state_topic: "smartthings/Outlet(A) - Workshop/power"
+    unit_of_measurement: "WattsF"
+  - platform: mqtt
+    name: "Outlet(A) - Workshop"
+    state_topic: "smartthings/Outlet(A) - Workshop/temperature"
+    unit_of_measurement: "°F"
+
+  - platform: mqtt
+    name: "Outlet(B) - ManCave Heater"
+    state_topic: "Outlet(B) - ManCave Heater - Kitchen/switch"
+  - platform: mqtt
+    name: "Outlet(B) - ManCave Heater"
+    state_topic: "smartthings/Outlet(B) - ManCave Heater/power"
+    unit_of_measurement: "WattsF"
+  - platform: mqtt
+    name: "Outlet(B) - ManCave Heater"
+    state_topic: "smartthings/Outlet(B) - ManCave Heater/temperature"
+    unit_of_measurement: "°F"
+
 #### ALARM SENSOR ####
   - platform: mqtt
     name: "Aeon Labs Siren (Gen 5)"
@@ -103,4 +211,8 @@
   - platform: mqtt
     name: "Richard Hoppel's Android"
     state_topic: "smartthings/Richard Hoppel's Android/presence"
+
+  - platform: mqtt
+    name: "Karen Hoppel's Android"
+    state_topic: "smartthings/Karen Hoppel's Android/presence"
 
