@@ -1,7 +1,7 @@
 .icloud/
 deps/
 *.log
-*.db
+*.db*
 *SAVE*
 tts/
 .storage/
@@ -9,4 +9,3 @@ tts/
 .storage.bak/
 .uuid
 *.swp
-state.json
