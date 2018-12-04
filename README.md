@@ -1,7 +1,7 @@
-# Home-Assistant
+# HoppelLodge Home-Assistant Project
 
 ### To-Do
-- [ ] how to use ha-bridge.jar [](https://github.com/bwssytems/ha-bridge)
+- [ ] how to use [HA-Bridge](https://github.com/bwssytems/ha-bridge)
 
 ### local lenvironment
 - __~/.bash_aliases:__ local commands for easy HA operation
