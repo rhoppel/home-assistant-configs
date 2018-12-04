@@ -1,5 +1,7 @@
 # HoppelLodge Home-Assistant Project
 
+![HA Main](./resources/activity.png)
+
 ### To-Do
 - [ ] Integrate [HA-Bridge](https://github.com/bwssytems/ha-bridge)
 - [ ] Integrate NEST into HA
