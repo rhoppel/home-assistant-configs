@@ -39,9 +39,10 @@ motion:
   name: motion
   entities:
       - sensor.motion__hallway
-#      - sensor.motion__kitchen
-      - sensor.motion__kitchen_3
-      - sensor.motion__workshop
+      - sensor.motion__kitchen
+#      - sensor.motion__kitchen_3
+#      - sensor.motion__workshop
+      - sensor.motion__workshop_3
       - sensor.motion__basement
 
 outside:
@@ -101,9 +102,10 @@ temperature:
       - sensor.door__garage_entry_2
       - sensor.door__rear_stairs_2
       - sensor.motion__hallway_2
-#      - sensor.motion__kitchen_2
-      - sensor.motion__kitchen
-      - sensor.motion__workshop_2
+      - sensor.motion__kitchen_2
+#      - sensor.motion__kitchen
+#      - sensor.motion__workshop_2
+      - sensor.motion__workshop
       - sensor.motion__basement_2
       - sensor.water_sensor__pool_room_2
       - sensor.water_sensor__sump_pump_2
@@ -117,9 +119,10 @@ battery:
       - sensor.door__garage_entry_3
       - sensor.door__rear_stairs_3
       - sensor.motion__hallway_3
-#      - sensor.motion__kitchen_3
-      - sensor.motion__kitchen_2
-      - sensor.motion__workshop_3
+      - sensor.motion__kitchen_3
+#      - sensor.motion__kitchen_2
+#      - sensor.motion__workshop_3
+      - sensor.motion__workshop_2
       - sensor.motion__basement_3
       - sensor.water_sensor__pool_room_3
       - sensor.water_sensor__sump_pump_3

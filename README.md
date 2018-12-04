@@ -1,7 +1,7 @@
 # Home-Assistant
 
 ### local lenvironment
-- .bash_aliases: local commands for easy operation
+- __~/.bash_aliases:__ local commands for easy HA operation
 
 ### Smartthings-MQTT-Bridge
 Node.js app which receives Smarthings events via MQTT
@@ -22,7 +22,7 @@ Node.js app which receives Smarthings events via MQTT
 #### configuration
 - __automations.yaml__ : dimmer slider implementation
 - __configuration.yaml:__ main configuration, references all yaml configs
-- __customize.yaml:__ 
+- __customize.yaml:__ not used at this time 
 - __groups.yaml:__ creates menu grouping using entities
 - __inputs-select.yaml__ : theme selection 
 - __lights.yaml:__ switch or dimming lights
@@ -36,9 +36,9 @@ Node.js app which receives Smarthings events via MQTT
 
 #### Anomalies
 - groups.yaml: modified to accomodate the following
-- enity instantiation: ha is not consistent with entities with the same name
+- enity instantiation: HA is not consistent with entities with the same name
   - HA has an algorhthm for instantiating entities with the same name
-  - example: 
+  - example:  this specific anomaly will cycle between different motion entities
 
 ###### MOTION DETECTOR  yaml configuration
     - platform: mqtt

@@ -7,12 +7,6 @@
       - wood
       - vintage
       - pmxmonolight
-      - dark_orange
-      - midnight
-      - dark_red
-      - dark_blue
-      - dark_theme
-      - teal_theme
     initial: default
     icon: mdi:theme-light-dark
 
