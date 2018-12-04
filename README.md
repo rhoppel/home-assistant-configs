@@ -1,7 +1,15 @@
 # HoppelLodge Home-Assistant Project
 
 ### To-Do
-- [ ] how to use [HA-Bridge](https://github.com/bwssytems/ha-bridge)
+- [ ] Integrate [HA-Bridge](https://github.com/bwssytems/ha-bridge)
+- [ ] Integrate NEST into HA
+- [ ] Integrate IoT Tardis into HA
+- [X] OK: SmartThings battery levels are not being read
+- [ ] test if things work well after reboot
+- [ ] Integrate X-10 devices with HA
+
+### Recent Changes
+- [12/3/2018] Initial implementation
 
 ### local lenvironment
 - __~/.bash_aliases:__ local commands for easy HA operation
