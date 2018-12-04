@@ -33,3 +33,31 @@ Node.js app which receives Smarthings events via MQTT
 - __mqtt-topics:__ list of smartthings MQTT topics
 - __plex.conf:__ plex media player config [not working]
 - __state.json:__ mqtt topics and saved state for a restartBB 
+
+#### Anomalies
+- groups.yaml: modified to accomodate the following
+- enity instantiation: ha is not consistent with entities with the same name
+  - HA has an algorhthm for instantiating entities with the same name
+  - example: 
+
+###### MOTION DETECTOR 
+    - platform: mqtt
+      name: "Motion - Kitchen"
+      state_topic: "smartthings/Motion - Kitchen/motion"
+    - platform: mqtt
+      name: "Motion - Kitchen"
+      state_topic: "smartthings/Motion - Kitchen/temperature"
+      unit_of_measurement: "°F"
+    - platform: mqtt
+      name: "Motion - Kitchen"
+      state_topic: "smartthings/Motion - Kitchen/battery"
+      unit_of_measurement: "%"
+
+###### Entity Instantiation for above in order
+-  sensor.outletc__kitchen [should be: detection]
+  - [anomaly: temperature]
+-  sensor.outletc__kitchen_2 [should be: temperature]
+  - [anomaly: battery]
+-  sensor.outletc__kitchen_3 [should be: battery]
+  - [anomaly: detection]
+
