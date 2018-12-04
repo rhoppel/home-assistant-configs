@@ -54,7 +54,7 @@ Node.js app which receives Smarthings events via MQTT
       unit_of_measurement: "%"
 
 ###### Entity Instantiation for above in order
--  sensor.outletc__kitchen [anomaly: temperature; should be: detection]
--  sensor.outletc__kitchen_2 [anomaly: battery; should be: temperature]
--  sensor.outletc__kitchen_3 [anomaly: detection; should be: battery]
+-  sensor.motion__kitchen [anomaly: temperature; should be: detection]
+-  sensor.motion__kitchen_2 [anomaly: battery; should be: temperature]
+-  sensor.motion__kitchen_3 [anomaly: detection; should be: battery]
 
