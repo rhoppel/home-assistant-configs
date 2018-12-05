@@ -1,9 +1,12 @@
 # HoppelLodge Home-Assistant Project
 
-![HA Main](./resources/ha_activity.jpg)
 ![HA Main](./resources/ha_main.jpg)
 
+[full screen version](./resources/ha_main_large.jpg)
+---
+
 ### To-Do
+
 - [ ] Integrate [HA-Bridge](https://github.com/bwssytems/ha-bridge)
 - [ ] Integrate NEST into HA
 - [ ] Integrate IoT Tardis into HA
@@ -12,28 +15,40 @@
 - [ ] Integrate X-10 devices with HA
 
 ### Recent Changes
-- [12/3/2018] Initial implementation
 
-### local lenvironment
+- [12/4/2018] Initial implementation
+
+### Synopsis
+
+Implement an instance of [Home Assistant](https://www.home-assistant.io/) for the HoppelLodge which integrate all the existing [SmartThings](https://www.smartthings.com) devices.   This include motion, contact, water detection, outlet, and smoke detection devices.  All the devices will also continue to be under the control of the [SmartThings Hub](https://www.smartthings.com/products/smartthings-hub).   The [SmartThings-MQTT-bridge](https://github.com/stjohnjohnson/smartthings-mqtt-bridge) will allow SmartThings devices to be monitored and controlled using [MQTT](https://en.wikipedia.org/wiki/MQTT) protocol.  This will all a quantum leap for future capabilities.  This platform will make possible the integration of the [IoT Tardis](http://demo.techdogs.us/) project which brings [Node-Red](https://nodered.org/) Integration using [IoT K9 modules](http://demo.techdogs.us/resources/png/IoT_TARDIS_Demo_bb.png) which uses [ES8266](https://en.wikipedia.org/wiki/ESP8266) low cost devices with incredible capabilities.
+
+### local environment
+
 - __~/.bash_aliases:__ local commands for easy HA operation
 
-### Smartthings-MQTT-Bridge
-Node.js app which receives Smarthings events via MQTT
+### SmartThings-MQTT-Bridge
+
+Node.js app which integrates SmartThings and MQTT
+
 - config.yml configuration 
 - PM2 manages operation
 
 ### HA Configuration
 
 #### structure
+
 - python3 app
 - service: __"sudo systemd start home-assistant@pi"__
 - directory: __~/.homeassistant__
   - themes: store alternates
+  - resources: images, etc.
 
-#### git respository: 
+#### git repository
+
 - https://github.com/rhoppel/home-assistant.git
 
 #### configuration
+
 - __automations.yaml__ : dimmer slider implementation
 - __configuration.yaml:__ main configuration, references all yaml configs
 - __customize.yaml:__ not used at this time 
@@ -49,12 +64,14 @@ Node.js app which receives Smarthings events via MQTT
 - __state.json:__ mqtt topics and saved state for a restartBB 
 
 #### Anomalies
+
 - groups.yaml: modified to accomodate the following
 - enity instantiation: HA is not consistent with entities with the same name
   - HA has an algorhthm for instantiating entities with the same name
   - example:  this specific anomaly will cycle between different motion entities
 
-###### MOTION DETECTOR  yaml configuration
+##### MOTION DETECTOR  yaml configuration
+
     - platform: mqtt
       name: "Motion - Kitchen"
       state_topic: "smartthings/Motion - Kitchen/motion"
@@ -67,8 +84,17 @@ Node.js app which receives Smarthings events via MQTT
       state_topic: "smartthings/Motion - Kitchen/battery"
       unit_of_measurement: "%"
 
-###### Entity Instantiation for above in order
--  sensor.motion__kitchen [anomaly: temperature; should be: detection]
--  sensor.motion__kitchen_2 [anomaly: battery; should be: temperature]
--  sensor.motion__kitchen_3 [anomaly: detection; should be: battery]
+##### Entity Instantiation for above in order
 
+- sensor.motion__kitchen [anomaly: temperature; should be: detection]
+- sensor.motion__kitchen_2 [anomaly: battery; should be: temperature]
+- sensor.motion__kitchen_3 [anomaly: detection; should be: battery]
+
+## Screenshots
+
+### Device Activity
+
+![HA Main](./resources/ha_activity.jpg)
+
+[full screen version](./resources/ha_activity_large.jpg)
+---
