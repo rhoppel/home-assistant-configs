@@ -40,6 +40,17 @@ utility:
      - light.ge_link_daylight__sump
      - light.ge_link_daylight__utility_room
 
+workshop:
+  view: true
+  name: workshop
+  entities:
+    - switch.outleta__workshop
+    - camera.raspi2a_workshop
+    - sensor.motion__workshop
+    - sensor.motion__workshop_2
+    - sensor.motion__workshop_3
+
+
 door:
   view: true
   name: door
