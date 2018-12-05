@@ -6,6 +6,7 @@ alias  vha='vi ~/.homeassistant/configuration.yaml'
 
 alias   ha-start='sudo systemctl start home-assistant@pi'
 alias    ha-stop='sudo systemctl stop home-assistant@pi'
+alias  ha-status='sudo systemctl status home-assistant@pi'
 alias ha-restart='sudo systemctl restart home-assistant@pi'
 alias ha-journal='sudo journalctl -f -u home-assistant@pi'
 alias   ha-error='sudo journalctl -f -u home-assistant@pi | grep -i "error"'
