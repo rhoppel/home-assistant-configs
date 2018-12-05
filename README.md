@@ -1,6 +1,7 @@
 # HoppelLodge Home-Assistant Project
 
-![HA Main](./resources/activity.png)
+![HA Main](./resources/ha_activity.jpg)
+![HA Main](./resources/ha_main.jpg)
 
 ### To-Do
 - [ ] Integrate [HA-Bridge](https://github.com/bwssytems/ha-bridge)
@@ -43,7 +44,7 @@ Node.js app which receives Smarthings events via MQTT
 - __scripts.yaml;__ not used at this time
 - __sensors.yaml:__ motion, water, contact, temperature sensors
 - __switches.yaml:__ outlets based switches
-- __mqtt-topics:__ list of smartthings MQTT topics
+- __mqtt-topics:__ list of SmartThings MQTT topics
 - __plex.conf:__ plex media player config [not working]
 - __state.json:__ mqtt topics and saved state for a restartBB 
 
