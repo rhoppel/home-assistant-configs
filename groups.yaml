@@ -23,22 +23,22 @@ weather:
      - sensor.weather_precipitation
      - sensor.weather_temperature
 
-trafficLight1:
+cameras:
   view: true
-  name: TLight1
+  name: cameras
   entities:
-     - light.tGreen
-     - light.tRed
-     - light.tYellow
+     - camera.raspi2a_workshop
+     - camera.raspi2b_sump
+     - camera.raspi3a_office
+     - camera.raspi3b_demo
 
-trafficLight2:
-  view: true
-  name: TLight2
-  entities:
-
-     - light.tGreen2
-     - light.tRed2
-     - light.tYellow2
+utility:
+   view: true
+   name: utility
+   entities:
+     - camera.raspi2b_sump
+     - light.ge_link_daylight__sump
+     - light.ge_link_daylight__utility_room
 
 door:
   view: true
@@ -160,3 +160,21 @@ battery:
       - sensor.motion__basement_3
       - sensor.water_sensor__pool_room_3
       - sensor.water_sensor__sump_pump_3
+
+      
+trafficLight1:
+  view: true
+  name: TLight1
+  entities:
+     - light.tGreen
+     - light.tRed
+     - light.tYellow
+
+trafficLight2:
+  view: true
+  name: TLight2
+  entities:
+
+     - light.tGreen2
+     - light.tRed2
+     - light.tYellow2
