@@ -1,9 +1,31 @@
 #
 #    Hoppel Lodge Group
 #
+system:
+  view: true
+  name: system
+  entities:
+     - sensor.disk_free_
+     - sensor.disk_use_percent_home
+     - sensor.memory_free
+     - sensor.memory_use_percent 
+     - sensor.processor_use
+     - sensor.since_last_boot
+     - sun.sun
+     - sensor.network_in_etho
+
+weather:
+  view: true
+  name: weather
+  entities:
+     - sun.sun
+     - sensor.weather_in_1_hours_precipitation
+     - sensor.weather_precipitation
+     - sensor.weather_temperature
+
 trafficLight1:
   view: true
-  name: Traffic Light 1
+  name: TLight1
   entities:
      - light.tGreen
      - light.tRed
@@ -11,7 +33,7 @@ trafficLight1:
 
 trafficLight2:
   view: true
-  name: Traffic Light 2
+  name: TLight2
   entities:
 
      - light.tGreen2
@@ -32,18 +54,28 @@ water:
   name: water
   entities:
       - sensor.water_sensor__pool_room
+      - sensor.water_sensor__pool_room_2
+      - sensor.water_sensor__pool_room_3
       - sensor.water_sensor__sump_pump
+      - sensor.water_sensor__sump_pump_2
+      - sensor.water_sensor__sump_pump_3
 
 motion:
   view: true
   name: motion
   entities:
       - sensor.motion__hallway
+      - sensor.motion__hallway_2
+      - sensor.motion__hallway_3
       - sensor.motion__kitchen
-#      - sensor.motion__kitchen_3
-#      - sensor.motion__workshop
+      - sensor.motion__kitchen_2
+      - sensor.motion__kitchen_3
+      - sensor.motion__workshop
+      - sensor.motion__workshop_2
       - sensor.motion__workshop_3
       - sensor.motion__basement
+      - sensor.motion__basement_2
+      - sensor.motion__basement_3
 
 outside:
   view: true
@@ -102,10 +134,11 @@ temperature:
       - sensor.door__garage_entry_2
       - sensor.door__rear_stairs_2
       - sensor.motion__hallway_2
+ #     - sensor.motion__hallway
       - sensor.motion__kitchen_2
-#      - sensor.motion__kitchen
-#      - sensor.motion__workshop_2
-      - sensor.motion__workshop
+ #     - sensor.motion__kitchen
+      - sensor.motion__workshop_2
+ #     - sensor.motion__workshop
       - sensor.motion__basement_2
       - sensor.water_sensor__pool_room_2
       - sensor.water_sensor__sump_pump_2
@@ -119,10 +152,11 @@ battery:
       - sensor.door__garage_entry_3
       - sensor.door__rear_stairs_3
       - sensor.motion__hallway_3
+ #     - sensor.motion__hallway_2
+ #     - sensor.motion__kitchen
       - sensor.motion__kitchen_3
-#      - sensor.motion__kitchen_2
-#      - sensor.motion__workshop_3
-      - sensor.motion__workshop_2
+      - sensor.motion__workshop_3
+ #     - sensor.motion__workshop_2
       - sensor.motion__basement_3
       - sensor.water_sensor__pool_room_3
       - sensor.water_sensor__sump_pump_3
