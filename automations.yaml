@@ -24,3 +24,14 @@
       data_template:
         name: "{{ states.input_select.hass_theme.state }}"
 
+- id: initial_theme
+  alias: 'Set theme at startup'
+  initial_state: 'on'
+  trigger:
+   - platform: homeassistant
+     event: start
+  action:
+    service: frontend.set_theme
+    data:
+      name: vintage
+
