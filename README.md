@@ -2,7 +2,7 @@
 
 ![HA Main](./resources/ha_main.jpg)
 
-[full screen version](./resources/ha_main_large.jpg)
+##### [full screen version](https://files.hoppel.us/home-assistant/ha_main_large.jpg)
 ---
 
 ### To-Do
@@ -11,8 +11,9 @@
 - [ ] Integrate NEST into HA
 - [ ] Integrate IoT Tardis into HA
 - [X] OK: SmartThings battery levels are not being read
-- [ ] test if things work well after reboot
+- [X] test if things work well after reboot
 - [ ] Integrate X-10 devices with HA
+- [ ] apply security https://www.home-assistant.io/docs/configuration/securing/
 
 ### Recent Changes
 
@@ -20,20 +21,27 @@
 
 ### Synopsis
 
-Implement an instance of [Home Assistant](https://www.home-assistant.io/) for the HoppelLodge which integrate all the existing [SmartThings](https://www.smartthings.com) devices.   This include motion, contact, water detection, outlet, and smoke detection devices.  All the devices will also continue to be under the control of the [SmartThings Hub](https://www.smartthings.com/products/smartthings-hub).   The [SmartThings-MQTT-bridge](https://github.com/stjohnjohnson/smartthings-mqtt-bridge) will allow SmartThings devices to be monitored and controlled using [MQTT](https://en.wikipedia.org/wiki/MQTT) protocol.  This will all a quantum leap for future capabilities.  This platform will make possible the integration of the [IoT Tardis](http://demo.techdogs.us/) project which brings [Node-Red](https://nodered.org/) Integration using [IoT K9 modules](http://demo.techdogs.us/resources/png/IoT_TARDIS_Demo_bb.png) which uses [ES8266](https://en.wikipedia.org/wiki/ESP8266) low cost devices with incredible capabilities.
+Implement an instance of [Home Assistant](https://www.home-assistant.io/) for the HoppelLodge which integrate all the existing [SmartThings](https://www.smartthings.com) devices.   This includes motion, contact, water detection, outlet, and smoke detection devices.  All the devices will also continue to be under the control of the [SmartThings Hub](https://www.smartthings.com/products/smartthings-hub).   The [SmartThings-MQTT-bridge](https://github.com/stjohnjohnson/smartthings-mqtt-bridge) will allow SmartThings devices to be monitored and controlled using [MQTT](https://en.wikipedia.org/wiki/MQTT) protocol.  This will all a quantum leap for future capabilities.  This platform will make possible the integration of the [IoT Tardis](http://demo.techdogs.us/) project which brings [Node-Red](https://nodered.org/) Integration using [IoT K9 modules](http://demo.techdogs.us/resources/png/IoT_TARDIS_Demo_bb.png) which uses [ES8266](https://en.wikipedia.org/wiki/ESP8266) low cost devices with incredible capabilities.
+
+### Installation
+
+- https://www.home-assistant.io/docs/installation/raspberry-pi/
+- https://www.home-assistant.io/docs/configuration/securing/
+- https://www.home-assistant.io/docs/autostart/systemd/
+
 
 ### local environment
 
 - __~/.bash_aliases:__ local commands for easy HA operation
 
-### SmartThings-MQTT-Bridge
+### [SmartThings-MQTT-Bridge](https://github.com/stjohnjohnson/smartthings-mqtt-bridge)
 
 Node.js app which integrates SmartThings and MQTT
 
 - config.yml configuration 
 - PM2 manages operation
 
-### HA Configuration
+### [Home Assistant Configuration](https://github.com/home-assistant/home-assistant)
 
 #### structure
 
@@ -96,5 +104,8 @@ Node.js app which integrates SmartThings and MQTT
 
 ![HA Main](./resources/ha_activity.jpg)
 
-[full screen version](./resources/ha_activity_large.jpg)
+---
+
+##### [full screen version](https://files.hoppel.us/home-assistant/ha_activity_large.jpg)
+
 ---
