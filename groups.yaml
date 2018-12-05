@@ -92,6 +92,7 @@ kitchen:
   name: kitchen
   entities:
       - light.table
+      - light.pantry
       - light.desk_1
       - light.desk_2
       - light.hallway_1

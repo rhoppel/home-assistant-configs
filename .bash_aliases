@@ -1,7 +1,7 @@
 #
 # Home Assistamt
 #
-alias suha='sudo -u homeassistant -H -s; cd /home/homeassistant/.homeassistant'
+alias ha-su='sudo -u homeassistant -H -s; cd /home/homeassistant/.homeassistant'
 alias ha-update='sudo -u homeassistant -H -s; source /srv/homeassistant/bin/activate; pip3 install --upgrade homeassistant'
 alias vbha='vi ~/.homeassistant/.bash_aliases'
 alias  vha='vi ~/.homeassistant/configuration.yaml'
