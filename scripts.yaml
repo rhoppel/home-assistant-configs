@@ -1,0 +1,16 @@
+# Example script to cancel ETA, no structure specified so will execute for all
+  nest_cancel_eta:
+    sequence:
+      - service: nest.cancel_eta
+        data:
+          trip_id: Leave Work
+
+# Example script to cancel ETA, structure specified
+  nest_cancel_eta:
+    sequence:
+      - service: nest.cancel_eta
+        data:
+          trip_id: Leave Work
+          structure:
+            - Apartment
+

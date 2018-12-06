@@ -89,3 +89,4 @@ sensor:     !include sensors.yaml
 light:      !include lights.yaml
 switch:     !include switches.yaml
 camera:     !include cameras.yaml
+nest:       !include nest.yaml

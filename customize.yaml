@@ -1,0 +1,25 @@
+#group.battery_menu:
+# order: 7
+#group.system_menu:
+#  order: 1
+#group.cameras:
+#  order: 4
+#group.devices:
+#  order: 5
+#group.temp.menu:
+#  order: 6
+#group.st_modules:
+#  order: 3
+#group.rooms:
+#  order: 2
+
+group.all_lights:
+  hidden: false
+group.all_switches:
+  hidden: false
+group.all_sensors:
+  hidden: false
+group.all_automations:
+  hidden: false
+group.all_scripts:
+  hidden: false
