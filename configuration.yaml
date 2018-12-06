@@ -22,6 +22,11 @@ input_select: !include input_select.yaml
 frontend:
   themes: !include_dir_merge_named themes/
 
+#nest:       !include secrets.yaml
+nest: 
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
 # Enables configuration UI
 config:
 
@@ -89,4 +94,4 @@ sensor:     !include sensors.yaml
 light:      !include lights.yaml
 switch:     !include switches.yaml
 camera:     !include cameras.yaml
-nest:       !include nest.yaml
+

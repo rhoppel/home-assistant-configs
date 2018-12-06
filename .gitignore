@@ -11,3 +11,4 @@ tts/
 *.swp
 nest.yaml
 core
+secrets.yaml
