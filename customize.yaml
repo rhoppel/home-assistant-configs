@@ -23,3 +23,6 @@ group.all_automations:
   hidden: false
 group.all_scripts:
   hidden: false
+
+#media_player.plex
+#  hidden: false
