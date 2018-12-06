@@ -1,8 +1,20 @@
 #
 #    Hoppel Lodge Group
 #
+#default_view:
+#  view: true
+#  entities: 
+#      - group.system_menu
+#      - group.rooms
+#      - group.cameras
+#      - group.devices
+#      - group.temp_menu
+#      - group.st_modules
+#     - group.battery_menu
+#      - group.other
+
 system:
-  view: true
+#  view: true
   name: system
   entities:
      - sensor.disk_free_
@@ -11,58 +23,115 @@ system:
      - sensor.memory_use_percent 
      - sensor.processor_use
      - sensor.since_last_boot
-     - sun.sun
-     - sensor.network_in_etho
+     - sensor.network_in_eth0
 
-weather:
-  view: true
-  name: weather
+environment:
+#  view: true
+  name: environment
   entities:
      - sun.sun
+     - sensor.moon
      - sensor.weather_in_1_hours_precipitation
      - sensor.weather_precipitation
      - sensor.weather_temperature
 
-cameras:
-  view: true
-  name: cameras
+siren:
+  name: siren
   entities:
-     - camera.raspi2a_workshop
-     - camera.raspi2b_sump
-     - camera.raspi3a_office
-     - camera.raspi3b_demo
+    - switch.aeon_labs_siren_gen_5
+    - sensor.aeon_labs_siren_gen_5
+
+basement:
+  name: basement lights
+  entities:
+    - switch.spotlights
+    - light.spotlights
+    - sensor.spotlights
+    - light.stairwell__rear
+    - light.ge_link_daylight__sump
+    - light.ge_link_daylight__utility_room
+
+presence:
+  entities:
+    - sensor.karen_hoppels_android
+    - sensor.richard_hoppels_android
+
+nest_device:
+#  view: true
+  name: nest
+  entities:
+     - sensor.hoppellodge__eta
+     - climate.lodge
+     - sensor.lodge_thermostat_humidity
+     - sensor.lodge_thermostat_hvac_state
+     - sensor.lodge_thermostat_hvac_state
+     - sensor.lodge_thermostat_operation_mode
+     - sensor.lodge_thermostat_operation_mode
+     - sensor.lodge_thermostat_temperature
+     - sensor.lodge_thermostat_humidity
+     - sensor.lodge_thermostat_target
+     - binary_sensor.hoppellodge__away
+     - binary_sensor.lodge_thermostat_fan
+     - binary_sensor.lodge_thermostat_has_leaf
+     - binary_sensor.lodge_thermostat_is_using_emergency_heat
+     - binary_sensor.lodge_thermostat_online
+     - binary_sensor.lodge_thermostat_is_locked
 
 utility:
-   view: true
-   name: utility
+#   view: true
+   name: sump/utilities
    entities:
      - camera.raspi2b_sump
      - light.ge_link_daylight__sump
      - light.ge_link_daylight__utility_room
 
 workshop:
-  view: true
+#  view: true
   name: workshop
   entities:
-    - switch.outleta__workshop
     - camera.raspi2a_workshop
     - sensor.motion__workshop
     - sensor.motion__workshop_2
     - sensor.motion__workshop_3
+    - switch.outleta__workshop
+    - sensor.outleta__workshop
+    - sensor.outleta__workshop_2
 
+smoke:
+  name: smoke alarm
+  entities:
+  - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo
+  - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2
+  - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3
 
 door:
-  view: true
-  name: door
+#  view: true
+  name: doors - all sensors
   entities:
       - sensor.door__front
+      - sensor.door__front_2
+      - sensor.door__front_3
       - sensor.door__garage
+      - sensor.door__garage_2
+      - sensor.door__garage_3
       - sensor.door__garage_entry
+      - sensor.door__garage_entry_2
+      - sensor.door__garage_entry_3
       - sensor.door__rear_stairs
+      - sensor.door__rear_stairs_2
+      - sensor.door__rear_stairs_3
+
+door_contact:
+  name: door contacts
+  entities:
+    - sensor.door__front
+    - sensor.door__garage
+    - sensor.door__garage_entry
+    - sensor.door__rear_stairs
 
 water:
-  view: true
-  name: water
+#  view: true
+  name: water - all sensors
   entities:
       - sensor.water_sensor__pool_room
       - sensor.water_sensor__pool_room_2
@@ -71,8 +140,15 @@ water:
       - sensor.water_sensor__sump_pump_2
       - sensor.water_sensor__sump_pump_3
 
+water_present:
+#  view: true
+  name: water present
+  entities:
+      - sensor.water_sensor__pool_room
+      - sensor.water_sensor__sump_pump
+
 motion:
-  view: true
+#  view: true
   name: motion
   entities:
       - sensor.motion__hallway
@@ -89,17 +165,16 @@ motion:
       - sensor.motion__basement_3
 
 outside:
-  view: true
+#  view: true
   name: outside
   entities:
       - light.entrance
       - light.deck__rear
       - light.deck__bedroom_1
       - light.deck__bedroom_2
-      - light.pantry
 
 kitchen:
-  view: true
+#  view: true
   name: kitchen
   entities:
       - light.table
@@ -112,33 +187,21 @@ kitchen:
       - input_number.dimmer
 
 outlet:
-  view: true
-  name: outlet
+#  view: true
+  name: outlets
   entities:
-      -  switch.outleta__workshop
-      -  switch.outletb__mancave_heater
-      -  switch.outletc__kitchen
-      -  sensor.outleta__workshop
-      -  sensor.outletc__kitchen
-      -  sensor.outletb__mancave_heater
-      -  sensor.outleta__workshop_2
-      -  sensor.outletb__mancave_heater_2
-      -  sensor.outletc__kitchen_2
-      -  sensor.outleta__workshop_3
-      -  sensor.outletb__mancave_heater_3
-      -  sensor.outletc__kitchen_3
-
-other:
-  view: true
-  name: other
-  entities:
-      -  switch.spotlights
-      -  switch.virtual_switch_1
-      -  light.stairwell__rear
-      -  light.stairwell
+      - switch.outleta__workshop
+      - sensor.outleta__workshop
+      - sensor.outleta__workshop_2
+      - switch.outletb__mancave_heater
+      - sensor.outletb__mancave_heater
+      - sensor.outletb__mancave_heater_2
+      - switch.outletc__kitchen
+      - sensor.outletc__kitchen
+      - sensor.outletc__kitchen_2
 
 temperature:
-  view: true
+#  view: true
   name: temperature
   entities:
       - sensor.door__front_2
@@ -155,9 +218,9 @@ temperature:
       - sensor.water_sensor__pool_room_2
       - sensor.water_sensor__sump_pump_2
 
-battery:
-  view: true
-  name: battery
+batteries:
+#  view: true
+  name: battery levels
   entities:
       - sensor.door__front_3
       - sensor.door__garage_3
@@ -173,20 +236,168 @@ battery:
       - sensor.water_sensor__pool_room_3
       - sensor.water_sensor__sump_pump_3
 
-      
-trafficLight1:
-  view: true
-  name: TLight1
+tlight1:
+#  view: true
+  name: traffic light porch
   entities:
      - light.tGreen
      - light.tRed
      - light.tYellow
 
-trafficLight2:
-  view: true
-  name: TLight2
+tlight2:
+# view: true
+  name: traffic light LodgeRoom
   entities:
-
      - light.tGreen2
      - light.tRed2
      - light.tYellow2
+
+stairway:
+#  view: true 
+  name: stairs
+  entities:
+    - light.stairway
+    - light.stairwell__rear
+
+power: 
+  entities:
+    - sensor.outleta__workshop_2
+    - sensor.outletb__mancave_heater_2
+    - sensor.outletc__kitchen_2
+
+motion_contact:
+  name: motion contact
+  entities:
+    - sensor.motion__hallway
+    - sensor.motion__kitchen
+    - sensor.motion__workshop
+    - sensor.motion__basement
+
+vswitch:
+  name: virtual switches
+  entities:
+    - switch.virtual_switch_1
+
+light_main:
+  name: lights in main area
+  entities:
+    - light.hallway
+    - light.stairway
+    - light.hutch_lamp
+    - light.stairwell__rear
+    - light.ge_link_flood__back_stairway
+
+system_menu:
+   name: system
+   view: true 
+   entities:
+     - group.system
+
+envr_menu:
+  view: true 
+  name: envrmnt
+  entities:
+    - group.environment
+
+areas:
+  view: true
+  name: areas
+  entities: 
+    - group.workshop
+    - group.kitchen
+    - group.door
+    - group.utility
+    - group.outside
+    - group.light_main
+    - group.basement
+
+light_menu:
+  view: true 
+  name: lights
+  entities:
+    - group.light_main
+    - group.lights_all
+    - group.outside
+    - group.spotlight
+    - group.kitchen
+    - group.stairway
+    - group.tlight1
+    - group.tlight2
+    - group.basement
+
+cameras:
+  view: true
+  name: cameras
+  entities:
+     - camera.raspi2a_workshop
+     - camera.raspi2b_sump
+     - camera.raspi3a_office
+     - camera.raspi3b_demo
+
+contact:
+  view: true 
+  name: contacts
+  entities:
+    - group.water_present
+    - group.door_contact
+    - group.smoke
+    - group.siren
+    - group.presence
+    - group.vswitch
+    - group.motion_contact
+
+modules: 
+  view: true
+  name: modules
+  entities: 
+    - group.motion
+    - group.battery
+    - group.temperature
+    - group.door
+    - group.outlet
+    - group.switches
+    - group.smoke
+    - group.water
+
+nest:
+  view: true 
+  name: nest
+  entities:
+    - group.nest_device
+
+all:
+  view: true 
+  name: all
+  entities:
+    - group.all_lights
+    - group.all_switches
+    - group.all_sensors
+    - group.all_automations
+    - group.all_scripts
+
+st_modules:
+  view: true 
+  name: sensors
+  entities:
+    - group.batteries
+    - group.temperature
+    - group.motion
+    - group.power
+
+tempr_menu:
+  name: temperatures
+  view: true 
+  entities:
+    - group.temperature
+
+battery_menu:
+   name: battery levels
+   view: true 
+   entities:
+     - group.batteries
+
+power_menu:
+  name: power
+  view: true
+  entities:
+    - group.power

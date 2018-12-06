@@ -9,3 +9,6 @@ tts/
 .storage.bak/
 .uuid
 *.swp
+nest.yaml
+core
+secrets.yaml
