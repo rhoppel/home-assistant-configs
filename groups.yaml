@@ -172,7 +172,6 @@ outside:
       - light.deck__rear
       - light.deck__bedroom_1
       - light.deck__bedroom_2
-      - light.pantry
 
 kitchen:
 #  view: true
@@ -267,6 +266,7 @@ power:
     - sensor.outletc__kitchen_2
 
 motion_contact:
+  name: motion contact
   entities:
     - sensor.motion__hallway
     - sensor.motion__kitchen
@@ -396,4 +396,8 @@ battery_menu:
    entities:
      - group.batteries
 
-
+power_menu:
+  name: power
+  view: true
+  entities:
+    - group.power
