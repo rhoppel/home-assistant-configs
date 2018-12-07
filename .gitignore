@@ -14,3 +14,4 @@ core
 secrets.yaml
 state.json
 temp/
+plex.conf
