@@ -325,6 +325,7 @@ audio:
     - media_player.hoppellodge
     - media_player.ghome_bedroom
     - media_player.ghome_kitchen
+    - media_player.ghome_workshop
     - media_player.lodgeroomaudio
     - media_player.mancave_audio
     - media_player.roveraudio

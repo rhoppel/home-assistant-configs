@@ -12,3 +12,5 @@ tts/
 nest.yaml
 core
 secrets.yaml
+state.json
+temp/
