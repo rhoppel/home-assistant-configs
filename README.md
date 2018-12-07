@@ -1,6 +1,6 @@
 # HoppelLodge Home-Assistant Project
 
-![HA Main](./resources/ha_main.jpg)
+![HA Main](https://files.hoppel.us/home-assistant/ha_main.jpg)
 
 ##### [full screen version](https://files.hoppel.us/home-assistant/ha_main_large.jpg)
 
@@ -108,7 +108,7 @@ Node.js app which integrates SmartThings and MQTT
 
 ### Device Activity
 
-![HA Main](./resources/ha_activity.jpg)
+![HA Main](https://files.hoppel.us/home-assistant/ha_activity.jpg)
 
 ---
 

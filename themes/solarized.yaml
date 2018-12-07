@@ -12,6 +12,8 @@ solarized:
   secondary-background-color: "#073642"
   secondary-text-color: "#859900"
   text-primary-color: "#839496"
+  secondary-text-color: "#859900"
+  text-primary-color: "#839496"
   label-badge-background-color: "var(--secondary-background-color)"
   label-badge-text-color: "var(--text-primary-color)"
   paper-card-header-color: "#cb4b16"
