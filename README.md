@@ -1,8 +1,6 @@
 # HoppelLodge Home-Assistant Project
 
-![HA Main](https://files.hoppel.us/home-assistant/ha_main.jpg)
-
-##### [full screen version](https://files.hoppel.us/home-assistant/ha_main_large.jpg)
+[![Main][main_s]][main]
 
 ---
 
@@ -22,7 +20,7 @@
 
 ### Recent Changes
 
-- [12/4/2018] Initial implementation
+- [12/7/2018] Initial implementation
 
 ### Synopsis
 
@@ -108,10 +106,144 @@ Node.js app which integrates SmartThings and MQTT
 
 ### Device Activity
 
-![HA Main](https://files.hoppel.us/home-assistant/ha_activity.jpg)
+[![activity][activity_s]][activity]
+
+### Tabs 
 
 ---
 
-##### [full screen version](https://files.hoppel.us/home-assistant/ha_activity_large.jpg)
+##### [click on thumbnail to see full screen image]
+
+| Areas | Audio | Battery | Camera |
+| --- | ---- | --- | --- |
+| [![areas_tn][areas_tn]][areas] | [![audio_tn][audio_tn]][audio] | [![battery_tn][battery_tn]][battery] | [![cameras_tn][cameras_tn]][cameras] |
+| Contacts | Environment | Home | Lights |
+| [![contacts_tn][contacts_tn]][contacts] | [![envrnmnt_tn][envrnmnt_tn]][envrnmnt] | [![home_tn][home_tn]][home] | [![lights_tn][lights_tn]][lights] | 
+| Modules | Nest |  Power | Sensors |
+|  [![modules_tn][modules_tn]][modules] | [![nest_tn][nest_tn]][nest] | [![power_tn][power_tn]][power] | [![sensors_tn][sensors_tn]][sensors]  |
+| System | Temperatures | Video |
+| [![system_tn][system_tn]][system] | [![temperatures_tn][temperatures_tn]][temperatures] | [![video_tn][video_tn]][video]  |
 
 ---
+
+### Other Screens
+
+| Main Screen | Activity |
+| ---- | ---- |
+| ![main_tn][main_tn]  | ![activity_tn][activity_tn]  |
+
+---
+
+<!--
+![areas_tn][areas_tn]
+![audio_tn][audio_tn]
+![battery_tn][battery_tn]
+![cameras_tn][cameras_tn]
+![contacts_tn][contacts_tn]
+![envrnmnt_tn][envrnmnt_tn]
+![activity_tn][activity_tn]
+![main_tn][main_tn]
+![home_tn][home_tn]
+![lights_tn][lights_tn]
+![modules_tn][modules_tn]
+![nest_tn][nest_tn]
+![power_tn][power_tn]
+![sensors_tn][sensors_tn]
+![system_tn][system_tn]
+![temperatures_tn][temperatures_tn]
+![video_tn][video_tn]
+
+![areas_s][areas_s]
+![audio_s][audio_s]
+![battery_s][battery_s]
+![cameras_s][cameras_s]
+![contacts_s][contacts_s]
+![envrnmnt_tn][envrnmnt_tn]
+![activity_s][activity_s]
+![main_s][main_s]
+![home_s][home_s]
+![lights_s][lights_s]
+![modules_s][modules_s]
+![nest_s][nest_s]
+![power_s][power_s]
+![sensors_s][sensors_s]
+![system_s][system_s]
+![temperatures_s][temperatures_s]
+![video_s][video_s]
+
+
+
+![areas][areas]
+![audio][audio]
+![battery][battery]
+![cameras][cameras]
+![contacts][contacts]
+![envrnmnt][envrnmnt]
+![activity][activity]
+![main][main]
+![home][home]
+![lights][lights]
+![modules][modules]
+![nest][nest]
+![power][power]
+![sensors][sensors]
+![system][system]
+![temperatures][temperatures]
+![video][video]
+
+---
+-->
+
+[areas_tn]: https://files.hoppel.us/home-assistant/areas_tn.png
+[audio_tn]: https://files.hoppel.us/home-assistant/audio_tn.png
+[battery_tn]: https://files.hoppel.us/home-assistant/battery_tn.png
+[cameras_tn]: https://files.hoppel.us/home-assistant/cameras_tn.png
+[contacts_tn]: https://files.hoppel.us/home-assistant/contacts_tn.png
+[envrnmnt_tn]: https://files.hoppel.us/home-assistant/envrnmnt_tn.png
+[activity_tn]: https://files.hoppel.us/home-assistant/activity_tn.png
+[main_tn]: https://files.hoppel.us/home-assistant/main_tn.png
+[home_tn]: https://files.hoppel.us/home-assistant/home_tn.png
+[lights_tn]: https://files.hoppel.us/home-assistant/lights_tn.png
+[modules_tn]: https://files.hoppel.us/home-assistant/modules_tn.png
+[nest_tn]: https://files.hoppel.us/home-assistant/nest_tn.png
+[power_tn]: https://files.hoppel.us/home-assistant/power_tn.png
+[sensors_tn]: https://files.hoppel.us/home-assistant/sensors_tn.png
+[system_tn]: https://files.hoppel.us/home-assistant/system_tn.png
+[temperatures_tn]: https://files.hoppel.us/home-assistant/temperatures_tn.png
+[video_tn]: https://files.hoppel.us/home-assistant/video_tn.png
+
+[areas_s]: https://files.hoppel.us/home-assistant/areas_s.png
+[audio_s]: https://files.hoppel.us/home-assistant/audio_s.png
+[battery_s]: https://files.hoppel.us/home-assistant/battery_s.png
+[cameras_s]: https://files.hoppel.us/home-assistant/cameras_s.png
+[contacts_s]: https://files.hoppel.us/home-assistant/contacts_s.png
+[envrnmnt_s]: https://files.hoppel.us/home-assistant/envrnmnt_s.png
+[activity_s]: https://files.hoppel.us/home-assistant/activity_s.png
+[main_s]: https://files.hoppel.us/home-assistant/main_s.png
+[home_s]: https://files.hoppel.us/home-assistant/home_s.png
+[lights_s]: https://files.hoppel.us/home-assistant/lights_s.png
+[modules_s]: https://files.hoppel.us/home-assistant/modules_s.png
+[nest_s]: https://files.hoppel.us/home-assistant/nest_s.png
+[power_s]: https://files.hoppel.us/home-assistant/power_s.png
+[sensors_s]: https://files.hoppel.us/home-assistant/sensors_s.png
+[system_s]: https://files.hoppel.us/home-assistant/system_s.png
+[temperatures_s]: https://files.hoppel.us/home-assistant/temperatures_s.png
+[video_s]: https://files.hoppel.us/home-assistant/video_s.png
+
+[areas]: https://files.hoppel.us/home-assistant/areas.png
+[audio]: https://files.hoppel.us/home-assistant/audio.png
+[battery]: https://files.hoppel.us/home-assistant/battery.png
+[cameras]: https://files.hoppel.us/home-assistant/cameras.png
+[contacts]: https://files.hoppel.us/home-assistant/contacts.png
+[envrnmnt]: https://files.hoppel.us/home-assistant/envrnmnt.png
+[activity]: https://files.hoppel.us/home-assistant/activity.png
+[main]: https://files.hoppel.us/home-assistant/main.png
+[home]: https://files.hoppel.us/home-assistant/home.png
+[lights]: https://files.hoppel.us/home-assistant/lights.png
+[modules]: https://files.hoppel.us/home-assistant/modules.png
+[nest]: https://files.hoppel.us/home-assistant/nest.png
+[power]: https://files.hoppel.us/home-assistant/power.png
+[sensors]: https://files.hoppel.us/home-assistant/sensors.png
+[system]: https://files.hoppel.us/home-assistant/system.png
+[temperatures]: https://files.hoppel.us/home-assistant/temperatures.png
+[video]: https://files.hoppel.us/home-assistant/video.png
