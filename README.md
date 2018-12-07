@@ -9,14 +9,14 @@
 ### To-Do
 
 - [X] DISABLED: [HA-Bridge](https://github.com/bwssytems/ha-bridge)
-- [ ] [Integrate NEST into HA](https://www.home-assistant.io/components/nest)
+- [X] [Integrate NEST into HA](https://www.home-assistant.io/components/nest)
 - [ ] Integrate IoT Tardis into HA
 - [X] OK: SmartThings battery levels are not being read
 - [X] test if things work well after reboot
 - [ ] [Integrate X-10 devices with HA](https://www.home-assistant.io/components/light.x10/)
-- [ ] [apply security](https://www.home-assistant.io/docs/configuration/securing/)
+- [X] [apply security](https://www.home-assistant.io/docs/configuration/securing/)
 - [X] [add IP Cam support](https://www.home-assistant.io/components/camera.generic/)
-- [ ] [Customize entities](https://www.home-assistant.io/docs/configuration/customizing-devices/)
+- [X] [Customize entities](https://www.home-assistant.io/docs/configuration/customizing-devices/)
 
 #### [Evernote Development Log (raspi2A)](https://www.evernote.com/l/AAP1ClDH_KNDMITT7rDInX9GBZm8hRmLzk8/)
 
