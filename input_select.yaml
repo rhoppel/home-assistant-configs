@@ -3,7 +3,8 @@
     name: HASS Themes
     options:
       - default
-      - solarized
+#      - solarized
+      - solarized2
       - wood
       - vintage
       - pmxmonolight

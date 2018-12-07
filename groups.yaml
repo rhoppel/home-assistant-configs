@@ -290,7 +290,7 @@ light_main:
 
 envr_menu:
   view: true 
-  name: envrmnt
+  name: environment
   entities:
     - group.environment
 
