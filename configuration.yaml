@@ -22,6 +22,17 @@ input_select: !include input_select.yaml
 frontend:
   themes: !include_dir_merge_named themes/
 
+#media_player:
+#  - platform: plex
+#    entity_namespace: 'plex'
+#    include_non_clients: true
+#    scan_interval: 5
+#    show_all_controls: false
+#    use_custom_entity_ids: true
+#    use_episode_art: true
+#    remove_unavailable_clients: true
+#    client_remove_interval: 600
+ 
 #nest:       !include secrets.yaml
 nest: 
   client_id: !secret nest_client_id
