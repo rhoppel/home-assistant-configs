@@ -205,6 +205,7 @@ temperature:
 #  view: true
   name: temperature
   entities:
+    - sensor.weather_temperature
     - sensor.door__front_2
     - sensor.door__garage_2
     - sensor.door__garage_entry_2
@@ -349,6 +350,7 @@ cameras:
   view: true
   name: cameras
   entities:
+     - camera.front_yard
      - camera.raspi2a_workshop
      - camera.raspi2b_sump
      - camera.raspi3a_office
