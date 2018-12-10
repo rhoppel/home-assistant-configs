@@ -1,0 +1,19 @@
+esphomeyaml:
+  name: test
+  platform: ESP8266
+  board: d1
+
+wifi:
+  ssid: 'HoppelLodge'
+  password: 'ThisIsGREEN!'
+
+mqtt:
+  broker: '192.168.111.250:1883'
+  username: ''
+  password: ''
+
+# Enable logging
+logger:
+
+ota:
+  password: 'maCmah0n'

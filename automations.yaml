@@ -33,5 +33,5 @@
   action:
     service: frontend.set_theme
     data:
-      name: vintage
+      name: default
 
