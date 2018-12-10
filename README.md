@@ -15,9 +15,9 @@
 - [X] [apply security](https://www.home-assistant.io/docs/configuration/securing/)
 - [X] [add IP Cam support](https://www.home-assistant.io/components/camera.generic/)
 - [X] [Customize entities](https://www.home-assistant.io/docs/configuration/customizing-devices/)
-- [ ] [HA ESP8266 Integration](https://www.home-assistant.io/blog/2018/06/05/esphomelib/)
-  - [ ] [checkout esphome.lib](https://esphomelib.com/esphomeyaml/index.html#sensor-components)
-  - [ ] [esphomeyaml](https://esphomelib.com/esphomeyaml/index.html)
+- [X] [HA ESP8266 Integration](https://www.home-assistant.io/blog/2018/06/05/esphomelib/)
+  - [X] [checkout esphome.lib](https://esphomelib.com/esphomeyaml/index.html#sensor-components)
+  - [X] [esphomeyaml](https://esphomelib.com/esphomeyaml/index.html)
 
 #### [Evernote Development Log (raspi2A)](https://www.evernote.com/l/AAP1ClDH_KNDMITT7rDInX9GBZm8hRmLzk8/)
 
