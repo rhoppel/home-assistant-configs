@@ -87,7 +87,8 @@ cloud:
 mqtt:
   broker:  192.168.111.250
   discovery: true
-  discovery_prefix: smartthings
+  #  discovery_prefix: smartthings
+  #discovery_prefix: homeassistant
 
 input_number:
   dimmer:

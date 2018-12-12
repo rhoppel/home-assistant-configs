@@ -16,6 +16,15 @@
   payload_off: "off"
   retain: true
 
+- platform: mqtt
+  name: "Spock"
+  command_topic: "smartthings/Spock/switch"
+  state_topic: "smartthings/Spock/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
 #- platform: mqtt
 #  name: "Hallway"
 #  command_topic: "smartthings/Hallway/switch"

@@ -1,6 +1,6 @@
-- platform: mjpeg
-  name: "raspi2A_workshop"
-  mjpeg_url: http://192.168.111.64:56000/mjpeg
+#- platform: mjpeg
+#  name: "raspi2A_workshop"
+#  mjpeg_url: http://192.168.111.64:56000/mjpeg
 
 - platform: mjpeg
   name: "raspi2B_sump"
@@ -14,6 +14,6 @@
   name: "raspi3B_demo"
   mjpeg_url: http://192.168.111.70:56000/mjpeg
 
-- platform: mjpeg
-  name: "front_yard"
-  mjpeg_url: http://192.168.111.90/img/video.mjpeg
+  #- platform: mjpeg
+  #  name: "front_yard"
+  #  mjpeg_url: http://192.168.111.90/img/video.mjpeg

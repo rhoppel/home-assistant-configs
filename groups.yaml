@@ -279,6 +279,7 @@ vswitch:
   name: virtual switches
   entities:
     - switch.virtual_switch_1
+    - switch.spock
 
 light_main:
   name: lights in main area
@@ -456,3 +457,11 @@ system_menu:
 ### Climate
 #    -climate.lodge
 
+#   ESP8266 Devices
+
+esp_mancave:
+  name: esp8266
+  view: true
+  entities:
+    - binary_sensor.living_room_window
+    - switch.living_room_dehumidifier
