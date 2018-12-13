@@ -13,6 +13,19 @@
     monitored_conditions:
       - precipitation
   
+
+  - platform: yweather
+    monitored_conditions:
+      - weather
+      - weather_current
+      - temp_min
+      - temp_max
+      - wind_speed
+      - pressure
+      - visibility
+      - humidity
+      - temperature
+
   # Pi hardware stuff: https://home-assistant.io/components/sensor.systemmonitor/ 
   - platform: systemmonitor
     resources:

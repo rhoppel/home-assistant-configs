@@ -38,6 +38,19 @@ environment:
     - sensor.weather_precipitation
     - sun.sun
     - sensor.moon
+
+weather:
+  name: weather
+  entities:
+    - sensor.yweather_temperature
+    - sensor.yweather_condition
+    - sensor.yweather_current
+    - sensor.yweather_humidity
+    - sensor.yweather_pressure
+    - sensor.yweather_temperature_max
+    - sensor.yweather_temperature_min
+    - sensor.yweather_visibility
+    - sensor.yweather_wind_speed
      
 siren:
   name: siren
@@ -280,6 +293,12 @@ vswitch:
   entities:
     - switch.virtual_switch_1
     - switch.spock
+    - switch.kirk
+    - switch.sulu
+    - switch.scotty
+    - switch.bones
+    - switch.k9
+    - switch.tardis
 
 light_main:
   name: lights in main area
@@ -293,8 +312,10 @@ light_main:
 envr_menu:
   view: true 
   name: environment
+  icon: mdi:weather-partlycloudy
   entities:
     - group.environment
+    - group.weather
 
 areas:
   view: true
@@ -311,6 +332,7 @@ areas:
 video:
   name: video
   view: true 
+  icon: mdi:television
   entities:
     - media_player.lodge
     - media_player.bedroom
@@ -322,6 +344,7 @@ video:
 audio:
   name: audio
   view: true 
+  icon: mdi:google-home
   entities:
     - media_player.basement
     - media_player.hoppellodge
@@ -336,6 +359,7 @@ audio:
 light_menu:
   view: true 
   name: lights
+  icon: mdi:lightbulb-on-outline
   entities:
     - group.light_main
     - group.lights_all
@@ -350,6 +374,7 @@ light_menu:
 cameras:
   view: true
   name: cameras
+  icon: mdi:camera
   entities:
      - camera.front_yard
      - camera.raspi2a_workshop
@@ -360,6 +385,7 @@ cameras:
 contact:
   view: true 
   name: contacts
+  icon: mdi:toggle-switch
   entities:
     - group.water_present
     - group.door_contact
@@ -372,6 +398,7 @@ contact:
 modules: 
   view: true
   name: modules
+  icon: mdi:view-module
   entities: 
     - group.motion
     - group.battery
@@ -385,12 +412,14 @@ modules:
 nest:
   view: true 
   name: nest
+  icon: mdi:thermostat
   entities:
     - group.nest_device
 
 all:
   view: true 
   name: all
+  icon: mdi:all-inclusive
   entities:
     - group.all_lights
     - group.all_switches
@@ -410,24 +439,28 @@ st_modules:
 tempr_menu:
   name: temperatures
   view: true 
+  icon: mdi:temperature-fahrenheit
   entities:
     - group.temperature
 
 battery_menu:
   name: battery levels
   view: true 
+  icon: mdi:battery-charging-50
   entities:
     - group.batteries
 
 power_menu:
   name: power
   view: true
+  icon: mdi:power-socket-us
   entities:
     - group.power
 
 system_menu:
    name: system
    view: true 
+   icon: mdi:server-network
    entities:
      - group.system
 
@@ -459,9 +492,36 @@ system_menu:
 
 #   ESP8266 Devices
 
-esp_mancave:
-  name: esp8266
-  view: true
+mancave_switch:
+  name: "mancave: switch"
+#  view: false
   entities:
-    - binary_sensor.living_room_window
-    - switch.living_room_dehumidifier
+    - switch.d0
+    - switch.d1
+    - switch.d2
+    - switch.d3
+    - switch.d4
+    - switch.d5
+    - switch.d6
+    - switch.d7
+
+mancave_sensor:
+  name: "mancave: sensors"
+#  view: false
+  entities:
+#    - switch.living_room_dehumidifier
+#    - binary_sensor.living_room_window
+#   - binary_sensor.living_room_dehumidifier_toggle_button
+#    - sensor.mancave_humidity
+#    - sensor.mancave_temperature
+    - binary_sensor.mancave_window
+    - sensor.mancave_temperature
+    
+esp_menu:
+  name: ESP8266
+  view: true
+  icon: mdi:access-point
+  entities:
+    - group.mancave_switch
+    - group.mancave_sensor
+

@@ -7,23 +7,6 @@
   payload_off: "off"
   retain: true
 
-- platform: mqtt
-  name: "Virtual Switch 1"
-  command_topic: "smartthings/Virtual Switch 1/switch"
-  state_topic: "smartthings/Virtual Switch 1/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
-
-- platform: mqtt
-  name: "Spock"
-  command_topic: "smartthings/Spock/switch"
-  state_topic: "smartthings/Spock/switch"
-  qos: 2
-  payload_on: "on"
-  payload_off: "off"
-  retain: true
 
 #- platform: mqtt
 #  name: "Hallway"
@@ -65,6 +48,83 @@
   name: "Aeon Labs Siren (Gen 5)"
   command_topic: "smartthings/Aeon Labs Siren (Gen 5)/switch"
   state_topic: "smartthings/Aeon Labs Siren (Gen 5)/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+
+#
+#  SMARTTHINGS VIRTUAL SWITCHES
+#
+
+- platform: mqtt
+  name: "Virtual Switch 1"
+  command_topic: "smartthings/Virtual Switch 1/switch"
+  state_topic: "smartthings/Virtual Switch 1/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Spock"
+  command_topic: "smartthings/Spock/switch"
+  state_topic: "smartthings/Spock/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  command_topic: "smartthings/Kirk/switch"
+  name: "Kirk"
+  state_topic: "smartthings/Kirk/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Sulu"
+  command_topic: "smartthings/Sulu/switch"
+  state_topic: "smartthings/Sulu/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Scotty"
+  command_topic: "smartthings/Scotty/switch"
+  state_topic: "smartthings/Scotty/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Bones"
+  command_topic: "smartthings/Bones/switch"
+  state_topic: "smartthings/Bones/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "K9"
+  command_topic: "smartthings/K9/switch"
+  state_topic: "smartthings/K9/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Tardis"
+  command_topic: "smartthings/Tardis/switch"
+  state_topic: "smartthings/Tardis/switch"
   qos: 2
   payload_on: "on"
   payload_off: "off"
