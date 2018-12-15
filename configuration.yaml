@@ -56,9 +56,33 @@ updater:
 
 # Discover some devices automatically
 discovery:
-
+  ignore:
+    - plex_mediaserver
+    - google_cast
+#
+# the media_olayer grouo "basement" and hoppellodge cause problemsL
+#
+#cast:
+#  media_server:
+#    - host: 192.168.111.91``# Chromecast Audio A
+#    - host: 192.168.111.92  # Chromecast Gen2 B  
+#    - host: 192.168.111.93  # Chromecast Audio C
+#    - host: 192.168.111.94  # Chromecast Audio D
+#    - host: 192.168.111.95  # Chromecast Audio E
+#    - host: 192.168.111.96  # Google Cast
+#    - host: 192.168.111.97  # Vizio TV
+#    - host: 192.168.111.98  # Chromecast F
+#    - host: 192.168.111.241 # Google Home in Lofge Room
+#    - host: 192.168.111.242 # Google Home Rover
+#    - host: 192.168.111.243 # Google Home Workshop
+#    
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
+
+device_tracker:
+  - platform: google_maps
+    username: !secret google_user
+    password: !secret google_passwd
 
 # Enables support for tracking state changes over time
 history:
@@ -100,10 +124,16 @@ input_number:
 
 
 group:      !include groups.yaml
-automation: !include automations.yaml
-script:     !include scripts.yaml
-sensor:     !include sensors.yaml
-light:      !include lights.yaml
-switch:     !include switches.yaml
+#group:      !include_dir_merge_list groups
+#automation: !include automations.yaml
+automation: !include_dir_merge_list automations
+#script:     !include scripts.yaml
+script:     !include_dir_merge_list scripts
+#sensor:     !include sensors.yaml
+sensor:     !include_dir_merge_list sensors
+#light:      !include lights.yaml
+light:      !include_dir_merge_list lights
+#switch:     !include switches.yaml
+switch:     !include_dir_merge_list  switches
 camera:     !include cameras.yaml
-
+#camera:     !include_dir_merge_list  cameras

@@ -1,0 +1,46 @@
+# Current weather
+  - platform: yr
+    name: Weather
+    monitored_conditions:
+      - temperature
+      - precipitation
+
+  - platform: moon
+ 
+  - platform: yr
+    name: Weather in 1 hours
+    forecast: 1
+    monitored_conditions:
+      - precipitation
+  
+
+  - platform: yweather
+    monitored_conditions:
+      - weather
+      - weather_current
+      - temp_min
+      - temp_max
+      - wind_speed
+      - pressure
+      - visibility
+      - humidity
+      - temperature
+      
+#### Dark sky
+  - platform: darksky
+    api_key: !secret darksky_password
+    forecast: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+
+    monitored_conditions:
+      - summary
+      - icon
+      - temperature
+    update_interval:
+      minutes: 10
+

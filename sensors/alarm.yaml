@@ -1,0 +1,4 @@
+#### ALARM SENSOR ####
+  - platform: mqtt
+    name: "Aeon Labs Siren (Gen 5)"
+    state_topic: "smartthings/Aeon Labs Siren (Gen 5)/alarm"

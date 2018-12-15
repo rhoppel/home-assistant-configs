@@ -1,0 +1,27 @@
+#   ESP8266 Devices
+
+mancave_switch:
+  name: "mancave: switch"
+#  view: false
+  entities:
+    - switch.d0
+    - switch.d1
+    - switch.d2
+    - switch.d3
+    - switch.d4
+    - switch.d5
+    - switch.d6
+    - switch.d7
+
+mancave_sensor:
+  name: "mancave: sensors"
+#  view: false
+  entities:
+#    - switch.living_room_dehumidifier
+#    - binary_sensor.living_room_window
+#   - binary_sensor.living_room_dehumidifier_toggle_button
+#    - sensor.mancave_humidity
+#    - sensor.mancave_temperature
+    - binary_sensor.mancave_window
+    - sensor.mancave_temperature
+    

@@ -1,64 +1,330 @@
-title: My Awesome Home
-# Include external resources
-resources:
-  - url: /local/my-custom-card.js
-    type: js
-  - url: /local/my-webfont.css
-    type: css
-
-# Optional background for all views. Check https://developer.mozilla.org/en-US/docs/Web/CSS/background for more examples.
-background: center / cover no-repeat url("/background.png") fixed
-# Exclude entities from "Unused entities" view
-excluded_entities:
-  - weblink.router
+title: My Lovely Home Automation
 views:
-    # View tab title.
-  - title: Example
-    # Unique id for direct access /lovelace/${id} and editing it from the UI.
-    id: example
-    # Optional background (overwrites the global background).
-    background: radial-gradient(crimson, skyblue)
-    # Each view can have a different theme applied. Theme should be defined in the frontend.
-    theme: dark-mode
-    # The cards to show on this view.
+  - title: Home
     cards:
-        # The filter card will filter entities for their state
-      - id: peoplehome # Every card needs an ID, for it to be edited from the UI.
-        type: entity-filter
-        entities:
-          - device_tracker.paulus
-          - device_tracker.anne_there
-        state_filter:
-          - 'home'
-        card:
-          type: glance
-          title: People that are home
+      - id: camera_raspi2b_sump
+        type: picture-entity      
+        title: raspi2B_sump
+        entity: camera.raspi2b_sump
+        camera_image: camera.raspi2b_sump
+        show_info: true
+        tap_action: dialog
 
-        # The picture entity card will represent an entity with a picture
-      - type: picture-entity
-        image: https://www.home-assistant.io/images/default-social.png
-        entity: light.bed_light
+      - id: camera_raspi3a_office
+        type: picture-entity      
+        title: raspi3A_office
+        entity: camera.raspi3a_office
+        camera_image: camera.raspi3a_office
+        show_info: true
+        tap_action: dialog
 
-    # Specify a tab icon if you want the view tab to be an icon.
-  - icon: mdi:home-assistant
-    # Title of the view. Will be used as the tooltip for tab icon
-    title: Second view
-    cards:
-        # Entities card will take a list of entities and show their state.
+      - id: camera_raspi3b_demo
+        type: picture-entity      
+        title: raspi3B_demo
+        entity: camera.raspi3b_demo
+        camera_image: camera.raspi3b_demo
+        show_info: true
+        tap_action: dialog
+
+      - type: media-control
+        entity: media_player.basement
+
+      - type: media-control
+        entity: media_player.bedroom
+
+      - type: media-control
+        entity: media_player.ghome_bedroom
+
+      - type: media-control
+        entity: media_player.ghome_kitchen
+
+      - type: media-control
+        entity: media_player.ghome_workshop
+
+      - type: media-control
+        entity: media_player.hoppellodge
+
+      - type: media-control
+        entity: media_player.lodge
+
+      - type: media-control
+        entity: media_player.lodgeroomaudio
+
+      - type: media-control
+        entity: media_player.mancave_audio
+
+      - type: media-control
+        entity: media_player.office
+
+      - type: media-control
+        entity: media_player.plasmatv
+
+      - type: media-control
+        entity: media_player.roveraudio
+
+      - type: media-control
+        entity: media_player.workshopaudio
+
       - type: entities
-        # Title of the entities card
-        title: Example
-        # The entities here will be shown in the same order as specified.
-        # Each entry is an entity ID or a map with extra options.
+        title: Automations
+        show_header_toggle: true
         entities:
-          - light.kitchen
-          - switch.ac
-          - entity: light.living_room
-            # Override the name to use
-            name: LR Lights
+          - automation.hass_theme
+          - automation.set_theme_at_startup
+          - automation.table_slider
 
-        # The markdown card will render markdown text.
-      - type: markdown
-        title: Lovelace
-        content: >
-          Welcome to your **Lovelace UI**.
+      - type: entities
+        title: Binary Sensors
+        show_header_toggle: true
+        entities:
+          - binary_sensor.hoppellodge__away
+          - binary_sensor.lodge_thermostat_fan
+          - binary_sensor.lodge_thermostat_has_leaf
+          - binary_sensor.lodge_thermostat_is_locked
+          - binary_sensor.lodge_thermostat_is_using_emergency_heat
+          - binary_sensor.lodge_thermostat_online
+          - binary_sensor.mancave_window
+
+      - type: entities
+        title: Climate
+        show_header_toggle: true
+        entities:
+          - climate.lodge
+
+      - type: entities
+        title: Groups
+        show_header_toggle: true
+        entities:
+          - group.all
+          - group.all_automations
+          - group.all_devices
+          - group.all_lights
+          - group.all_switches
+          - group.areas
+          - group.audio
+          - group.basement
+          - group.batteries
+          - group.battery_menu
+          - group.cameras
+          - group.contact
+          - group.dark_sky
+          - group.door
+          - group.door_contact
+          - group.environment
+          - group.envr_menu
+          - group.esp_menu
+          - group.kitchen
+          - group.light_main
+          - group.light_menu
+          - group.mancave_sensor
+          - group.mancave_switch
+          - group.modules
+          - group.motion
+          - group.motion_contact
+          - group.nest
+          - group.nest_device
+          - group.outlet
+          - group.outside
+          - group.power
+          - group.power_menu
+          - group.presence
+          - group.siren
+          - group.smoke
+          - group.st_modules
+          - group.stairway
+          - group.system
+          - group.system_menu
+          - group.temperature
+          - group.tempr_menu
+          - group.tlight1
+          - group.tlight2
+          - group.utility
+          - group.video
+          - group.vswitch
+          - group.water
+          - group.water_present
+          - group.weather
+          - group.workshop
+
+      - type: entities
+        title: Input Number
+        show_header_toggle: true
+        entities:
+          - input_number.dimmer
+
+      - type: entities
+        title: Input Select
+        show_header_toggle: true
+        entities:
+          - input_select.hass_theme
+
+      - type: entities
+        title: Lights
+        show_header_toggle: true
+        entities:
+          - light.deck__bedroom_1
+          - light.deck__bedroom_2
+          - light.deck__rear
+          - light.desk_1
+          - light.desk_2
+          - light.entrance
+          - light.ge_link_daylight__sump
+          - light.ge_link_daylight__utility_room
+          - light.ge_link_flood__back_stairway
+          - light.hallway
+          - light.hallway_1
+          - light.hallway_2
+          - light.hutch_lamp
+          - light.pantry
+          - light.spotlights
+          - light.stairway
+          - light.stairwell__rear
+          - light.table
+          - light.tgreen
+          - light.tgreen2
+          - light.tred
+          - light.tred2
+          - light.tyellow
+          - light.tyellow2
+
+      - type: entities
+        title: Persistent Notification
+        show_header_toggle: true
+        entities:
+          - persistent_notification.httplogin
+
+      - type: entities
+        title: Sensors
+        show_header_toggle: true
+        entities:
+          - sensor.aeon_labs_siren_gen_5
+          - sensor.dark_sky_icon
+          - sensor.dark_sky_icon_0
+          - sensor.dark_sky_icon_1
+          - sensor.dark_sky_icon_2
+          - sensor.dark_sky_icon_3
+          - sensor.dark_sky_icon_4
+          - sensor.dark_sky_icon_5
+          - sensor.dark_sky_summary
+          - sensor.dark_sky_summary_0
+          - sensor.dark_sky_summary_1
+          - sensor.dark_sky_summary_2
+          - sensor.dark_sky_summary_3
+          - sensor.dark_sky_summary_4
+          - sensor.dark_sky_summary_5
+          - sensor.dark_sky_temperature
+          - sensor.dark_sky_temperature_0
+          - sensor.dark_sky_temperature_1
+          - sensor.dark_sky_temperature_2
+          - sensor.dark_sky_temperature_3
+          - sensor.dark_sky_temperature_4
+          - sensor.dark_sky_temperature_5
+          - sensor.disk_free_
+          - sensor.disk_use_percent_home
+          - sensor.door__front
+          - sensor.door__front_2
+          - sensor.door__front_3
+          - sensor.door__garage
+          - sensor.door__garage_2
+          - sensor.door__garage_3
+          - sensor.door__garage_entry
+          - sensor.door__garage_entry_2
+          - sensor.door__garage_entry_3
+          - sensor.door__rear_stairs
+          - sensor.door__rear_stairs_2
+          - sensor.door__rear_stairs_3
+          - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo
+          - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2
+          - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3
+          - sensor.hoppellodge__eta
+          - sensor.ipv4_address_eth0
+          - sensor.ipv6_address_enxb827eb3fa7f4
+          - sensor.karen_hoppels_android
+          - sensor.last_boot
+          - sensor.lodge_thermostat_humidity
+          - sensor.lodge_thermostat_hvac_state
+          - sensor.lodge_thermostat_operation_mode
+          - sensor.lodge_thermostat_target
+          - sensor.lodge_thermostat_temperature
+          - sensor.memory_free
+          - sensor.memory_use_percent
+          - sensor.moon
+          - sensor.motion__basement
+          - sensor.motion__basement_2
+          - sensor.motion__basement_3
+          - sensor.motion__hallway
+          - sensor.motion__hallway_2
+          - sensor.motion__hallway_3
+          - sensor.motion__kitchen
+          - sensor.motion__kitchen_2
+          - sensor.motion__kitchen_3
+          - sensor.motion__workshop
+          - sensor.motion__workshop_2
+          - sensor.motion__workshop_3
+          - sensor.network_in_enxb827eb3fa7
+          - sensor.network_in_eth0
+          - sensor.outleta__workshop
+          - sensor.outleta__workshop_2
+          - sensor.outletb__mancave_heater
+          - sensor.outletb__mancave_heater_2
+          - sensor.outletc__kitchen
+          - sensor.outletc__kitchen_2
+          - sensor.processor_use
+          - sensor.richard_hoppels_android
+          - sensor.since_last_boot
+          - sensor.spotlights
+          - sensor.water_sensor__pool_room
+          - sensor.water_sensor__pool_room_2
+          - sensor.water_sensor__pool_room_3
+          - sensor.water_sensor__sump_pump
+          - sensor.water_sensor__sump_pump_2
+          - sensor.water_sensor__sump_pump_3
+          - sensor.weather_in_1_hours_precipitation
+          - sensor.weather_precipitation
+          - sensor.weather_temperature
+          - sensor.yweather_condition
+          - sensor.yweather_current
+          - sensor.yweather_humidity
+          - sensor.yweather_pressure
+          - sensor.yweather_temperature
+          - sensor.yweather_temperature_max
+          - sensor.yweather_temperature_min
+          - sensor.yweather_visibility
+          - sensor.yweather_wind_speed
+
+      - type: entities
+        title: Sun
+        show_header_toggle: true
+        entities:
+          - sun.sun
+
+      - type: entities
+        title: Switchs
+        show_header_toggle: true
+        entities:
+          - switch.aeon_labs_siren_gen_5
+          - switch.bones
+          - switch.d0
+          - switch.d1
+          - switch.d2
+          - switch.d3
+          - switch.d5
+          - switch.d6
+          - switch.d7
+          - switch.k9
+          - switch.kirk
+          - switch.outleta__workshop
+          - switch.outletb__mancave_heater
+          - switch.outletc__kitchen
+          - switch.scotty
+          - switch.spock
+          - switch.spotlights
+          - switch.sulu
+          - switch.tardis
+          - switch.virtual_switch_1
+
+      - type: entities
+        title: Zone
+        show_header_toggle: true
+        entities:
+          - zone.home

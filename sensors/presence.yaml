@@ -1,0 +1,8 @@
+#### PRESENCE SENSOR ####
+  - platform: mqtt
+    name: "Richard Hoppel's Android"
+    state_topic: "smartthings/Richard Hoppel's Android/presence"
+
+  - platform: mqtt
+    name: "Karen Hoppel's Android"
+    state_topic: "smartthings/Karen Hoppel's Android/presence"

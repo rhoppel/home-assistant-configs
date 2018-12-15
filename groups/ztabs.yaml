@@ -1,0 +1,164 @@
+
+envr_menu:
+  view: true 
+  name: environment
+  icon: mdi:weather-partlycloudy
+  entities:
+    - group.environment
+    - group.weather
+    - group.dark_sky
+
+areas:
+  view: true
+  name: areas
+  entities: 
+    - group.workshop
+    - group.kitchen
+    - group.door
+    - group.utility
+    - group.outside
+    - group.light_main
+    - group.basement
+
+video:
+  name: video
+  view: true 
+  icon: mdi:television
+  entities:
+    - media_player.lodge
+    - media_player.bedroom
+    - media_player.bedroom_2
+    - media_player.office
+    - media_player.plasmatv
+    - media_player.kitchen
+
+audio:
+  name: audio
+  view: true 
+  icon: mdi:google-home
+  entities:
+    - media_player.basement
+    - media_player.hoppellodge
+    - media_player.ghome_bedroom
+    - media_player.ghome_kitchen
+    - media_player.ghome_workshop
+    - media_player.lodgeroomaudio
+    - media_player.mancave_audio
+    - media_player.roveraudio
+    - media_player.workshopaudio
+
+light_menu:
+  view: true 
+  name: lights
+  icon: mdi:lightbulb-on-outline
+  entities:
+    - group.light_main
+    - group.lights_all
+    - group.outside
+    - group.spotlight
+    - group.kitchen
+    - group.stairway
+    - group.tlight1
+    - group.tlight2
+    - group.basement
+
+cameras:
+  view: true
+  name: cameras
+  icon: mdi:camera
+  entities:
+     - camera.front_yard
+     - camera.raspi2a_workshop
+     - camera.raspi2b_sump
+     - camera.raspi3a_office
+     - camera.raspi3b_demo
+
+contact:
+  view: true 
+  name: contacts
+  icon: mdi:toggle-switch
+  entities:
+    - group.water_present
+    - group.door_contact
+    - group.smoke
+    - group.siren
+    - group.presence
+    - group.vswitch
+    - group.motion_contact
+
+modules: 
+  view: true
+  name: modules
+  icon: mdi:view-module
+  entities: 
+    - group.motion
+    - group.battery
+    - group.temperature
+    - group.door
+    - group.outlet
+    - group.switches
+    - group.smoke
+    - group.water
+
+nest:
+  view: true 
+  name: nest
+  icon: mdi:thermostat
+  entities:
+    - group.nest_device
+
+all:
+  view: true 
+  name: all
+  icon: mdi:all-inclusive
+  entities:
+    - group.all_lights
+    - group.all_switches
+    - group.all_sensors
+    - group.all_automations
+    - group.all_scripts
+
+st_modules:
+  view: true 
+  name: sensors
+  entities:
+    - group.batteries
+    - group.temperature
+    - group.motion
+    - group.power
+
+tempr_menu:
+  name: temperatures
+  view: true 
+  icon: mdi:temperature-fahrenheit
+  entities:
+    - group.temperature
+
+battery_menu:
+  name: battery levels
+  view: true 
+  icon: mdi:battery-charging-50
+  entities:
+    - group.batteries
+
+power_menu:
+  name: power
+  view: true
+  icon: mdi:power-socket-us
+  entities:
+    - group.power
+
+system_menu:
+   name: system
+   view: true 
+   icon: mdi:server-network
+   entities:
+     - group.system
+
+esp_menu:
+  name: ESP8266
+  view: true
+  icon: mdi:access-point
+  entities:
+    - group.mancave_switch
+    - group.mancave_sensor

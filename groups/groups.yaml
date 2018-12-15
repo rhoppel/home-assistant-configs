@@ -1,0 +1,257 @@
+    
+siren:
+  name: siren
+  entities:
+    - switch.aeon_labs_siren_gen_5
+    - sensor.aeon_labs_siren_gen_5
+
+basement:
+  name: basement lights
+  entities:
+    - switch.spotlights
+    - light.spotlights
+    - sensor.spotlights
+    - light.stairwell__rear
+    - light.ge_link_daylight__sump
+    - light.ge_link_daylight__utility_room
+
+presence:
+  entities:
+    - sensor.karen_hoppels_android
+    - sensor.richard_hoppels_android
+
+nest_device:
+#  view: true
+  name: nest
+  entities:
+    - climate.lodge
+    - sensor.lodge_thermostat_humidity
+    - sensor.lodge_thermostat_hvac_state
+    - sensor.lodge_thermostat_operation_mode
+    - sensor.lodge_thermostat_temperature
+    - sensor.lodge_thermostat_target
+    - binary_sensor.hoppellodge__away
+    - binary_sensor.lodge_thermostat_fan
+    - binary_sensor.lodge_thermostat_has_leaf
+    - binary_sensor.lodge_thermostat_is_using_emergency_heat
+    - binary_sensor.lodge_thermostat_online
+    - binary_sensor.lodge_thermostat_is_locked
+    - sensor.hoppellodge__eta
+
+utility:
+#   view: true
+   name: sump/utilities
+   entities:
+    - camera.raspi2b_sump
+    - light.ge_link_daylight__sump
+    - light.ge_link_daylight__utility_room
+
+workshop:
+#  view: true
+  name: workshop
+  entities:
+    - camera.raspi2a_workshop
+    - sensor.motion__workshop
+    - sensor.motion__workshop_2
+    - sensor.motion__workshop_3
+    - switch.outleta__workshop
+    - sensor.outleta__workshop
+    - sensor.outleta__workshop_2
+
+smoke:
+  name: smoke alarm
+  entities:
+    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo
+    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2
+    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3
+
+door:
+#  view: true
+  name: doors - all sensors
+  entities:
+    - sensor.door__front
+    - sensor.door__front_2
+    - sensor.door__front_3
+    - sensor.door__garage
+    - sensor.door__garage_2
+    - sensor.door__garage_3
+    - sensor.door__garage_entry
+    - sensor.door__garage_entry_2
+    - sensor.door__garage_entry_3
+    - sensor.door__rear_stairs
+    - sensor.door__rear_stairs_2
+    - sensor.door__rear_stairs_3
+
+door_contact:
+  name: door contacts
+  entities:
+    - sensor.door__front
+    - sensor.door__garage
+    - sensor.door__garage_entry
+    - sensor.door__rear_stairs
+
+water:
+#  view: true
+  name: water - all sensors
+  entities:
+    - sensor.water_sensor__pool_room
+    - sensor.water_sensor__pool_room_2
+    - sensor.water_sensor__pool_room_3
+    - sensor.water_sensor__sump_pump
+    - sensor.water_sensor__sump_pump_2
+    - sensor.water_sensor__sump_pump_3
+
+water_present:
+#  view: true
+  name: water present
+  entities:
+    - sensor.water_sensor__pool_room
+    - sensor.water_sensor__sump_pump
+
+motion:
+#  view: true
+  name: motion
+  entities:
+    - sensor.motion__hallway
+    - sensor.motion__hallway_2
+    - sensor.motion__hallway_3
+    - sensor.motion__kitchen
+    - sensor.motion__kitchen_2
+    - sensor.motion__kitchen_3
+    - sensor.motion__workshop
+    - sensor.motion__workshop_2
+    - sensor.motion__workshop_3
+    - sensor.motion__basement
+    - sensor.motion__basement_2
+    - sensor.motion__basement_3
+
+outside:
+#  view: true
+  name: outside
+  entities:
+    - light.entrance
+    - light.deck__rear
+    - light.deck__bedroom_1
+    - light.deck__bedroom_2
+
+kitchen:
+#  view: true
+  name: kitchen
+  entities:
+    - light.table
+    - light.pantry
+    - light.desk_1
+    - light.desk_2
+    - light.hallway_1
+    - light.hallway_2
+#      - table_slider
+    - input_number.dimmer
+
+outlet:
+#  view: true
+  name: outlets
+  entities:
+    - switch.outleta__workshop
+    - sensor.outleta__workshop
+    - sensor.outleta__workshop_2
+    - switch.outletb__mancave_heater
+    - sensor.outletb__mancave_heater
+    - sensor.outletb__mancave_heater_2
+    - switch.outletc__kitchen
+    - sensor.outletc__kitchen
+    - sensor.outletc__kitchen_2
+
+temperature:
+#  view: true
+  name: temperature
+  entities:
+    - sensor.weather_temperature
+    - sensor.door__front_2
+    - sensor.door__garage_2
+    - sensor.door__garage_entry_2
+    - sensor.door__rear_stairs_2
+    - sensor.motion__hallway_2
+ #     - sensor.motion__hallway
+    - sensor.motion__kitchen_2
+ #     - sensor.motion__kitchen
+    - sensor.motion__workshop_2
+ #     - sensor.motion__workshop
+    - sensor.motion__basement_2
+    - sensor.water_sensor__pool_room_2
+    - sensor.water_sensor__sump_pump_2
+
+batteries:
+#  view: true
+  name: battery levels
+  entities:
+    - sensor.door__front_3
+    - sensor.door__garage_3
+    - sensor.door__garage_entry_3
+    - sensor.door__rear_stairs_3
+    - sensor.motion__hallway_3
+ #     - sensor.motion__hallway_2
+ #     - sensor.motion__kitchen
+    - sensor.motion__kitchen_3
+    - sensor.motion__workshop_3
+ #     - sensor.motion__workshop_2
+    - sensor.motion__basement_3
+    - sensor.water_sensor__pool_room_3
+    - sensor.water_sensor__sump_pump_3
+
+tlight1:
+#  view: true
+  name: traffic light porch
+  entities:
+    - light.tRed
+    - light.tYellow
+    - light.tGreen
+
+tlight2:
+# view: true
+  name: traffic light LodgeRoom
+  entities:
+    - light.tRed2
+    - light.tYellow2
+    - light.tGreen2
+
+stairway:
+#  view: true 
+  name: stairs
+  entities:
+    - light.stairway
+    - light.stairwell__rear
+
+power: 
+  entities:
+    - sensor.outleta__workshop_2
+    - sensor.outletb__mancave_heater_2
+    - sensor.outletc__kitchen_2
+
+motion_contact:
+  name: motion contact
+  entities:
+    - sensor.motion__hallway
+    - sensor.motion__kitchen
+    - sensor.motion__workshop
+    - sensor.motion__basement
+
+vswitch:
+  name: virtual switches
+  entities:
+    - switch.virtual_switch_1
+    - switch.spock
+    - switch.kirk
+    - switch.sulu
+    - switch.scotty
+    - switch.bones
+    - switch.k9
+    - switch.tardis
+
+light_main:
+  name: lights in main area
+  entities:
+    - light.hallway
+    - light.stairway
+    - light.hutch_lamp
+    - light.stairwell__rear
+    - light.ge_link_flood__back_stairway

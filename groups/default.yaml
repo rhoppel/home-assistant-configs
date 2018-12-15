@@ -1,0 +1,14 @@
+#
+#    Hoppel Lodge Group
+#
+#default_view:
+#  view: true
+#  entities: 
+#      - group.system_menu
+#      - group.rooms
+#      - group.cameras
+#      - group.devices
+#      - group.temp_menu
+#      - group.st_modules
+#     - group.battery_menu
+#      - group.other

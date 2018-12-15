@@ -1,0 +1,22 @@
+#### OUTLET SENSOR ####
+  - platform: mqtt
+    name: "Outlet(C) - Kitchen"
+    state_topic: "smartthings/Outlet(C) - Kitchen/switch"
+  - platform: mqtt
+    name: "Outlet(C) - Kitchen"
+    state_topic: "smartthings/Outlet(C) - Kitchen/power"
+    unit_of_measurement: "Watts"
+  - platform: mqtt
+    name: "Outlet(A) - Workshop"
+    state_topic: "smartthings/Outlet(A) - Workshop/switch"
+  - platform: mqtt
+    name: "Outlet(A) - Workshop"
+    state_topic: "smartthings/Outlet(A) - Workshop/power"
+    unit_of_measurement: "Watts"
+  - platform: mqtt
+    name: "Outlet(B) - ManCave Heater"
+    state_topic: "smartthings/Outlet(B) - ManCave Heater/switch"
+  - platform: mqtt
+    name: "Outlet(B) - ManCave Heater"
+    state_topic: "smartthings/Outlet(B) - ManCave Heater/power"
+    unit_of_measurement: "Watts"

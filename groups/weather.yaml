@@ -1,0 +1,54 @@
+### Climate
+#    -climate.lodge
+
+environment:
+#  view: true
+  name: environment
+  entities:
+    - sensor.weather_temperature
+    - sensor.weather_in_1_hours_precipitation
+    - sensor.weather_precipitation
+    - sun.sun
+    - sensor.moon
+
+weather:
+  name: weather
+  entities:
+    - sensor.yweather_temperature
+    - sensor.yweather_condition
+    - sensor.yweather_current
+    - sensor.yweather_humidity
+    - sensor.yweather_pressure
+    - sensor.yweather_temperature_max
+    - sensor.yweather_temperature_min
+    - sensor.yweather_visibility
+    - sensor.yweather_wind_speed
+
+dark_sky:
+  name: Dark Sky forecast
+  entities:
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_icon_0
+    - sensor.dark_sky_icon_1
+    - sensor.dark_sky_icon_2
+    - sensor.dark_sky_icon_3
+    - sensor.dark_sky_icon_4
+    - sensor.dark_sky_icon_5
+    - sensor.dark_sky_icon_6
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_summary_0
+    - sensor.dark_sky_summary_1
+    - sensor.dark_sky_summary_2
+    - sensor.dark_sky_summary_3
+    - sensor.dark_sky_summary_4
+    - sensor.dark_sky_summary_5
+    - sensor.dark_sky_summary_5
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_temperature_0
+    - sensor.dark_sky_temperature_1
+    - sensor.dark_sky_temperature_2
+    - sensor.dark_sky_temperature_3
+    - sensor.dark_sky_temperature_4
+    - sensor.dark_sky_temperature_5
+    - sensor.dark_sky_temperature_6
+    - sensor.dark_sky_temperature_7
