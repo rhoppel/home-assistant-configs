@@ -11,6 +11,7 @@ tts/
 *.swp
 nest.yaml
 core
+logs/
 secrets.yaml
 state.json
 temp/
