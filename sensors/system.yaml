@@ -12,8 +12,10 @@
       - type: network_in
         arg: eth0
       - type: network_in
-        arg: 'enxb827eb3fa7f4'
+#        arg: 'enxb827eb3fa7f4'
+        arg: 'enxb827eba48f5f'
       - type: ipv4_address
         arg: eth0
       - type: ipv6_address
-        arg: 'enxb827eb3fa7f4'
+#        arg: 'enxb827eb3fa7f4'
+        arg: 'enxb827eba48f5f'

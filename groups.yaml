@@ -24,8 +24,10 @@ system:
     - sensor.processor_use
     - sensor.since_last_boot
     - sensor.last_boot
-    - sensor.ipv6_address_enxb827eb3fa7f4
-    - sensor.network_in_enxb827eb3fa7f4
+#    - sensor.ipv6_address_enxb827eb3fa7f4
+#    - sensor.network_in_enxb827eb3fa7f4
+    - sensor.ipv6_address_enxb827eba48f5f
+    - sensor.network_in_enxb827eba48f5f
     - sensor.ipv4_address_eth0
     - sensor.network_in_eth0
 

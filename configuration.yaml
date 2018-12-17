@@ -56,9 +56,9 @@ updater:
 
 # Discover some devices automatically
 discovery:
-  ignore:
-    - plex_mediaserver
-    - google_cast
+#  ignore:
+#    - plex_mediaserver
+#    - google_cast
 #
 # the media_olayer grouo "basement" and hoppellodge cause problemsL
 #
