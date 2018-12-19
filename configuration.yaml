@@ -79,10 +79,10 @@ discovery:
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
-device_tracker:
-  - platform: google_maps
-    username: !secret google_user
-    password: !secret google_passwd
+#device_tracker:
+#  - platform: google_maps
+#username: !secret google_user
+#password: !secret google_passwd
 
 # Enables support for tracking state changes over time
 history:
