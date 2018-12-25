@@ -1,0 +1,12 @@
+  media_server:
+#    - host: 192.168.111.91``# Chromecast Audio A
+#    - host: 192.168.111.92  # Chromecast Gen2 B  
+#    - host: 192.168.111.93  # Chromecast Audio C
+#    - host: 192.168.111.94  # Chromecast Audio D
+#    - host: 192.168.111.95  # Chromecast Audio E
+#    - host: 192.168.111.96  # Google Cast
+#    - host: 192.168.111.97  # Vizio TV
+#    - host: 192.168.111.98  # Chromecast F
+    - host: 192.168.111.241 # Google Home in Lodge Room
+#    - host: 192.168.111.242 # Google Home Rover
+#    - host: 192.168.111.243 # Google Home Workshop
