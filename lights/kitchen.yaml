@@ -1,0 +1,66 @@
+- platform: mqtt
+  name: "Table"
+  command_topic: "smartthings/Table/switch"
+  state_topic: "smartthings/Table/switch"
+  brightness_command_topic: "smartthings/Table/level"
+  brightness_state_topic: "smartthings/Table/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Pantry"
+  command_topic: "smartthings/Pantry/switch"
+  state_topic: "smartthings/Pantry/switch"
+  brightness_command_topic: "smartthings/Pantry/level"
+  brightness_state_topic: "smartthings/Pantry/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+  
+- platform: mqtt
+  name: "Desk-1"
+  command_topic: "smartthings/Desk-1/switch"
+  state_topic: "smartthings/Desk-1/switch"
+  brightness_command_topic: "smartthings/Desk-1/level"
+  brightness_state_topic: "smartthings/Desk-1/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Desk-2"
+  command_topic: "smartthings/Desk-2/switch"
+  state_topic: "smartthings/Desk-2/switch"
+  brightness_command_topic: "smartthings/Desk-2/level"
+  brightness_state_topic: "smartthings/Desk-2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+  
+- platform: mqtt
+  name: "Kitchen-hall-1"
+  command_topic: "smartthings/Kitchen-hall-1/switch"
+  state_topic: "smartthings/Kitchen-hall-1/switch"
+  brightness_command_topic: "smartthings/Kitchen-hall-1/level"
+  brightness_state_topic: "smartthings/Kitchen-hall-1/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Kitchen-hall-2"
+  command_topic: "smartthings/Kitchen-hall-2/switch"
+  state_topic: "smartthings/Kitchen-hall-2/switch"
+  brightness_command_topic: "smartthings/Kitchen-hall-2/level"
+  brightness_state_topic: "smartthings/Kitchen-hall-2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true

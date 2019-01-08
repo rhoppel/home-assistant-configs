@@ -1,0 +1,16 @@
+#
+#    Hoppel Lodge Group
+#
+aquarium:
+  name: aquarium
+  view: false
+  entities:
+    - switch.aq_d0
+    - switch.aq_d1_relay_1
+    - switch.aq_d2_relay_2
+    - switch.aq_d3_relay_3
+    - switch.aq_d4_led
+    - switch.aq_d5
+    - switch.aq_d6
+    - switch.aq_d7
+    - switch.aq_d8

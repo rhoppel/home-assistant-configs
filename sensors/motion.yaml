@@ -1,48 +1,48 @@
 #### MOTION DETECTOR ####
   - platform: mqtt
-    name: "Motion - Kitchen"
-    state_topic: "smartthings/Motion - Kitchen/motion"
+    name: "Motion_Kitchen"
+    state_topic: "smartthings/Motion_Kitchen/motion"
   - platform: mqtt
-    name: "Motion - Kitchen"
-    state_topic: "smartthings/Motion - Kitchen/temperature"
+    name: "Motion_Kitchen"
+    state_topic: "smartthings/Motion_Kitchen/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Motion - Kitchen"
-    state_topic: "smartthings/Motion - Kitchen/battery"
+    name: "Motion_Kitchen"
+    state_topic: "smartthings/Motion_Kitchen/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Motion - Basement"
-    state_topic: "smartthings/Motion - Basement/motion"
+    name: "Motion_Basement"
+    state_topic: "smartthings/Motion_Basement/motion"
   - platform: mqtt
-    name: "Motion - Basement"
-    state_topic: "smartthings/Motion - Basement/temperature"
+    name: "Motion_Basement"
+    state_topic: "smartthings/Motion_Basement/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Motion - Basement"
-    state_topic: "smartthings/Motion - Basement/battery"
+    name: "Motion_Basement"
+    state_topic: "smartthings/Motion_Basement/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Motion - Hallway"
-    state_topic: "smartthings/Motion - Hallway/motion"
+    name: "Motion_Hallway"
+    state_topic: "smartthings/Motion_Hallway/motion"
   - platform: mqtt
-    name: "Motion - Hallway"
-    state_topic: "smartthings/Motion - Hallway/temperature"
+    name: "Motion_Hallway"
+    state_topic: "smartthings/Motion_Hallway/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Motion - Hallway"
-    state_topic: "smartthings/Motion - Hallway/battery"
+    name: "Motion_Hallway"
+    state_topic: "smartthings/Motion_Hallway/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Motion - Workshop"
-    state_topic: "smartthings/Motion - Workshop/motion"
+    name: "Motion_Workshop"
+    state_topic: "smartthings/Motion_Workshop/motion"
   - platform: mqtt
-    name: "Motion - Workshop"
-    state_topic: "smartthings/Motion - Workshop/temperature"
+    name: "Motion_Workshop"
+    state_topic: "smartthings/Motion_Workshop/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Motion - Workshop"
-    state_topic: "smartthings/Motion - Workshop/battery"
+    name: "Motion_Workshop"
+    state_topic: "smartthings/Motion_Workshop/battery"
     unit_of_measurement: "%"

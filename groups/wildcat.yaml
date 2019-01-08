@@ -1,0 +1,17 @@
+#
+#    Hoppel Lodge Group
+#
+wildcat:
+  name: wildcat
+  view: false
+  entities:
+  - switch.w_d0
+  - switch.w_d3
+  - switch.w_d4_led
+  - switch.w_d5
+  - switch.w_d6
+  - switch.w_d7
+  - switch.w_d8
+  - sensor.temp_lodge
+  - binary_sensor.wildcat_button
+  - light.wildcat_fastled

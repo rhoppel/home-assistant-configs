@@ -11,9 +11,9 @@ basement:
     - switch.spotlights
     - light.spotlights
     - sensor.spotlights
-    - light.stairwell__rear
-    - light.ge_link_daylight__sump
-    - light.ge_link_daylight__utility_room
+    - light.stairwell_rear
+    - light.sump
+    - light.utilityroom
 
 presence:
   entities:
@@ -43,20 +43,20 @@ utility:
    name: sump/utilities
    entities:
     - camera.raspi2b_sump
-    - light.ge_link_daylight__sump
-    - light.ge_link_daylight__utility_room
+    - light.sump
+    - light.tilityroom
 
 workshop:
 #  view: true
   name: workshop
   entities:
     - camera.raspi2a_workshop
-    - sensor.motion__workshop
-    - sensor.motion__workshop_2
-    - sensor.motion__workshop_3
-    - switch.outleta__workshop
-    - sensor.outleta__workshop
-    - sensor.outleta__workshop_2
+    - sensor.motion_workshop
+    - sensor.motion_workshop_2
+    - sensor.motion_workshop_3
+    - switch.outlet_a_workshop
+    - sensor.outlet_a_workshop
+    - sensor.outlet_a_workshop_2
 
 smoke:
   name: smoke alarm
@@ -69,26 +69,26 @@ door:
 #  view: true
   name: doors - all sensors
   entities:
-    - sensor.door__front
-    - sensor.door__front_2
-    - sensor.door__front_3
-    - sensor.door__garage
-    - sensor.door__garage_2
-    - sensor.door__garage_3
-    - sensor.door__garage_entry
-    - sensor.door__garage_entry_2
-    - sensor.door__garage_entry_3
-    - sensor.door__rear_stairs
-    - sensor.door__rear_stairs_2
-    - sensor.door__rear_stairs_3
+    - sensor.door_front
+    - sensor.door_front_2
+    - sensor.door_front_3
+    - sensor.door_garage
+    - sensor.door_garage_2
+    - sensor.door_garage_3
+    - sensor.door_garage_entry
+    - sensor.door_garage_entry_2
+    - sensor.door_garage_entry_3
+    - sensor.door_rear_stairs
+    - sensor.door_rear_stairs_2
+    - sensor.door_rear_stairs_3
 
 door_contact:
   name: door contacts
   entities:
-    - sensor.door__front
-    - sensor.door__garage
-    - sensor.door__garage_entry
-    - sensor.door__rear_stairs
+    - sensor.door_front
+    - sensor.door_garage
+    - sensor.door_garageentry
+    - sensor.door_rear_stairs
 
 water:
 #  view: true
@@ -112,27 +112,27 @@ motion:
 #  view: true
   name: motion
   entities:
-    - sensor.motion__hallway
-    - sensor.motion__hallway_2
-    - sensor.motion__hallway_3
-    - sensor.motion__kitchen
-    - sensor.motion__kitchen_2
-    - sensor.motion__kitchen_3
-    - sensor.motion__workshop
-    - sensor.motion__workshop_2
-    - sensor.motion__workshop_3
-    - sensor.motion__basement
-    - sensor.motion__basement_2
-    - sensor.motion__basement_3
+    - sensor.motion_hallway
+    - sensor.motion_hallway_2
+    - sensor.motion_hallway_3
+    - sensor.motion_kitchen
+    - sensor.motion_kitchen_2
+    - sensor.motion_kitchen_3
+    - sensor.motion_workshop
+    - sensor.motion_workshop_2
+    - sensor.motion_workshop_3
+    - sensor.motion_basement
+    - sensor.motion_basement_2
+    - sensor.motion_basement_3
 
 outside:
 #  view: true
   name: outside
   entities:
     - light.entrance
-    - light.deck__rear
-    - light.deck__bedroom_1
-    - light.deck__bedroom_2
+    - light.deck_rear
+    - light.deck_bedroom_1
+    - light.deck_bedroom_2
 
 kitchen:
 #  view: true
@@ -151,52 +151,52 @@ outlet:
 #  view: true
   name: outlets
   entities:
-    - switch.outleta__workshop
-    - sensor.outleta__workshop
-    - sensor.outleta__workshop_2
-    - switch.outletb__mancave_heater
-    - sensor.outletb__mancave_heater
-    - sensor.outletb__mancave_heater_2
-    - switch.outletc__kitchen
-    - sensor.outletc__kitchen
-    - sensor.outletc__kitchen_2
+    - switch.outlet_a_workshop
+    - sensor.outlet_a_workshop
+    - sensor.outlet_a_workshop_2
+    - switch.outlet_b_rover
+    - sensor.outlet_b_rover
+    - sensor.outlet_b_rover_2
+    - switch.outlet_c_kitchen
+    - sensor.outlet_c_kitchen
+    - sensor.outlet_c_kitchen_2
 
 temperature:
 #  view: true
   name: temperature
   entities:
     - sensor.weather_temperature
-    - sensor.door__front_2
-    - sensor.door__garage_2
-    - sensor.door__garage_entry_2
-    - sensor.door__rear_stairs_2
-    - sensor.motion__hallway_2
- #     - sensor.motion__hallway
-    - sensor.motion__kitchen_2
- #     - sensor.motion__kitchen
-    - sensor.motion__workshop_2
- #     - sensor.motion__workshop
-    - sensor.motion__basement_2
-    - sensor.water_sensor__pool_room_2
-    - sensor.water_sensor__sump_pump_2
+    - sensor.door_front_2
+    - sensor.door_garage_2
+    - sensor.door_garage_entry_2
+    - sensor.door_rear_stairs_2
+    - sensor.motion_hallway_2
+ #     - sensor.motion__hall
+    - sensor.motion_kitchen_2
+ #     - sensor.motion_kitchen
+    - sensor.motion_workshop_2
+ #     - sensor.motion_workshop
+    - sensor.motion_basement_2
+    - sensor.water_sensor_pool_room_2
+    - sensor.water_sensor_sump_pump_2
 
 batteries:
 #  view: true
   name: battery levels
   entities:
-    - sensor.door__front_3
-    - sensor.door__garage_3
-    - sensor.door__garage_entry_3
-    - sensor.door__rear_stairs_3
-    - sensor.motion__hallway_3
- #     - sensor.motion__hallway_2
- #     - sensor.motion__kitchen
-    - sensor.motion__kitchen_3
-    - sensor.motion__workshop_3
- #     - sensor.motion__workshop_2
-    - sensor.motion__basement_3
-    - sensor.water_sensor__pool_room_3
-    - sensor.water_sensor__sump_pump_3
+    - sensor.door_front_3
+    - sensor.door_garage_3
+    - sensor.door_garage_entry_3
+    - sensor.door_rear_stairs_3
+    - sensor.motion_hallway_3
+ #     - sensor.motion_hallway_2
+ #     - sensor.motion_kitchen
+    - sensor.motion_kitchen_3
+    - sensor.motion_workshop_3
+ #     - sensor.motion_workshop_2
+    - sensor.motion_basement_3
+    - sensor.water_sensor_pool_room_3
+    - sensor.water_sensor_sump_pump_3
 
 tlight1:
 #  view: true
@@ -219,21 +219,21 @@ stairway:
   name: stairs
   entities:
     - light.stairway
-    - light.stairwell__rear
+    - light.stairwell_rear
 
 power: 
   entities:
-    - sensor.outleta__workshop_2
-    - sensor.outletb__mancave_heater_2
-    - sensor.outletc__kitchen_2
+    - sensor.outlet_a_workshop_2
+    - sensor.outlet_b_rover_2
+    - sensor.outlet_c_kitchen_2
 
 motion_contact:
   name: motion contact
   entities:
-    - sensor.motion__hallway
-    - sensor.motion__kitchen
-    - sensor.motion__workshop
-    - sensor.motion__basement
+    - sensor.motion_hallway
+    - sensor.motion_kitchen
+    - sensor.motion_workshop
+    - sensor.motion_basement
 
 vswitch:
   name: virtual switches
@@ -249,9 +249,42 @@ vswitch:
 
 light_main:
   name: lights in main area
-  entities:
-    - light.hallway
+  entities:   
+    - light.bar1
+    - light.bar2
+    - light.bar3
+    - light.bar4
+    - light.hall1
+    - light.hall2
+    - light.hall3
+    - light.hall4
     - light.stairway
     - light.hutch_lamp
-    - light.stairwell__rear
-    - light.ge_link_flood__back_stairway
+    - light.stairwell_rear
+    - light.back_stairway
+
+bar:
+  name: bar lights
+  entities:   
+    - light.bar1
+    - light.bar2
+    - light.bar3
+    - light.bar4
+    - light.bar5
+    - light.bar6
+
+hall:
+  name: hall
+  entities:   
+    - light.hall1
+    - light.hall2
+    - light.hall3
+    - light.hall4
+
+bedroom:
+  name: bedroom
+  entities:
+    - light.dakota
+    - light.durango
+    - light.bedroom1
+    - light.bedroom2

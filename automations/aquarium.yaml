@@ -1,0 +1,47 @@
+- id: aquarium_on
+  alias: 'set aq_1'
+  trigger:
+    platform: state
+    entity_id: switch.aquarium
+    from: 'off'
+    to: 'on'
+  condition:
+  action:
+    service: switch.turn_on
+    entity_id: switch.aq_d1_relay_1
+
+- id: aquarium_off
+  alias: 'clear aq_1'
+  trigger:
+    platform: state
+    entity_id: switch.aquarium
+    from: 'on'
+    to: 'off'
+  condition: 
+  action:
+    service: switch.turn_off
+    entity_id: switch.aq_d1_relay_1
+
+- id: lava_on
+  alias: 'set aq_2'
+  trigger:
+    platform: state
+    entity_id: switch.lava
+    from: 'off'
+    to: 'on'
+  condition:
+  action:
+    service: switch.turn_on
+    entity_id: switch.aq_d2_relay_2
+
+- id: lava_off
+  alias: 'clear aq_2'
+  trigger:
+    platform: state
+    entity_id: switch.lava
+    from: 'on'
+    to: 'off'
+  condition: 
+  action:
+    service: switch.turn_off
+    entity_id: switch.aq_d2_relay_2

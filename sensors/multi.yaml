@@ -1,51 +1,51 @@
 #### MULTI SENSOR ####
 
   - platform: mqtt
-    name: "Door - Front"
-    state_topic: "smartthings/Door - Front/contact"
+    name: "Door_Front"
+    state_topic: "smartthings/Door_Front/contact"
   - platform: mqtt
-    name: "Door - Front"
-    state_topic: "smartthings/Door - Front/temperature"
+    name: "Door_Front"
+    state_topic: "smartthings/Door_Front/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door - Front"
-    state_topic: "smartthings/Door - Front/battery"
+    name: "Door_Front"
+    state_topic: "smartthings/Door_Front/battery"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    name: "Door_GarageEntry"
+    state_topic: "smartthings/Door_GarageEntry/contact"
+  - platform: mqtt
+    name: "Door_GarageEntry"
+    state_topic: "smartthings/Door_GarageEntry/temperature"
+    unit_of_measurement: "°F"
+  - platform: mqtt
+    name: "Door_GarageEntry"
+    state_topic: "smartthings/Door_GarageEntry/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Door - Garage Entry"
-    state_topic: "smartthings/Door - Garage Entry/contact"
+    name: "Door_Garage"
+    state_topic: "smartthings/Door_Garage/contact"
   - platform: mqtt
-    name: "Door - Garage Entry"
-    state_topic: "smartthings/Door - Garage Entry/temperature"
+    name: "Door_Garage"
+    state_topic: "smartthings/Door_Garage/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door - Garage Entry"
-    state_topic: "smartthings/Door - Garage Entry/battery"
+    name: "Door_Garage"
+    state_topic: "smartthings/Door_Garage/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Door - Garage"
-    state_topic: "smartthings/Door - Garage/contact"
+    name: "Door_Rear_Stairs"
+    state_topic: "smartthings/Door_Rear_Stairs/contact"
   - platform: mqtt
-    name: "Door - Garage"
-    state_topic: "smartthings/Door - Garage/temperature"
+    name: "Door_Rear Stairs"
+    state_topic: "smartthings/Door_Rear_Stairs/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door - Garage"
-    state_topic: "smartthings/Door - Garage/battery"
-    unit_of_measurement: "%"
-    
-  - platform: mqtt
-    name: "Door - Rear Stairs"
-    state_topic: "smartthings/Door - Rear Stairs/contact"
-  - platform: mqtt
-    name: "Door - Rear Stairs"
-    state_topic: "smartthings/Door - Rear Stairs/temperature"
-    unit_of_measurement: "°F"
-  - platform: mqtt
-    name: "Door - Rear Stairs"
-    state_topic: "smartthings/Door - Rear Stairs/battery"
+    name: "Door_Rear Stairs"
+    state_topic: "smartthings/Door_Rear_Stairs/battery"
     unit_of_measurement: "%"
     
 #### WATER SENSOR ####

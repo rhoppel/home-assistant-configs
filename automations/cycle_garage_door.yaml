@@ -1,0 +1,14 @@
+- id: cycle_garage_door
+  alias: 'cycle_garage_door'
+  trigger:
+    platform: state
+    entity_id: switch.kirk
+    to: 'on'
+  condition:
+  action:
+    - service: switch.turn_on
+      entity_id: switch.g_d1_relay
+    - delay:
+        milliseconds: 500
+    - service: switch.turn_off
+      entity_id: switch.g_d1_relay

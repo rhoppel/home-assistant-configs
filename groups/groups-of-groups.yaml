@@ -160,5 +160,6 @@ esp_menu:
   view: true
   icon: mdi:access-point
   entities:
-    - group.mancave_switch
-    - group.mancave_sensor
+    - group.wildcat
+    - group.aquarium
+    - group.garage

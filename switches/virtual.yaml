@@ -73,3 +73,21 @@
   payload_on: "on"
   payload_off: "off"
   retain: true
+
+- platform: mqtt
+  name: "Aquarium"
+  command_topic: "smartthings/Aquarium/switch"
+  state_topic: "smartthings/Aquarium/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Lava"
+  command_topic: "smartthings/Lava/switch"
+  state_topic: "smartthings/Lava/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true

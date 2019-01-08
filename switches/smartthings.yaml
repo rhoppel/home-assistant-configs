@@ -7,37 +7,28 @@
   payload_off: "off"
   retain: true
 
-#- platform: mqtt
-#  name: "Hallway"
-#  command_topic: "smartthings/Hallway/switch"
-#  state_topic: "smartthings/Hallway/switch"
-#  qos: 2
-#  payload_on: "on"
-#  payload_off: "off"
-#  retain: true
-
 - platform: mqtt
-  name: "Outlet(C) - Kitchen"
-  command_topic: "smartthings/Outlet(C) - Kitchen/switch"
-  state_topic: "smartthings/Outlet(C) - Kitchen/switch"
+  name: "Outlet_C_Kitchen"
+  command_topic: "smartthings/Outlet_C_Kitchen/switch"
+  state_topic: "smartthings/Outlet_C_Kitchen/switch"
   qos: 2
   payload_on: "on"
   payload_off: "off"
   retain: true
 
 - platform: mqtt
-  name: "Outlet(B) - ManCave Heater"
-  command_topic: "smartthings/Outlet(B) - ManCave Heater/switch"
-  state_topic: "smartthings/Outlet(B) - ManCave Heater/switch"
+  name: "Outlet_B_Rover"
+  command_topic: "smartthings/Outlet_B_Rover/switch"
+  state_topic: "smartthings/Outlet_B_Rover/switch"
   qos: 2
   payload_on: "on"
   payload_off: "off"
   retain: true
 
 - platform: mqtt
-  name: "Outlet(A) - Workshop"
-  command_topic: "smartthings/Outlet(A) - Workshop/switch"
-  state_topic: "smartthings/Outlet(A) - Workshop/switch"
+  name: "Outlet_A_Workshop"
+  command_topic: "smartthings/Outlet_A_Workshop/switch"
+  state_topic: "smartthings/Outlet_A_Workshop/switch"
   qos: 2
   payload_on: "on"
   payload_off: "off"

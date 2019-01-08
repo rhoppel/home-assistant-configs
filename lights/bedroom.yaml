@@ -1,0 +1,56 @@
+
+# Bedroom
+- platform: mqtt
+  name: "Bedroom"
+  command_topic: "smartthings/Bedroom/switch"
+  state_topic: "smartthings/Bedroom/switch"
+  brightness_command_topic: "smartthings/Bedroom/level"
+  brightness_state_topic: "smartthings/Bedroom/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Bedroom-1"
+  command_topic: "smartthings/Bedroom-1/switch"
+  state_topic: "smartthings/Bedroom-1/switch"
+  brightness_command_topic: "smartthings/Bedroom-1/level"
+  brightness_state_topic: "smartthings/Bedroom-1/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Bedroom-2"
+  command_topic: "smartthings/Bedroom-2/switch"
+  state_topic: "smartthings/Bedroom-2/switch"
+  brightness_command_topic: "smartthings/Bedroom-2/level"
+  brightness_state_topic: "smartthings/Bedroom-2/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Durango"
+  command_topic: "smartthings/Durango/switch"
+  state_topic: "smartthings/Durango/switch"
+  brightness_command_topic: "smartthings/Durango/level"
+  brightness_state_topic: "smartthings/Durango/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Dakota"
+  command_topic: "smartthings/Dakota/switch"
+  state_topic: "smartthings/Dakota/switch"
+  brightness_command_topic: "smartthings/Dakota/level"
+  brightness_state_topic: "smartthings/Dakota/level"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true

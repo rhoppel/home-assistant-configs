@@ -1,0 +1,16 @@
+#
+#    Hoppel Lodge Group
+#
+garage:
+  view: false
+  name: garage
+  entities:
+    - switch.g_d0
+    - switch.g_d1_relay
+    - switch.g_d2
+    - switch.g_d3
+    - switch.g_d4_led
+    - switch.g_d5
+    - switch.g_d6
+    - switch.g_d7
+    - switch.g_d8
