@@ -3,20 +3,20 @@
     name: "Outlet_C_Kitchen"
     state_topic: "smartthings/Outlet_C_Kitchen/switch"
   - platform: mqtt
-    name: "Outlet_C_Kitchen"
+    name: "Outlet_C_Kitchen_power"
     state_topic: "smartthings/Outlet_C_Kitchen/power"
     unit_of_measurement: "Watts"
   - platform: mqtt
     name: "Outlet_A_Workshop"
     state_topic: "smartthings/Outlet_A_Workshop/switch"
   - platform: mqtt
-    name: "Outlet_A_Workshop"
+    name: "Outlet_A_Workshop_power"
     state_topic: "smartthings/Outlet_A_Workshop/power"
     unit_of_measurement: "Watts"
   - platform: mqtt
     name: "Outlet_B_Rover"
     state_topic: "smartthings/Outlet_B_Rover/switch"
   - platform: mqtt
-    name: "Outlet_B_Rover"
+    name: "Outlet_B_Rover_power"
     state_topic: "smartthings/Outlet_B_Rover/power"
     unit_of_measurement: "Watts"

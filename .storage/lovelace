@@ -1,0 +1,2670 @@
+{
+    "data": {
+        "config": {
+            "title": "Home Assistant",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.disk_free_"
+                                },
+                                {
+                                    "entity": "sensor.disk_use_percent_home"
+                                },
+                                {
+                                    "entity": "sensor.memory_free"
+                                },
+                                {
+                                    "entity": "sensor.memory_use_percent"
+                                },
+                                {
+                                    "entity": "sensor.processor_use"
+                                },
+                                {
+                                    "entity": "sensor.last_boot"
+                                },
+                                {
+                                    "entity": "sensor.ipv6_address_enxb827eba48f5f"
+                                },
+                                {
+                                    "entity": "sensor.network_in_enxb827eba48f5f"
+                                },
+                                {
+                                    "entity": "sensor.ipv4_address_eth0"
+                                },
+                                {
+                                    "entity": "sensor.network_in_eth0"
+                                }
+                            ],
+                            "title": "system",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.weather_temperature",
+                                "sensor.weather_in_1_hours_precipitation",
+                                "sensor.weather_precipitation",
+                                "sun.sun",
+                                "sensor.moon"
+                            ],
+                            "title": "environment",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.set_theme_at_startup"
+                                },
+                                {
+                                    "entity": "automation.table_slider"
+                                },
+                                {
+                                    "entity": "automation.hass_theme"
+                                },
+                                {
+                                    "entity": "automation.clear_aq_1"
+                                },
+                                {
+                                    "entity": "automation.clear_aq_2"
+                                },
+                                {
+                                    "entity": "automation.clear_d3"
+                                },
+                                {
+                                    "entity": "automation.set_aq_1"
+                                },
+                                {
+                                    "entity": "automation.set_aq_2"
+                                },
+                                {
+                                    "entity": "automation.set_d3"
+                                },
+                                {
+                                    "entity": "automation.cycle_garage_door"
+                                },
+                                {
+                                    "entity": "automation.set_theme_at_startup"
+                                },
+                                {
+                                    "entity": "automation.wildcat_node"
+                                }
+                            ],
+                            "title": "all automations",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                },
+                                {
+                                    "entity": "light.bedroom1"
+                                },
+                                {
+                                    "entity": "light.bedroom2"
+                                },
+                                {
+                                    "entity": "light.bar1"
+                                },
+                                {
+                                    "entity": "light.bar2"
+                                },
+                                {
+                                    "entity": "light.bar3"
+                                },
+                                {
+                                    "entity": "light.bar4"
+                                },
+                                {
+                                    "entity": "light.bar5"
+                                },
+                                {
+                                    "entity": "light.bar6"
+                                },
+                                {
+                                    "entity": "light.hall1"
+                                },
+                                {
+                                    "entity": "light.hall2"
+                                },
+                                {
+                                    "entity": "light.hall3"
+                                },
+                                {
+                                    "entity": "light.hall4"
+                                },
+                                {
+                                    "entity": "light.deck__bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck__bedroom_2"
+                                },
+                                {
+                                    "entity": "light.deck__rear"
+                                },
+                                {
+                                    "entity": "light.desk1"
+                                },
+                                {
+                                    "entity": "light.desk2"
+                                },
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                },
+                                {
+                                    "entity": "light.hall"
+                                },
+                                {
+                                    "entity": "light.hall1"
+                                },
+                                {
+                                    "entity": "light.hall2"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.tgreen"
+                                },
+                                {
+                                    "entity": "light.tgreen2"
+                                },
+                                {
+                                    "entity": "light.tred"
+                                },
+                                {
+                                    "entity": "light.tred2"
+                                },
+                                {
+                                    "entity": "light.tyellow"
+                                },
+                                {
+                                    "entity": "light.tyellow2"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "all lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.dark_sky_icon",
+                                "sensor.dark_sky_icon_0",
+                                "sensor.dark_sky_icon_1",
+                                "sensor.dark_sky_icon_2",
+                                "sensor.dark_sky_icon_3",
+                                "sensor.dark_sky_icon_4",
+                                "sensor.dark_sky_icon_5",
+                                "sensor.dark_sky_summary",
+                                "sensor.dark_sky_summary_0",
+                                "sensor.dark_sky_summary_1",
+                                "sensor.dark_sky_summary_2",
+                                "sensor.dark_sky_summary_3",
+                                "sensor.dark_sky_summary_4",
+                                "sensor.dark_sky_summary_5",
+                                "sensor.dark_sky_temperature",
+                                "sensor.dark_sky_temperature_0",
+                                "sensor.dark_sky_temperature_1",
+                                "sensor.dark_sky_temperature_2",
+                                "sensor.dark_sky_temperature_3",
+                                "sensor.dark_sky_temperature_4",
+                                "sensor.dark_sky_temperature_5"
+                            ],
+                            "title": "Dark Sky forecast",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.aeon_labs_siren_gen_5",
+                                "sensor.aeon_labs_siren_gen_5"
+                            ],
+                            "title": "siren",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.spotlights"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "sensor.spotlights"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                }
+                            ],
+                            "title": "basement lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.karen_hoppels_android",
+                                "sensor.richard_hoppels_android"
+                            ],
+                            "title": "presence",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.lodge_thermostat_humidity",
+                                "sensor.lodge_thermostat_hvac_state",
+                                "sensor.lodge_thermostat_operation_mode",
+                                "sensor.lodge_thermostat_temperature",
+                                "sensor.lodge_thermostat_target",
+                                "binary_sensor.hoppellodge__away",
+                                "binary_sensor.lodge_thermostat_fan",
+                                "binary_sensor.lodge_thermostat_has_leaf",
+                                "binary_sensor.lodge_thermostat_is_using_emergency_heat",
+                                "binary_sensor.lodge_thermostat_online",
+                                "binary_sensor.lodge_thermostat_is_locked",
+                                "sensor.hoppellodge__eta"
+                            ],
+                            "title": "nest",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.lodge",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                }
+                            ],
+                            "title": "workshop",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                            ],
+                            "title": "smoke alarm",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.door_front_contact",
+                                "sensor.door_front_temp",
+                                "sensor.door_front_battery",
+                                "sensor.door_garage_contact",
+                                "sensor.door_garage_temp",
+                                "sensor.door_garage_battery",
+                                "sensor.door_garageentry_contact",
+                                "sensor.door_garageentry_temp",
+                                "sensor.door_garageentry_battery",
+                                "sensor.door_rear_stairs_contact",
+                                "sensor.door_rear_stairs_temp",
+                                "sensor.door_rear_stairs_battery"
+                            ],
+                            "title": "doors - all sensors",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.door_front_contact",
+                                "sensor.door_garage_contact",
+                                "sensor.door_garageentry_contact",
+                                "sensor.door_rear_stairs_contact"
+                            ],
+                            "title": "door contacts",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "water - all sensors",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_water"
+                                }
+                            ],
+                            "title": "water present",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_battery"
+                                }
+                            ],
+                            "title": "motion",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.entrance",
+                                "light.deck__rear",
+                                "light.deck__bedroom_1",
+                                "light.deck__bedroom_2"
+                            ],
+                            "title": "outside",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.desk1"
+                                },
+                                {
+                                    "entity": "light.desk2"
+                                },
+                                {
+                                    "entity": "light.hall1"
+                                },
+                                {
+                                    "entity": "light.hall2"
+                                },
+                                {
+                                    "entity": "input_number.dimmer"
+                                }
+                            ],
+                            "title": "kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "switch.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover_power"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                }
+                            ],
+                            "title": "outlets",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_temperature"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                }
+                            ],
+                            "title": "temperature",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_front_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "battery levels",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.tred",
+                                "light.tyellow",
+                                "light.tgreen"
+                            ],
+                            "title": "traffic light porch",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.tred2",
+                                "light.tyellow2",
+                                "light.tgreen2"
+                            ],
+                            "title": "traffic light LodgeRoom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                }
+                            ],
+                            "title": "stairs",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                }
+                            ],
+                            "title": "power",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_motion"
+                                }
+                            ],
+                            "title": "motion contact",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.virtual_switch_1",
+                                "switch.spock",
+                                "switch.kirk",
+                                "switch.sulu",
+                                "switch.scotty",
+                                "switch.bones",
+                                "switch.k9",
+                                "switch.tardis"
+                            ],
+                            "title": "virtual switches",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.hall"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                }
+                            ],
+                            "title": "lights in main area",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "switch.aq_d0"
+                                },
+                                {
+                                    "entity": "switch.aq_d1_relay_1"
+                                },
+                                {
+                                    "entity": "switch.aq_d2_relay_2"
+                                },
+                                {
+                                    "entity": "switch.aq_d3_relay_3"
+                                },
+                                {
+                                    "entity": "switch.aq_d4_led"
+                                },
+                                {
+                                    "entity": "switch.aq_d5"
+                                },
+                                {
+                                    "entity": "switch.aq_d6"
+                                },
+                                {
+                                    "entity": "switch.aq_d7"
+                                },
+                                {
+                                    "entity": "switch.aq_d8"
+                                },
+                                {
+                                    "entity": "switch.aquarium"
+                                },
+                                {
+                                    "entity": "switch.bones"
+                                },
+                                {
+                                    "entity": "switch.g_d0"
+                                },
+                                {
+                                    "entity": "switch.g_d1_relay"
+                                },
+                                {
+                                    "entity": "switch.g_d2"
+                                },
+                                {
+                                    "entity": "switch.g_d3"
+                                },
+                                {
+                                    "entity": "switch.g_d4_led"
+                                },
+                                {
+                                    "entity": "switch.g_d5"
+                                },
+                                {
+                                    "entity": "switch.g_d6"
+                                },
+                                {
+                                    "entity": "switch.g_d7"
+                                },
+                                {
+                                    "entity": "switch.g_d8"
+                                },
+                                {
+                                    "entity": "switch.k9"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                },
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "switch.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "switch.scotty"
+                                },
+                                {
+                                    "entity": "switch.spock"
+                                },
+                                {
+                                    "entity": "switch.spotlights"
+                                },
+                                {
+                                    "entity": "switch.sulu"
+                                },
+                                {
+                                    "entity": "switch.tardis"
+                                },
+                                {
+                                    "entity": "switch.virtual_switch_1"
+                                },
+                                {
+                                    "entity": "switch.w_d0"
+                                },
+                                {
+                                    "entity": "switch.w_d1_button"
+                                },
+                                {
+                                    "entity": "switch.w_d4_led"
+                                },
+                                {
+                                    "entity": "switch.w_d5"
+                                },
+                                {
+                                    "entity": "switch.w_d6"
+                                },
+                                {
+                                    "entity": "switch.w_d7"
+                                },
+                                {
+                                    "entity": "switch.w_d8"
+                                },
+                                {
+                                    "entity": "light.wildcat_fastled"
+                                }
+                            ],
+                            "title": "all switches",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "camera.raspi3a_office",
+                                "camera.raspi3b_demo"
+                            ],
+                            "title": "Camera",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "input_select.hass_theme"
+                            ],
+                            "title": "Input select",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.ghome_bedroom",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.bedroom",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.office",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.workshopaudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.roveraudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.ghome_kitchen",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.lodgeroomaudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.hoppellodge",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.ghome_workshop",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.basement",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.plasmatv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.lodge",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.mancave_audio",
+                            "type": "media-control"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.dark_sky_temperature"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_0"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_1"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_2"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_3"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_4"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_5"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_0"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_1"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_2"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_3"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_4"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_5"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_0"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_1"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_2"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_3"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_4"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature_5"
+                                }
+                            ],
+                            "title": "Dark Sky forecast",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.weather_temperature",
+                                "sensor.weather_in_1_hours_precipitation",
+                                "sensor.weather_precipitation",
+                                "sun.sun",
+                                "sensor.moon"
+                            ],
+                            "title": "environment",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:weather-partlycloudy",
+                    "path": "envr_menu",
+                    "title": "environment"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.desk1"
+                                },
+                                {
+                                    "entity": "light.desk2"
+                                },
+                                {
+                                    "entity": "light.kitchenhall1"
+                                },
+                                {
+                                    "entity": "light.kitchenhall2"
+                                },
+                                {
+                                    "entity": "input_number.dimmer"
+                                }
+                            ],
+                            "title": "kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.door_front_contact",
+                                "sensor.door_front_temp",
+                                "sensor.door_front_battery",
+                                "sensor.door_garage_contact",
+                                "sensor.door_garage_temp",
+                                "sensor.door_garage_battery",
+                                "sensor.door_garageentry_contact",
+                                "sensor.door_garageentry_temp",
+                                "sensor.door_garageentry_battery",
+                                "sensor.door_rear_stairs_contact",
+                                "sensor.door_rear_stairs_temp",
+                                "sensor.door_rear_stairs_battery"
+                            ],
+                            "title": "doors - all sensors",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "camera.raspi2b_sump"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                }
+                            ],
+                            "title": "sump/utilities",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.deck__rear"
+                                },
+                                {
+                                    "entity": "light.deck__bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck__bedroom_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                }
+                            ],
+                            "title": "outside",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "group.bar"
+                                },
+                                {
+                                    "entity": "group.hall"
+                                }
+                            ],
+                            "title": "lights in main area",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.spotlights"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "sensor.spotlights"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "media_player.basement_2"
+                                },
+                                {
+                                    "entity": "media_player.mancave_audio"
+                                },
+                                {
+                                    "entity": "media_player.office"
+                                },
+                                {
+                                    "entity": "media_player.ghome_bedroom"
+                                }
+                            ],
+                            "title": "basement",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.bedroom"
+                                },
+                                {
+                                    "entity": "light.bedroom1"
+                                },
+                                {
+                                    "entity": "light.bedroom2"
+                                },
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                },
+                                {
+                                    "entity": "media_player.ghome_bedroom"
+                                },
+                                {
+                                    "entity": "media_player.bedroom"
+                                }
+                            ],
+                            "title": "bedroom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "media_player.ghome_workshop"
+                                },
+                                {
+                                    "entity": "media_player.workshopaudio"
+                                }
+                            ],
+                            "title": "workshop",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                },
+                                {
+                                    "entity": "group.water"
+                                },
+                                {
+                                    "entity": "group.water_present"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "utility",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "areas",
+                    "title": "areas"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.lodge",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.bedroom",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.office",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.plasmatv",
+                            "type": "media-control"
+                        }
+                    ],
+                    "icon": "mdi:television",
+                    "path": "video",
+                    "title": "video"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.ghome_workshop",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.basement",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.ghome_bedroom",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.hoppellodge",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.ghome_kitchen",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.lodgeroomaudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.mancave_audio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.roveraudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.workshopaudio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.garage_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.basement_2",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.sun_room_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.upstairs",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.wholehouse",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.main_display",
+                            "type": "media-control"
+                        }
+                    ],
+                    "icon": "mdi:google-home",
+                    "path": "audio",
+                    "title": "audio"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.hall"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                }
+                            ],
+                            "title": "lights in main area",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.entrance",
+                                "light.deck__rear",
+                                "light.deck__bedroom_1",
+                                "light.deck__bedroom_2"
+                            ],
+                            "title": "outside",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.desk1"
+                                },
+                                {
+                                    "entity": "light.desk2"
+                                },
+                                {
+                                    "entity": "light.hall1"
+                                },
+                                {
+                                    "entity": "light.hall2"
+                                },
+                                {
+                                    "entity": "input_number.dimmer"
+                                }
+                            ],
+                            "title": "kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                }
+                            ],
+                            "title": "stairs",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.tred",
+                                "light.tyellow",
+                                "light.tgreen"
+                            ],
+                            "title": "traffic light [porch]",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.tred2",
+                                "light.tyellow2",
+                                "light.tgreen2"
+                            ],
+                            "title": "traffic light LodgeRoom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.spotlights"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "sensor.spotlights"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                }
+                            ],
+                            "title": "basement lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "light.tred",
+                            "type": "entity-button"
+                        },
+                        {
+                            "content": "## Lovelace\nStarting with Home Assistant 0.72, we're experimenting with a new way of defining your interface. We're calling it the **Lovelace UI**.\n",
+                            "type": "markdown"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.bedroom"
+                                },
+                                {
+                                    "entity": "light.bedroom1"
+                                },
+                                {
+                                    "entity": "light.bedroom2"
+                                },
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                },
+                                {
+                                    "entity": "media_player.ghome_bedroom"
+                                },
+                                {
+                                    "entity": "media_player.bedroom"
+                                }
+                            ],
+                            "title": "bedroom",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:lightbulb-on-outline",
+                    "path": "light_menu",
+                    "title": "lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "camera.front_yard"
+                                },
+                                {
+                                    "entity": "camera.raspi2a_workshop"
+                                },
+                                {
+                                    "entity": "camera.raspi2b_sump"
+                                },
+                                {
+                                    "entity": "camera.raspi3a_office"
+                                },
+                                {
+                                    "entity": "camera.raspi3b_demo"
+                                }
+                            ],
+                            "title": "Camera",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:camera",
+                    "path": "cameras",
+                    "title": "cameras"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_water"
+                                }
+                            ],
+                            "title": "water present",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_contact"
+                                }
+                            ],
+                            "title": "door contacts",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                            ],
+                            "title": "smoke alarm",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.aeon_labs_siren_gen_5",
+                                "sensor.aeon_labs_siren_gen_5"
+                            ],
+                            "title": "siren",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.karen_hoppels_android",
+                                "sensor.richard_hoppels_android"
+                            ],
+                            "title": "presence",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.virtual_switch_1",
+                                "switch.spock",
+                                "switch.kirk",
+                                "switch.sulu",
+                                "switch.scotty",
+                                "switch.bones",
+                                "switch.k9",
+                                "switch.tardis"
+                            ],
+                            "title": "virtual switches",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_motion"
+                                }
+                            ],
+                            "title": "motion contact",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_contact"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_motion"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                                }
+                            ],
+                            "title": "security",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:toggle-switch",
+                    "path": "contact",
+                    "title": "contacts"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.motion_hallway_motion",
+                                "sensor.motion_kitchen_motion",
+                                "sensor.motion_workshop_motion",
+                                "sensor.motion_basement_motion",
+                                "sensor.motion_hallway_temp",
+                                "sensor.motion_kitchen_temp",
+                                "sensor.motion_workshop_temp",
+                                "sensor.motion_basement_temp",
+                                "sensor.motion_hallway_battery",
+                                "sensor.motion_kitchen_battery",
+                                "sensor.motion_workshop_battery",
+                                "sensor.motion_basement_battery"
+                            ],
+                            "title": "motion",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_temperature"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                }
+                            ],
+                            "title": "temperature",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.door_front_contact",
+                                "sensor.door_garage_contact",
+                                "sensor.door_garageentry_contact",
+                                "sensor.door_rear_stairs_contact",
+                                "sensor.door_front_temp",
+                                "sensor.door_garage_temp",
+                                "sensor.door_garageentry_temp",
+                                "sensor.door_rear_stairs_temp",
+                                "sensor.door_front_battery",
+                                "sensor.door_garage_battery",
+                                "sensor.door_garageentry_battery",
+                                "sensor.door_rear_stairs_battery"
+                            ],
+                            "title": "doors - all sensors",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "switch.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                }
+                            ],
+                            "title": "outlets",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                            ],
+                            "title": "smoke alarm",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_water"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "water - all sensors",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:view-module",
+                    "path": "modules",
+                    "title": "modules"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.lodge_thermostat_humidity",
+                                "sensor.lodge_thermostat_hvac_state",
+                                "sensor.lodge_thermostat_operation_mode",
+                                "sensor.lodge_thermostat_temperature",
+                                "sensor.lodge_thermostat_target",
+                                "binary_sensor.hoppellodge__away",
+                                "binary_sensor.lodge_thermostat_fan",
+                                "binary_sensor.lodge_thermostat_has_leaf",
+                                "binary_sensor.lodge_thermostat_is_using_emergency_heat",
+                                "binary_sensor.lodge_thermostat_online",
+                                "binary_sensor.lodge_thermostat_is_locked",
+                                "sensor.hoppellodge__eta"
+                            ],
+                            "title": "nest",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.lodge",
+                            "type": "thermostat"
+                        }
+                    ],
+                    "icon": "mdi:thermostat",
+                    "path": "nest",
+                    "title": "nest"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.deck__bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck__bedroom_2"
+                                },
+                                {
+                                    "entity": "light.deck__rear"
+                                },
+                                {
+                                    "entity": "light.desk1"
+                                },
+                                {
+                                    "entity": "light.desk2"
+                                },
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utilityroom"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "light.hall"
+                                },
+                                {
+                                    "entity": "light.hall1"
+                                },
+                                {
+                                    "entity": "light.hall2"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rearstairway"
+                                },
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.tgreen"
+                                },
+                                {
+                                    "entity": "light.tgreen2"
+                                },
+                                {
+                                    "entity": "light.tred"
+                                },
+                                {
+                                    "entity": "light.tred2"
+                                },
+                                {
+                                    "entity": "light.tyellow"
+                                },
+                                {
+                                    "entity": "light.tyellow2"
+                                }
+                            ],
+                            "title": "all lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "switch.aq_d0"
+                                },
+                                {
+                                    "entity": "switch.aq_d1_relay_1"
+                                },
+                                {
+                                    "entity": "switch.aq_d2_relay_2"
+                                },
+                                {
+                                    "entity": "switch.aq_d3_relay_3"
+                                },
+                                {
+                                    "entity": "switch.aq_d4_led"
+                                },
+                                {
+                                    "entity": "switch.aq_d5"
+                                },
+                                {
+                                    "entity": "switch.aq_d6"
+                                },
+                                {
+                                    "entity": "switch.aq_d7"
+                                },
+                                {
+                                    "entity": "switch.aq_d8"
+                                },
+                                {
+                                    "entity": "switch.aquarium"
+                                },
+                                {
+                                    "entity": "switch.bones"
+                                },
+                                {
+                                    "entity": "switch.g_d0"
+                                },
+                                {
+                                    "entity": "switch.g_d1_relay"
+                                },
+                                {
+                                    "entity": "switch.g_d2"
+                                },
+                                {
+                                    "entity": "switch.g_d3"
+                                },
+                                {
+                                    "entity": "switch.g_d4_led"
+                                },
+                                {
+                                    "entity": "switch.g_d5"
+                                },
+                                {
+                                    "entity": "switch.g_d6"
+                                },
+                                {
+                                    "entity": "switch.g_d7"
+                                },
+                                {
+                                    "entity": "switch.g_d8"
+                                },
+                                {
+                                    "entity": "switch.k9"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                },
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "switch.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "switch.scotty"
+                                },
+                                {
+                                    "entity": "switch.spock"
+                                },
+                                {
+                                    "entity": "switch.spotlights"
+                                },
+                                {
+                                    "entity": "switch.sulu"
+                                },
+                                {
+                                    "entity": "switch.tardis"
+                                },
+                                {
+                                    "entity": "switch.virtual_switch_1"
+                                },
+                                {
+                                    "entity": "switch.w_d0"
+                                },
+                                {
+                                    "entity": "switch.w_d1_relay"
+                                },
+                                {
+                                    "entity": "switch.w_d2"
+                                },
+                                {
+                                    "entity": "switch.w_d3"
+                                },
+                                {
+                                    "entity": "switch.w_d4_led"
+                                },
+                                {
+                                    "entity": "switch.w_d5"
+                                },
+                                {
+                                    "entity": "switch.w_d6"
+                                },
+                                {
+                                    "entity": "switch.w_d7"
+                                },
+                                {
+                                    "entity": "switch.w_d8"
+                                },
+                                {
+                                    "entity": "light.wildcat_fastled"
+                                }
+                            ],
+                            "title": "all switches",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "automation.set_theme_at_startup",
+                                "automation.table_slider",
+                                "automation.hass_theme"
+                            ],
+                            "title": "all automations",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:all-inclusive",
+                    "path": "all",
+                    "title": "all"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_front_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "battery levels",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_temperature"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                }
+                            ],
+                            "title": "temperature",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.motion_hallway_motion",
+                                "sensor.motion_hallway_temp",
+                                "sensor.motion_hallway_battery",
+                                "sensor.motion_kitchen_motion",
+                                "sensor.motion_kitchen_temp",
+                                "sensor.motion_kitchen_battery",
+                                "sensor.motion_workshop_motion",
+                                "sensor.motion_workshop_temp",
+                                "sensor.motion_workshop_battery",
+                                "sensor.motion_basement_motion",
+                                "sensor.motion_basement_temp",
+                                "sensor.motion_basement_battery"
+                            ],
+                            "title": "motion",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                }
+                            ],
+                            "title": "power",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.door_front_contact",
+                                "sensor.door_front_temp",
+                                "sensor.door_front_battery",
+                                "sensor.door_garage_contact",
+                                "sensor.door_garage_temp",
+                                "sensor.door_garage_battery",
+                                "sensor.door_garageentry_contact",
+                                "sensor.door_garageentry_temp",
+                                "sensor.door_garageentry_battery",
+                                "sensor.door_rear_stairs_contact",
+                                "sensor.door_rear_stairs_temp",
+                                "sensor.door_rear_stairs_battery"
+                            ],
+                            "title": "doors - all sensors",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "",
+                    "path": "st_modules",
+                    "title": "sensors"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_temperature"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temp"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temp"
+                                }
+                            ],
+                            "title": "temperature",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:temperature-fahrenheit",
+                    "path": "tempr_menu",
+                    "title": "temperatures"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_front_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_battery"
+                                }
+                            ],
+                            "title": "battery levels",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:battery-charging-50",
+                    "path": "battery_menu",
+                    "title": "battery levels"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "switch.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "sensor.outlet_a_workshop_power"
+                                },
+                                {
+                                    "entity": "sensor.outlet_b_rover"
+                                },
+                                {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                }
+                            ],
+                            "title": "outlets",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:power-socket-us",
+                    "path": "power_menu",
+                    "title": "power"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.disk_free_"
+                                },
+                                {
+                                    "entity": "sensor.disk_use_percent_home"
+                                },
+                                {
+                                    "entity": "sensor.memory_free"
+                                },
+                                {
+                                    "entity": "sensor.memory_use_percent"
+                                },
+                                {
+                                    "entity": "sensor.processor_use"
+                                },
+                                {
+                                    "entity": "sensor.last_boot"
+                                },
+                                {
+                                    "entity": "sensor.ipv6_address_enxb827eba48f5f"
+                                },
+                                {
+                                    "entity": "sensor.network_in_enxb827eba48f5f"
+                                },
+                                {
+                                    "entity": "sensor.ipv4_address_eth0"
+                                },
+                                {
+                                    "entity": "sensor.network_in_eth0"
+                                }
+                            ],
+                            "title": "system",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:server-network",
+                    "path": "system_menu",
+                    "title": "system"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.g_d0"
+                                },
+                                {
+                                    "entity": "switch.g_d1_relay"
+                                },
+                                {
+                                    "entity": "switch.g_d2"
+                                },
+                                {
+                                    "entity": "switch.g_d3"
+                                },
+                                {
+                                    "entity": "switch.g_d4_led"
+                                },
+                                {
+                                    "entity": "switch.g_d5"
+                                },
+                                {
+                                    "entity": "switch.g_d6"
+                                },
+                                {
+                                    "entity": "switch.g_d7"
+                                },
+                                {
+                                    "entity": "switch.g_d8"
+                                }
+                            ],
+                            "title": "garage",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.aq_d0"
+                                },
+                                {
+                                    "entity": "switch.aq_d1_relay_1"
+                                },
+                                {
+                                    "entity": "switch.aq_d2_relay_2"
+                                },
+                                {
+                                    "entity": "switch.aq_d3_relay_3"
+                                },
+                                {
+                                    "entity": "switch.aq_d4_led"
+                                },
+                                {
+                                    "entity": "switch.aq_d5"
+                                },
+                                {
+                                    "entity": "switch.aq_d6"
+                                },
+                                {
+                                    "entity": "switch.aq_d7"
+                                },
+                                {
+                                    "entity": "switch.aq_d8"
+                                },
+                                {
+                                    "entity": "switch.lava"
+                                },
+                                {
+                                    "entity": "switch.aquarium"
+                                }
+                            ],
+                            "title": "aquarium",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.w_d0"
+                                },
+                                {
+                                    "entity": "switch.w_d1_button"
+                                },
+                                {
+                                    "entity": "binary_sensor.wildcat_button"
+                                },
+                                {
+                                    "entity": "switch.w_d4_led"
+                                },
+                                {
+                                    "entity": "switch.w_d5"
+                                },
+                                {
+                                    "entity": "switch.w_d6"
+                                },
+                                {
+                                    "entity": "switch.w_d7"
+                                },
+                                {
+                                    "entity": "switch.w_d8"
+                                },
+                                {
+                                    "entity": "sensor.temp_lodge"
+                                },
+                                {
+                                    "entity": "light.wildcat_fastled"
+                                }
+                            ],
+                            "title": "wildcat",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:access-point",
+                    "path": "esp_menu",
+                    "title": "ESP8266"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.motion__basement_2",
+                            "graph": "line",
+                            "hours_to_show": 24,
+                            "type": "sensor"
+                        },
+                        {
+                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n",
+                            "type": "markdown"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.all"
+                                },
+                                {
+                                    "entity": "group.all_automations"
+                                },
+                                {
+                                    "entity": "group.all_lights"
+                                },
+                                {
+                                    "entity": "group.all_switches"
+                                },
+                                {
+                                    "entity": "group.aquarium"
+                                },
+                                {
+                                    "entity": "group.areas"
+                                },
+                                {
+                                    "entity": "group.audio"
+                                },
+                                {
+                                    "entity": "group.bar"
+                                },
+                                {
+                                    "entity": "group.basement"
+                                },
+                                {
+                                    "entity": "group.batteries"
+                                },
+                                {
+                                    "entity": "group.battery_menu"
+                                },
+                                {
+                                    "entity": "group.bedroom"
+                                },
+                                {
+                                    "entity": "group.cameras"
+                                },
+                                {
+                                    "entity": "group.contact"
+                                },
+                                {
+                                    "entity": "group.dark_sky"
+                                },
+                                {
+                                    "entity": "group.door"
+                                },
+                                {
+                                    "entity": "group.door_contact"
+                                },
+                                {
+                                    "entity": "group.environment"
+                                },
+                                {
+                                    "entity": "group.envr_menu"
+                                },
+                                {
+                                    "entity": "group.esp_menu"
+                                },
+                                {
+                                    "entity": "group.garage"
+                                },
+                                {
+                                    "entity": "group.hall"
+                                },
+                                {
+                                    "entity": "group.kitchen"
+                                },
+                                {
+                                    "entity": "group.light_main"
+                                },
+                                {
+                                    "entity": "group.light_main"
+                                },
+                                {
+                                    "entity": "group.light_menu"
+                                },
+                                {
+                                    "entity": "group.modules"
+                                },
+                                {
+                                    "entity": "group.motion"
+                                },
+                                {
+                                    "entity": "group.motion_contact"
+                                },
+                                {
+                                    "entity": "group.nest"
+                                },
+                                {
+                                    "entity": "group.nest_device"
+                                },
+                                {
+                                    "entity": "group.outlet"
+                                },
+                                {
+                                    "entity": "group.outside"
+                                },
+                                {
+                                    "entity": "group.power"
+                                },
+                                {
+                                    "entity": "group.power_menu"
+                                },
+                                {
+                                    "entity": "group.presence"
+                                },
+                                {
+                                    "entity": "group.siren"
+                                },
+                                {
+                                    "entity": "group.smoke"
+                                },
+                                {
+                                    "entity": "group.st_modules"
+                                },
+                                {
+                                    "entity": "group.stairway"
+                                },
+                                {
+                                    "entity": "group.system"
+                                },
+                                {
+                                    "entity": "group.system_menu"
+                                },
+                                {
+                                    "entity": "group.temperature"
+                                },
+                                {
+                                    "entity": "group.tempr_menu"
+                                },
+                                {
+                                    "entity": "group.tlight1"
+                                },
+                                {
+                                    "entity": "group.tlight2"
+                                },
+                                {
+                                    "entity": "group.utility"
+                                },
+                                {
+                                    "entity": "group.video"
+                                },
+                                {
+                                    "entity": "group.vswitch"
+                                },
+                                {
+                                    "entity": "group.water"
+                                },
+                                {
+                                    "entity": "group.water_present"
+                                },
+                                {
+                                    "entity": "group.weather"
+                                },
+                                {
+                                    "entity": "group.wildcat"
+                                },
+                                {
+                                    "entity": "group.workshop"
+                                }
+                            ],
+                            "title": "groups",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:star",
+                    "title": "MyTab"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.aeon_labs_siren_gen_5",
+                                "sensor.aeon_labs_siren_gen_5",
+                                "switch.kirk",
+                                "sensor.door_garage",
+                                "sensor.door_front",
+                                "sensor.door_garageentry",
+                                "sensor.door_rear_stairs",
+                                "sensor.motion_hallway",
+                                "sensor.motion_kitchen",
+                                "sensor.motion_workshop",
+                                "sensor.motion_basement",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
+                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                            ],
+                            "title": "security",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:security",
+                    "path": "security_menu",
+                    "title": "Security"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "mdi: shield-home",
+                    "title": "Security"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

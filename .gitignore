@@ -5,7 +5,7 @@ deps/
 *SAVE*
 tts/
 .storage/
-.storage/
+.storage/.storage
 .storage.bak/
 .uuid
 *.swp

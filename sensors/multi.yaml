@@ -1,74 +1,74 @@
 #### MULTI SENSOR ####
 
   - platform: mqtt
-    name: "Door_Front"
+    name: "Door_Front_contact"
     state_topic: "smartthings/Door_Front/contact"
   - platform: mqtt
-    name: "Door_Front"
+    name: "Door_Front_temp"
     state_topic: "smartthings/Door_Front/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door_Front"
+    name: "Door_Front_battery"
     state_topic: "smartthings/Door_Front/battery"
     unit_of_measurement: "%"
   
   - platform: mqtt
-    name: "Door_GarageEntry"
+    name: "Door_GarageEntry_contact"
     state_topic: "smartthings/Door_GarageEntry/contact"
   - platform: mqtt
-    name: "Door_GarageEntry"
+    name: "Door_GarageEntry_temp"
     state_topic: "smartthings/Door_GarageEntry/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door_GarageEntry"
+    name: "Door_GarageEntry_battery"
     state_topic: "smartthings/Door_GarageEntry/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Door_Garage"
+    name: "Door_Garage_contact"
     state_topic: "smartthings/Door_Garage/contact"
   - platform: mqtt
-    name: "Door_Garage"
+    name: "Door_Garage_temp"
     state_topic: "smartthings/Door_Garage/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door_Garage"
+    name: "Door_Garage_battery"
     state_topic: "smartthings/Door_Garage/battery"
     unit_of_measurement: "%"
     
   - platform: mqtt
-    name: "Door_Rear_Stairs"
+    name: "Door_Rear_Stairs_contact"
     state_topic: "smartthings/Door_Rear_Stairs/contact"
   - platform: mqtt
-    name: "Door_Rear Stairs"
+    name: "Door_Rear_Stairs_temp"
     state_topic: "smartthings/Door_Rear_Stairs/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Door_Rear Stairs"
+    name: "Door_Rear_Stairs_battery"
     state_topic: "smartthings/Door_Rear_Stairs/battery"
     unit_of_measurement: "%"
     
 #### WATER SENSOR ####
   - platform: mqtt
-    name: "Water Sensor - Sump Pump"
-    state_topic: "smartthings/Water Sensor - Sump Pump/water"
+    name: "Water_Sensor_Pool_Pump_water"
+    state_topic: "smartthings/Water_Sensor_Pool_Pump/water"
   - platform: mqtt
-    name: "Water Sensor - Sump Pump"
-    state_topic: "smartthings/Water Sensor - Sump Pump/temperature"
+    name: "Water_Sensor_Pool_Pump_temp"
+    state_topic: "smartthings/Water_Sensor_Pool_Pump/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Water Sensor - Sump Pump"
-    state_topic: "smartthings/Water Sensor - Sump Pump/battery"
+    name: "Water_Sensor_Pool_Pump_battery"
+    state_topic: "smartthings/Water_Sensor_Pool_Pump/battery"
     unit_of_measurement: "%"
 
   - platform: mqtt
-    name: "Water Sensor - Pool Room"
-    state_topic: "smartthings/Water Sensor - Pool Room/water"
+    name: "Water_Sensor_Sump_water"
+    state_topic: "smartthings/Water_Sensor_Sump/water"
   - platform: mqtt
-    name: "Water Sensor - Pool Room"
-    state_topic: "smartthings/Water Sensor - Pool Room/temperature"
+    name: "Water_Sensor_Sump_temp"
+    state_topic: "smartthings/Water_Sensor_Sump/temperature"
     unit_of_measurement: "°F"
   - platform: mqtt
-    name: "Water Sensor - Pool Room"
-    state_topic: "smartthings/Water Sensor - Pool Room/battery"
+    name: "Water_Sensor_Sump_battery"
+    state_topic: "smartthings/Water_Sensor_Sump/battery"
     unit_of_measurement: "%"

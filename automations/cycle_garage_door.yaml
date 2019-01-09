@@ -12,3 +12,5 @@
         milliseconds: 500
     - service: switch.turn_off
       entity_id: switch.g_d1_relay
+    - service: switch.turn_off
+      entity_id: switch.kirk
