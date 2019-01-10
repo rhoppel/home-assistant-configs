@@ -52,35 +52,35 @@ workshop:
   entities:
     - camera.raspi2a_workshop
     - sensor.motion_workshop
-    - sensor.motion_workshop_2
-    - sensor.motion_workshop_3
+    - sensor.motion_workshop_temp
+    - sensor.motion_workshop_battery
     - switch.outlet_a_workshop
     - sensor.outlet_a_workshop
-    - sensor.outlet_a_workshop_2
+    - sensor.outlet_a_workshop_temp
 
 smoke:
   name: smoke alarm
   entities:
     - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo
-    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2
-    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3
+    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_temp
+    - sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_battery
 
 door:
 #  view: true
   name: doors - all sensors
   entities:
     - sensor.door_front
-    - sensor.door_front_2
-    - sensor.door_front_3
+    - sensor.door_front_temp
+    - sensor.door_front_battery
     - sensor.door_garage
-    - sensor.door_garage_2
-    - sensor.door_garage_3
+    - sensor.door_garage_temp
+    - sensor.door_garage_battery
     - sensor.door_garage_entry
-    - sensor.door_garage_entry_2
-    - sensor.door_garage_entry_3
+    - sensor.door_garage_entry_temp
+    - sensor.door_garage_entry_battery
     - sensor.door_rear_stairs
-    - sensor.door_rear_stairs_2
-    - sensor.door_rear_stairs_3
+    - sensor.door_rear_stairs_temp
+    - sensor.door_rear_stairs_battery
 
 door_contact:
   name: door contacts
@@ -95,11 +95,11 @@ water:
   name: water - all sensors
   entities:
     - sensor.water_sensor__pool_room
-    - sensor.water_sensor__pool_room_2
-    - sensor.water_sensor__pool_room_3
+    - sensor.water_sensor__pool_room_temp
+    - sensor.water_sensor__pool_room_battery
     - sensor.water_sensor__sump_pump
-    - sensor.water_sensor__sump_pump_2
-    - sensor.water_sensor__sump_pump_3
+    - sensor.water_sensor__sump_pump_temp
+    - sensor.water_sensor__sump_pump_battery
 
 water_present:
 #  view: true
@@ -113,17 +113,17 @@ motion:
   name: motion
   entities:
     - sensor.motion_hallway
-    - sensor.motion_hallway_2
-    - sensor.motion_hallway_3
+    - sensor.motion_hallway_temp
+    - sensor.motion_hallway_battery
     - sensor.motion_kitchen
-    - sensor.motion_kitchen_2
-    - sensor.motion_kitchen_3
+    - sensor.motion_kitchen_temp
+    - sensor.motion_kitchen_battery
     - sensor.motion_workshop
-    - sensor.motion_workshop_2
-    - sensor.motion_workshop_3
+    - sensor.motion_workshop_temp
+    - sensor.motion_workshop_battery
     - sensor.motion_basement
-    - sensor.motion_basement_2
-    - sensor.motion_basement_3
+    - sensor.motion_basement_temp
+    - sensor.motion_basement_battery
 
 outside:
 #  view: true
@@ -153,50 +153,47 @@ outlet:
   entities:
     - switch.outlet_a_workshop
     - sensor.outlet_a_workshop
-    - sensor.outlet_a_workshop_2
+    - sensor.outlet_a_workshop_power
     - switch.outlet_b_rover
     - sensor.outlet_b_rover
-    - sensor.outlet_b_rover_2
+    - sensor.outlet_b_rover_power
     - switch.outlet_c_kitchen
     - sensor.outlet_c_kitchen
-    - sensor.outlet_c_kitchen_2
+    - sensor.outlet_c_kitchen_power
 
 temperature:
 #  view: true
   name: temperature
   entities:
     - sensor.weather_temperature
-    - sensor.door_front_2
-    - sensor.door_garage_2
-    - sensor.door_garage_entry_2
-    - sensor.door_rear_stairs_2
-    - sensor.motion_hallway_2
+    - sensor.door_front_temp
+    - sensor.door_garage_temp
+    - sensor.door_garage_entry_temp
+    - sensor.door_rear_stairs_temp
+    - sensor.motion_hallway_temp
  #     - sensor.motion__hall
-    - sensor.motion_kitchen_2
+    - sensor.motion_kitchen_temp
  #     - sensor.motion_kitchen
-    - sensor.motion_workshop_2
+    - sensor.motion_workshop_temp
  #     - sensor.motion_workshop
-    - sensor.motion_basement_2
-    - sensor.water_sensor_pool_room_2
-    - sensor.water_sensor_sump_pump_2
+    - sensor.motion_basement_temp
+    - sensor.water_sensor_pool_room_temp
+    - sensor.water_sensor_sump_pump_temp
 
 batteries:
 #  view: true
   name: battery levels
   entities:
-    - sensor.door_front_3
-    - sensor.door_garage_3
-    - sensor.door_garage_entry_3
-    - sensor.door_rear_stairs_3
-    - sensor.motion_hallway_3
- #     - sensor.motion_hallway_2
- #     - sensor.motion_kitchen
-    - sensor.motion_kitchen_3
-    - sensor.motion_workshop_3
- #     - sensor.motion_workshop_2
-    - sensor.motion_basement_3
-    - sensor.water_sensor_pool_room_3
-    - sensor.water_sensor_sump_pump_3
+    - sensor.door_front_battery
+    - sensor.door_garage_battery
+    - sensor.door_garage_entry_battery
+    - sensor.door_rear_stairs_battery
+    - sensor.motion_hallway_battery
+    - sensor.motion_kitchen_battery
+    - sensor.motion_workshop_battery
+    - sensor.motion_basement_battery
+    - sensor.water_sensor_pool_room_battery
+    - sensor.water_sensor_sump_pump_battery
 
 tlight1:
 #  view: true
@@ -223,9 +220,9 @@ stairway:
 
 power: 
   entities:
-    - sensor.outlet_a_workshop_2
-    - sensor.outlet_b_rover_2
-    - sensor.outlet_c_kitchen_2
+    - sensor.outlet_a_workshop_power
+    - sensor.outlet_b_rover_power
+    - sensor.outlet_c_kitchen_power
 
 motion_contact:
   name: motion contact

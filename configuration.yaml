@@ -95,7 +95,7 @@ tts:
   - platform: google
 
 # Cloud
-cloud:
+#cloud:
 
 mqtt:
   broker:  192.168.111.250
@@ -116,6 +116,10 @@ input_number:
 # !include_dir_merge_list will return the content of a directory as a list by merging all files (which should contain a list) into 1 big list.
 # !include_dir_merge_named will return the content of a directory as a dictionary by loading each file and merging it into 1 big dictionary.
 
+weather: 
+  - platform: darksky
+    api_key: !secret darksky_password
+    
 #group:      !include groups.yaml
 group:      !include_dir_merge_named groups
 automation: !include_dir_merge_list automations

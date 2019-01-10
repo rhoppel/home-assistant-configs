@@ -7,9 +7,199 @@
                     "badges": [],
                     "cards": [
                         {
+                            "entity": "light.durango",
+                            "name": "Durango",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.dakota",
+                            "name": "Dakota",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.table",
+                            "name": "Table",
+                            "type": "light"
+                        },
+                        {
+                            "card": {
+                                "entities": [
+                                    {
+                                        "entity": "automation.cycle_garage_door"
+                                    },
+                                    {
+                                        "entity": "switch.g_d1_relay"
+                                    },
+                                    {
+                                        "entity": "switch.kirk"
+                                    }
+                                ],
+                                "title": "Conditional Controls",
+                                "type": "entities"
+                            },
+                            "conditions": [
+                                {
+                                    "entity": "sensor.door_garage_contact",
+                                    "state": "open"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "XXXXXXXXX",
+                            "type": "conditional"
+                        },
+                        {
+                            "card": {
+                                "title": "Lights-ON",
+                                "type": "entities"
+                            },
                             "entities": [
                                 {
-                                    "entity": "sensor.disk_free_"
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                },
+                                {
+                                    "entity": "light.bedroom_1"
+                                },
+                                {
+                                    "entity": "light.bedroom_2"
+                                },
+                                {
+                                    "entity": "light.bar_1"
+                                },
+                                {
+                                    "entity": "light.bar_2"
+                                },
+                                {
+                                    "entity": "light.bar_3"
+                                },
+                                {
+                                    "entity": "light.bar_4"
+                                },
+                                {
+                                    "entity": "light.bar_5"
+                                },
+                                {
+                                    "entity": "light.bar_6"
+                                },
+                                {
+                                    "entity": "light.hall_1"
+                                },
+                                {
+                                    "entity": "light.hall_2"
+                                },
+                                {
+                                    "entity": "light.hall_3"
+                                },
+                                {
+                                    "entity": "light.hall_4"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_2"
+                                },
+                                {
+                                    "entity": "light.deck_rear"
+                                },
+                                {
+                                    "entity": "light.desk_1"
+                                },
+                                {
+                                    "entity": "light.desk_2"
+                                },
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utility_room"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rear_stairway"
+                                },
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.tgreen"
+                                },
+                                {
+                                    "entity": "light.tgreen2"
+                                },
+                                {
+                                    "entity": "light.tred"
+                                },
+                                {
+                                    "entity": "light.tred2"
+                                },
+                                {
+                                    "entity": "light.tyellow"
+                                },
+                                {
+                                    "entity": "light.tyellow2"
+                                },
+                                {
+                                    "type": "divider"
+                                },
+                                {
+                                    "entity": "switch.lava"
+                                },
+                                {
+                                    "entity": "switch.aquarium"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "state_filter": [
+                                "on",
+                                "open"
+                            ],
+                            "title": "????",
+                            "type": "entity-filter"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.g_d1_relay",
+                                    "name": "Toggle Garage Door"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:lightbulb-on",
+                    "title": "Lights :ON\"",
+                    "type": "horizontal-stack"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.disk_free"
                                 },
                                 {
                                     "entity": "sensor.disk_use_percent_home"
@@ -104,55 +294,55 @@
                                     "entity": "light.durango"
                                 },
                                 {
-                                    "entity": "light.bedroom1"
+                                    "entity": "light.bedroom_1"
                                 },
                                 {
-                                    "entity": "light.bedroom2"
+                                    "entity": "light.bedroom_2"
                                 },
                                 {
-                                    "entity": "light.bar1"
+                                    "entity": "light.bar_1"
                                 },
                                 {
-                                    "entity": "light.bar2"
+                                    "entity": "light.bar_2"
                                 },
                                 {
-                                    "entity": "light.bar3"
+                                    "entity": "light.bar_3"
                                 },
                                 {
-                                    "entity": "light.bar4"
+                                    "entity": "light.bar_4"
                                 },
                                 {
-                                    "entity": "light.bar5"
+                                    "entity": "light.bar_5"
                                 },
                                 {
-                                    "entity": "light.bar6"
+                                    "entity": "light.bar_6"
                                 },
                                 {
-                                    "entity": "light.hall1"
+                                    "entity": "light.hall_1"
                                 },
                                 {
-                                    "entity": "light.hall2"
+                                    "entity": "light.hall_2"
                                 },
                                 {
-                                    "entity": "light.hall3"
+                                    "entity": "light.hall_3"
                                 },
                                 {
-                                    "entity": "light.hall4"
+                                    "entity": "light.hall_4"
                                 },
                                 {
-                                    "entity": "light.deck__bedroom_1"
+                                    "entity": "light.deck_bedroom_1"
                                 },
                                 {
-                                    "entity": "light.deck__bedroom_2"
+                                    "entity": "light.deck_bedroom_2"
                                 },
                                 {
-                                    "entity": "light.deck__rear"
+                                    "entity": "light.deck_rear"
                                 },
                                 {
-                                    "entity": "light.desk1"
+                                    "entity": "light.desk_1"
                                 },
                                 {
-                                    "entity": "light.desk2"
+                                    "entity": "light.desk_2"
                                 },
                                 {
                                     "entity": "light.entrance"
@@ -161,16 +351,7 @@
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
-                                },
-                                {
-                                    "entity": "light.hall"
-                                },
-                                {
-                                    "entity": "light.hall1"
-                                },
-                                {
-                                    "entity": "light.hall2"
+                                    "entity": "light.utility_room"
                                 },
                                 {
                                     "entity": "light.hutch_lamp"
@@ -185,7 +366,7 @@
                                     "entity": "light.stairway"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "light.table"
@@ -260,13 +441,13 @@
                                     "entity": "sensor.spotlights"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
+                                    "entity": "light.utility_room"
                                 }
                             ],
                             "title": "basement lights",
@@ -274,8 +455,12 @@
                         },
                         {
                             "entities": [
-                                "sensor.karen_hoppels_android",
-                                "sensor.richard_hoppels_android"
+                                {
+                                    "entity": "sensor.karen_hoppel_s_android"
+                                },
+                                {
+                                    "entity": "sensor.richard_hoppel_s_android"
+                                }
                             ],
                             "title": "presence",
                             "type": "entities"
@@ -443,10 +628,18 @@
                         },
                         {
                             "entities": [
-                                "light.entrance",
-                                "light.deck__rear",
-                                "light.deck__bedroom_1",
-                                "light.deck__bedroom_2"
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.deck_rear"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_2"
+                                }
                             ],
                             "title": "outside",
                             "type": "entities"
@@ -460,16 +653,16 @@
                                     "entity": "light.pantry"
                                 },
                                 {
-                                    "entity": "light.desk1"
+                                    "entity": "light.desk_1"
                                 },
                                 {
-                                    "entity": "light.desk2"
+                                    "entity": "light.desk_2"
                                 },
                                 {
-                                    "entity": "light.hall1"
+                                    "entity": "light.hall_1"
                                 },
                                 {
-                                    "entity": "light.hall2"
+                                    "entity": "light.hall_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -610,7 +803,7 @@
                                     "entity": "light.stairway"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 }
                             ],
                             "title": "stairs",
@@ -673,9 +866,6 @@
                                 },
                                 {
                                     "entity": "light.hutch_lamp"
-                                },
-                                {
-                                    "entity": "light.rearstairway"
                                 }
                             ],
                             "title": "lights in main area",
@@ -883,6 +1073,26 @@
                     "badges": [],
                     "cards": [
                         {
+                            "entity": "weather.dark_sky",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                "sensor.weather_temperature",
+                                "sensor.weather_in_1_hours_precipitation",
+                                "sensor.weather_precipitation",
+                                "sun.sun",
+                                "sensor.moon"
+                            ],
+                            "title": "environment",
+                            "type": "entities"
+                        },
+                        {
+                            "aspect_ratio": "120%",
+                            "type": "iframe",
+                            "url": "https://www.wunderground.com/personal-weather-station/dashboard?ID=KILLIBER6"
+                        },
+                        {
                             "entities": [
                                 {
                                     "entity": "sensor.dark_sky_temperature"
@@ -950,17 +1160,6 @@
                             ],
                             "title": "Dark Sky forecast",
                             "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                "sensor.weather_temperature",
-                                "sensor.weather_in_1_hours_precipitation",
-                                "sensor.weather_precipitation",
-                                "sun.sun",
-                                "sensor.moon"
-                            ],
-                            "title": "environment",
-                            "type": "entities"
                         }
                     ],
                     "icon": "mdi:weather-partlycloudy",
@@ -979,16 +1178,16 @@
                                     "entity": "light.pantry"
                                 },
                                 {
-                                    "entity": "light.desk1"
+                                    "entity": "light.desk_1"
                                 },
                                 {
-                                    "entity": "light.desk2"
+                                    "entity": "light.desk_2"
                                 },
                                 {
-                                    "entity": "light.kitchenhall1"
+                                    "entity": "light.kitchen_hall_1"
                                 },
                                 {
-                                    "entity": "light.kitchenhall2"
+                                    "entity": "light.kitchen_hall_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -1024,7 +1223,7 @@
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
+                                    "entity": "light.utility_room"
                                 }
                             ],
                             "title": "sump/utilities",
@@ -1036,13 +1235,13 @@
                                     "entity": "light.entrance"
                                 },
                                 {
-                                    "entity": "light.deck__rear"
+                                    "entity": "light.deck_rear"
                                 },
                                 {
-                                    "entity": "light.deck__bedroom_1"
+                                    "entity": "light.deck_bedroom_1"
                                 },
                                 {
-                                    "entity": "light.deck__bedroom_2"
+                                    "entity": "light.deck_bedroom_2"
                                 },
                                 {
                                     "entity": "sensor.door_garage_contact"
@@ -1087,7 +1286,7 @@
                                     "entity": "sensor.spotlights"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "media_player.basement_2"
@@ -1108,13 +1307,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.bedroom"
+                                    "entity": "light.bedroom_1"
                                 },
                                 {
-                                    "entity": "light.bedroom1"
-                                },
-                                {
-                                    "entity": "light.bedroom2"
+                                    "entity": "light.bedroom_2"
                                 },
                                 {
                                     "entity": "light.dakota"
@@ -1168,7 +1364,7 @@
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
+                                    "entity": "light.utility_room"
                                 },
                                 {
                                     "entity": "group.water"
@@ -1314,10 +1510,18 @@
                         },
                         {
                             "entities": [
-                                "light.entrance",
-                                "light.deck__rear",
-                                "light.deck__bedroom_1",
-                                "light.deck__bedroom_2"
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.deck_rear"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_2"
+                                }
                             ],
                             "title": "outside",
                             "type": "entities"
@@ -1331,16 +1535,16 @@
                                     "entity": "light.pantry"
                                 },
                                 {
-                                    "entity": "light.desk1"
+                                    "entity": "light.desk_1"
                                 },
                                 {
-                                    "entity": "light.desk2"
+                                    "entity": "light.desk_2"
                                 },
                                 {
-                                    "entity": "light.hall1"
+                                    "entity": "light.kitchen_hall_1"
                                 },
                                 {
-                                    "entity": "light.hall2"
+                                    "entity": "light.kitchen_hall_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -1355,7 +1559,7 @@
                                     "entity": "light.stairway"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 }
                             ],
                             "title": "stairs",
@@ -1391,20 +1595,20 @@
                                     "entity": "sensor.spotlights"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
+                                    "entity": "light.utility_room"
                                 }
                             ],
                             "title": "basement lights",
                             "type": "entities"
                         },
                         {
-                            "entity": "light.tred",
+                            "entity": "light.tred2",
                             "type": "entity-button"
                         },
                         {
@@ -1414,13 +1618,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.bedroom"
+                                    "entity": "light.bedroom_1"
                                 },
                                 {
-                                    "entity": "light.bedroom1"
-                                },
-                                {
-                                    "entity": "light.bedroom2"
+                                    "entity": "light.bedroom_2"
                                 },
                                 {
                                     "entity": "light.dakota"
@@ -1437,6 +1638,32 @@
                             ],
                             "title": "bedroom",
                             "type": "entities"
+                        },
+                        {
+                            "card": {
+                                "title": "Bedroom-Lights-On",
+                                "type": "entities"
+                            },
+                            "entities": [
+                                {
+                                    "entity": "light.bedroom_1"
+                                },
+                                {
+                                    "entity": "light.bedroom_2"
+                                },
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                }
+                            ],
+                            "show_empty": true,
+                            "state_filter": [
+                                "on"
+                            ],
+                            "title": "Lights \"ON\"",
+                            "type": "entity-filter"
                         }
                     ],
                     "icon": "mdi:lightbulb-on-outline",
@@ -1524,8 +1751,12 @@
                         },
                         {
                             "entities": [
-                                "sensor.karen_hoppels_android",
-                                "sensor.richard_hoppels_android"
+                                {
+                                    "entity": "sensor.karen_hoppel_s_android"
+                                },
+                                {
+                                    "entity": "sensor.richard_hoppel_s_android"
+                                }
                             ],
                             "title": "presence",
                             "type": "entities"
@@ -1797,19 +2028,19 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.deck__bedroom_1"
+                                    "entity": "light.deck_bedroom_1"
                                 },
                                 {
-                                    "entity": "light.deck__bedroom_2"
+                                    "entity": "light.deck_bedroom_2"
                                 },
                                 {
-                                    "entity": "light.deck__rear"
+                                    "entity": "light.deck_rear"
                                 },
                                 {
-                                    "entity": "light.desk1"
+                                    "entity": "light.desk_1"
                                 },
                                 {
-                                    "entity": "light.desk2"
+                                    "entity": "light.desk_2"
                                 },
                                 {
                                     "entity": "light.entrance"
@@ -1818,19 +2049,43 @@
                                     "entity": "light.sump"
                                 },
                                 {
-                                    "entity": "light.utilityroom"
+                                    "entity": "light.utility_room"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "light.hall"
                                 },
                                 {
-                                    "entity": "light.hall1"
+                                    "entity": "light.hall_1"
                                 },
                                 {
-                                    "entity": "light.hall2"
+                                    "entity": "light.hall_2"
+                                },
+                                {
+                                    "entity": "light.hall_3"
+                                },
+                                {
+                                    "entity": "light.hall_4"
+                                },
+                                {
+                                    "entity": "light.bar_1"
+                                },
+                                {
+                                    "entity": "light.bar_2"
+                                },
+                                {
+                                    "entity": "light.bar_3"
+                                },
+                                {
+                                    "entity": "light.bar_4"
+                                },
+                                {
+                                    "entity": "light.bar_5"
+                                },
+                                {
+                                    "entity": "light.bar_6"
                                 },
                                 {
                                     "entity": "light.hutch_lamp"
@@ -1845,7 +2100,7 @@
                                     "entity": "light.stairway"
                                 },
                                 {
-                                    "entity": "light.rearstairway"
+                                    "entity": "light.rear_stairway"
                                 },
                                 {
                                     "entity": "light.table"
@@ -2261,19 +2516,19 @@
                                     "entity": "sensor.outlet_a_workshop"
                                 },
                                 {
-                                    "entity": "sensor.outlet_b_rover_power"
+                                    "entity": "sensor.outlet_b_rover"
                                 },
                                 {
                                     "entity": "sensor.outlet_c_kitchen"
                                 },
                                 {
+                                    "entity": "sensor.outlet_c_kitchen_power"
+                                },
+                                {
                                     "entity": "sensor.outlet_a_workshop_power"
                                 },
                                 {
-                                    "entity": "sensor.outlet_b_rover"
-                                },
-                                {
-                                    "entity": "sensor.outlet_c_kitchen_power"
+                                    "entity": "sensor.outlet_b_rover_power"
                                 }
                             ],
                             "title": "outlets",
@@ -2290,7 +2545,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.disk_free_"
+                                    "entity": "sensor.disk_free"
                                 },
                                 {
                                     "entity": "sensor.disk_use_percent_home"
@@ -2447,12 +2702,6 @@
                 {
                     "badges": [],
                     "cards": [
-                        {
-                            "entity": "sensor.motion__basement_2",
-                            "graph": "line",
-                            "hours_to_show": 24,
-                            "type": "sensor"
-                        },
                         {
                             "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n",
                             "type": "markdown"
@@ -2624,6 +2873,151 @@
                             ],
                             "title": "groups",
                             "type": "entities"
+                        },
+                        {
+                            "aspect_ratio": "120%",
+                            "type": "iframe",
+                            "url": "https://www.wunderground.com/personal-weather-station/dashboard?ID=KILLIBER6"
+                        },
+                        {
+                            "card": {
+                                "title": "Bedroom-Lights-On",
+                                "type": "entities"
+                            },
+                            "entities": [
+                                {
+                                    "entity": "light.bedroom_1"
+                                },
+                                {
+                                    "entity": "light.bedroom_2"
+                                },
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                }
+                            ],
+                            "show_empty": true,
+                            "state_filter": [
+                                "on"
+                            ],
+                            "type": "entity-filter"
+                        },
+                        {
+                            "card": {
+                                "name": "All-lights-ON-XXX",
+                                "type": "entities"
+                            },
+                            "entities": [
+                                {
+                                    "entity": "light.dakota"
+                                },
+                                {
+                                    "entity": "light.durango"
+                                },
+                                {
+                                    "entity": "light.bedroom_1"
+                                },
+                                {
+                                    "entity": "light.bedroom_2"
+                                },
+                                {
+                                    "entity": "light.bar_1"
+                                },
+                                {
+                                    "entity": "light.bar_2"
+                                },
+                                {
+                                    "entity": "light.bar_3"
+                                },
+                                {
+                                    "entity": "light.bar_4"
+                                },
+                                {
+                                    "entity": "light.bar_5"
+                                },
+                                {
+                                    "entity": "light.bar_6"
+                                },
+                                {
+                                    "entity": "light.hall_1"
+                                },
+                                {
+                                    "entity": "light.hall_2"
+                                },
+                                {
+                                    "entity": "light.hall_3"
+                                },
+                                {
+                                    "entity": "light.hall_4"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_1"
+                                },
+                                {
+                                    "entity": "light.deck_bedroom_2"
+                                },
+                                {
+                                    "entity": "light.deck_rear"
+                                },
+                                {
+                                    "entity": "light.desk_1"
+                                },
+                                {
+                                    "entity": "light.desk_2"
+                                },
+                                {
+                                    "entity": "light.entrance"
+                                },
+                                {
+                                    "entity": "light.sump"
+                                },
+                                {
+                                    "entity": "light.utility_room"
+                                },
+                                {
+                                    "entity": "light.hutch_lamp"
+                                },
+                                {
+                                    "entity": "light.pantry"
+                                },
+                                {
+                                    "entity": "light.spotlights"
+                                },
+                                {
+                                    "entity": "light.stairway"
+                                },
+                                {
+                                    "entity": "light.rear_stairway"
+                                },
+                                {
+                                    "entity": "light.table"
+                                },
+                                {
+                                    "entity": "light.tgreen"
+                                },
+                                {
+                                    "entity": "light.tgreen2"
+                                },
+                                {
+                                    "entity": "light.tred"
+                                },
+                                {
+                                    "entity": "light.tred2"
+                                },
+                                {
+                                    "entity": "light.tyellow"
+                                },
+                                {
+                                    "entity": "light.tyellow2"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "state_filter": [
+                                "on"
+                            ],
+                            "type": "entity-filter"
                         }
                     ],
                     "icon": "mdi:star",
@@ -2634,19 +3028,45 @@
                     "cards": [
                         {
                             "entities": [
-                                "switch.aeon_labs_siren_gen_5",
-                                "sensor.aeon_labs_siren_gen_5",
-                                "switch.kirk",
-                                "sensor.door_garage",
-                                "sensor.door_front",
-                                "sensor.door_garageentry",
-                                "sensor.door_rear_stairs",
-                                "sensor.motion_hallway",
-                                "sensor.motion_kitchen",
-                                "sensor.motion_workshop",
-                                "sensor.motion_basement",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                },
+                                {
+                                    "entity": "switch.kirk"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_contact"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_motion"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                                }
                             ],
                             "title": "security",
                             "type": "entities"
@@ -2659,8 +3079,7 @@
                 {
                     "badges": [],
                     "cards": [],
-                    "icon": "mdi: shield-home",
-                    "title": "Security"
+                    "title": "TEMP"
                 }
             ]
         }

@@ -27,7 +27,6 @@ video:
   entities:
     - media_player.lodge
     - media_player.bedroom
-    - media_player.bedroom_2
     - media_player.office
     - media_player.plasmatv
     - media_player.kitchen
