@@ -3,11 +3,37 @@
     name: HASS Themes
     options:
       - default
-#      - solarized
+#      - solarized 
+      - carbon-green      
+      - 'Dark - Blue/Purple'
+      - 'dark - Blue'
+      - 'Dark - Cyan'
+      - 'Gray & Green'
+      - 'Dark - Green'
+      - 'Dark - Orange'
+      - 'Dark - Purple'
+      - 'Dark - Yellow'
+      - 'Light - Blue'
+      - 'Light - Cyan'
+      - 'Light - Green'
+      - 'Light - Navy Blue'
+      - 'Light - Orange'
+      - 'Light - Purple'
+      - 'Light - Yellow'
+      - 'Navy Blue & Yellow'
       - solarized2
       - wood
       - vintage
       - pmxmonolight
+#      - minimal
+#     - oxfordblue
+#     - oxforddark
+#     - stormyhues
+#     - teal
+#     - darkred
+#     - darkorange
+#     - darkycyan
+#     - darkblue
     initial: default
     icon: mdi:theme-light-dark
 

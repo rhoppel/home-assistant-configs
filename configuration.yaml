@@ -66,7 +66,7 @@ discovery:
 
 #    
 # Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
+#conversation:
 
 #device_tracker:
 #  - platform: google_maps
@@ -119,10 +119,14 @@ input_number:
 weather: 
   - platform: darksky
     api_key: !secret darksky_password
-    
+
+shopping_list:
+
 #group:      !include groups.yaml
 group:      !include_dir_merge_named groups
-automation: !include_dir_merge_list automations
+automation old: !include_dir_merge_list automations
+#automation: !include_dir_merge_list automations
+automation: !include automations.yaml
 script:     !include_dir_merge_list scripts
 sensor:     !include_dir_merge_list sensors
 light:      !include_dir_merge_list lights
