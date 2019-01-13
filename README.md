@@ -24,6 +24,9 @@
 ### Recent Changes
 
 - [12/7/2018] Initial implementation
+- [1/9/2019]  Fixed MQTT problems with modules having multiple sensors by modifying the "name" for each sensor instance instead of the same "name" for each sensor (eg. contact, temperature, battery)
+- [1/9/2019]  Implemented Lovelace UI
+- [1/9/2019]  add remote node devices:  aquarium, garage, wildcat
 
 ### Synopsis
 
@@ -63,47 +66,23 @@ Node.js app which integrates SmartThings and MQTT
 
 #### configuration
 
-- __automations.yaml__ : dimmer slider implementation
+- __Archive/:__ obsolete files
+- __automation/*.yaml__ : automations
 - __cameras.yaml__:  IP camera support
 - __configuration.yaml:__ main configuration, references all yaml configs
 - __customize.yaml:__ not used at this time 
-- __groups.yaml:__ creates menu grouping using entities
+- __groupsg/*.yaml:__ creates menu grouping using entities
 - __inputs-select.yaml__ : theme selection 
-- __lights.yaml:__ switch or dimming lights
+- __lights/*.yaml:__ switch or dimming lights
+- __logs/:__ saved logs
 - __secrets.yaml:__ stores passwords
-- __scripts.yaml;__ not used at this time
-- __sensors.yaml:__ motion, water, contact, temperature sensors
-- __switches.yaml:__ outlets based switches
+- __scripts/*.yaml;__ not used at this time
+- __sensors/*.yaml:__ motion, water, contact, temperature sensors
+- __switches/*.yaml:__ outlets based switches
 - __mqtt-topics:__ list of SmartThings MQTT topics
 - __plex.conf:__ plex media player config [not working]
-- __state.json:__ mqtt topics and saved state for a restartBB 
-
-#### Anomalies
-
-- groups.yaml: modified to accomodate the following
-- enity instantiation: HA is not consistent with entities with the same name
-  - HA has an algorhthm for instantiating entities with the same name
-  - example:  this specific anomaly will cycle between different motion entities
-
-##### MOTION DETECTOR  yaml configuration
-
-    - platform: mqtt
-      name: "Motion - Kitchen"
-      state_topic: "smartthings/Motion - Kitchen/motion"
-    - platform: mqtt
-      name: "Motion - Kitchen"
-      state_topic: "smartthings/Motion - Kitchen/temperature"
-      unit_of_measurement: "°F"
-    - platform: mqtt
-      name: "Motion - Kitchen"
-      state_topic: "smartthings/Motion - Kitchen/battery"
-      unit_of_measurement: "%"
-
-##### Entity Instantiation for above in order
-
-- sensor.motion__kitchen [anomaly: temperature; should be: detection]
-- sensor.motion__kitchen_2 [anomaly: battery; should be: temperature]
-- sensor.motion__kitchen_3 [anomaly: detection; should be: battery]
+- __.storage/lovelace:__  lovelace UI in json
+- __themes/:__  themes for home assistant
 
 ## Screenshots
 
