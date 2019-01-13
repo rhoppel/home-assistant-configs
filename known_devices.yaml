@@ -1,0 +1,32 @@
+
+192_168_111_238_d0_13_fd_f1_a4_cb:
+  hide_if_away: false
+  icon: mdi:account
+  mac: 192.168.111.238_D0:13:FD:F1:A4:CB
+  name: 'Nexus5x:Rick'
+  picture:
+  track: true
+
+192_168_111_238_f4_f5_d8_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.238_F4:F5:D8:C0:5E:87
+  name: 192.168.111.238 f4:f5:d8:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_240_20_df_b9_2b_05_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_20:DF:B9:2B:05:A1
+  name: 192.168.111.240 20:df:b9:2b:05:a1
+  picture:
+  track: true
+
+192_168_111_238_b0_2a_43_91_66_6d:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.238_B0:2A:43:91:66:6D
+  name: 192.168.111.238 b0:2a:43:91:66:6d
+  picture:
+  track: true

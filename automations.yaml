@@ -1,0 +1,94 @@
+- id: '55845160'
+  alias: testme
+  trigger:
+  - entity_id: switch.sulu
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.scotty
+    service: switch.turn_on
+  - delay: 00:00:03
+  - data:
+      entity_id: switch.scotty
+    service: switch.turn_off
+  - data:
+      entity_id: switch.sulu
+    service: switch.turn_off
+- id: aquarium_on
+  alias: aquarium_on
+  trigger:
+  - entity_id: switch.aquarium
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.aq_d1_relay_1
+    service: switch.turn_on
+- id: aquarium_off
+  alias: aquarium_off
+  trigger:
+  - entity_id: switch.aquarium
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.aq_d1_relay_1
+    service: switch.turn_off
+- id: lava_on
+  alias: lava_on
+  trigger:
+  - entity_id: switch.lava
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.aq_d2_relay_2
+    service: switch.turn_on
+- id: lava_off
+  alias: lava_off
+  trigger:
+  - entity_id: switch.lava
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.aq_d2_relay_2
+    service: switch.turn_off
+- id: spock_on
+  alias: spock_on
+  trigger:
+  - entity_id: switch.spock
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+#      entity_id: light.hutch_lamp
+#    service: light.turn_on
+      entity_id: switch.aq_d2_relay_2
+    service: switch.turn_on
+- id: spock_off
+  alias: spock_off
+  trigger:
+  - entity_id: switch.spock
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+#      entity_id: light.hutch_lamp
+#    service: light.turn_off
+      entity_id: switch.aq_d2_relay_2
+    service: switch.turn_off
