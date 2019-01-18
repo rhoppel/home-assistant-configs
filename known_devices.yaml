@@ -30,3 +30,317 @@
   name: 192.168.111.238 b0:2a:43:91:66:6d
   picture:
   track: true
+
+192_168_111_242_f4_f5_d8_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.242_F4:F5:D8:C0:5E:87
+  name: 192.168.111.242 f4:f5:d8:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_237_d0_13_fd_f1_a4_cb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_D0:13:FD:F1:A4:CB
+  name: 'Nexus5x:Rick'
+#  name: 192.168.111.237 d0:13:fd:f1:a4:cb
+  picture:
+  track: true
+
+192_168_111_239_d0_13_fd_f1_a4_cb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.239_D0:13:FD:F1:A4:CB
+  name: 'Nexus5x:Rick'
+#  name: 192.168.111.239 d0:13:fd:f1:a4:cb
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_237_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_1C:F2:9A:1B:10:B6
+  name: 192.168.111.237 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_242_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.242_1C:F2:9A:1B:10:B6
+  name: 192.168.111.242 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_239_b0_2a_43_91_66_6d:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.239_B0:2A:43:91:66:6D
+  name: 192.168.111.239 b0:2a:43:91:66:6d
+  picture:
+  track: true
+
+192_168_111_237_b0_2a_43_7b_ae_e9:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_B0:2A:43:7B:AE:E9
+  name: 192.168.111.237 b0:2a:43:7b:ae:e9
+  picture:
+  track: true
+
+192_168_111_238_54_9a_9d_2d_0e_14:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.238_54:9A:9D:2D:0E:14
+  name: 192.168.111.238 54:9a:9d:2d:0e:14
+  picture:
+  track: true
+
+192_168_111_238_50_a5_ff_ac_dc_de:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.238_50:A5:FF:AC:DC:DE
+  name: 192.168.111.238 50:a5:ff:ac:dc:de
+  picture:
+  track: true
+
+192_168_111_242_6b_f4_3b_71_9c_1f:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.242_6B:F4:3B:71:9C:1F
+  name: 192.168.111.242 6b:f4:3b:71:9c:1f
+  picture:
+  track: true
+
+192_168_111_241_6f_fd_94_76_83_56:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_6F:FD:94:76:83:56
+  name: 192.168.111.241 6f:fd:94:76:83:56
+  picture:
+  track: true
+
+192_168_111_241_b0_2a_43_91_66_6d:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_B0:2A:43:91:66:6D
+  name: 192.168.111.241 b0:2a:43:91:66:6d
+  picture:
+  track: true
+
+192_168_111_237_00_02_37_0e_9c_86:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_00:02:37:0E:9C:86
+  name: 192.168.111.237 00:02:37:0e:9c:86
+  picture:
+  track: true
+
+192_168_111_240_b0_2a_43_91_66_6d:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_B0:2A:43:91:66:6D
+  name: 192.168.111.240 b0:2a:43:91:66:6d
+  picture:
+  track: true
+
+192_168_111_237_00_02_37_0e_9c_83:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_00:02:37:0E:9C:83
+  name: 192.168.111.237 00:02:37:0e:9c:83
+  picture:
+  track: true
+
+192_168_111_237_97_75_98_96_b4_07:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_97:75:98:96:B4:07
+  name: 192.168.111.237 97:75:98:96:b4:07
+  picture:
+  track: true
+
+192_168_111_237_f4_f5_d8_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_F4:F5:D8:C0:5E:87
+  name: 192.168.111.237 f4:f5:d8:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_237_20_df_b9_2b_05_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_20:DF:B9:2B:05:A1
+  name: 192.168.111.237 20:df:b9:2b:05:a1
+  picture:
+  track: true
+
+192_168_111_237_f4_f5_d8_c0_1e_c7:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_F4:F5:D8:C0:1E:C7
+  name: 192.168.111.237 f4:f5:d8:c0:1e:c7
+  picture:
+  track: true
+
+192_168_111_240_b0_2a_43_7b_ae_e9:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_B0:2A:43:7B:AE:E9
+  name: 192.168.111.240 b0:2a:43:7b:ae:e9
+  picture:
+  track: true
+
+192_168_111_237_80_df_b9_27_05_91:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_80:DF:B9:27:05:91
+  name: 192.168.111.237 80:df:b9:27:05:91
+  picture:
+  track: true
+
+192_168_111_240_20_df_b9_2b_41_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_20:DF:B9:2B:41:A1
+  name: 192.168.111.240 20:df:b9:2b:41:a1
+  picture:
+  track: true
+
+192_168_111_240_54_60_09_af_02_eb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_54:60:09:AF:02:EB
+  name: 192.168.111.240 54:60:09:af:02:eb
+  picture:
+  track: true
+
+192_168_111_238_00_02_37_0e_9c_86:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.238_00:02:37:0E:9C:86
+  name: 192.168.111.238 00:02:37:0e:9c:86
+  picture:
+  track: true
+
+192_168_111_240_5c_29_aa_f8_3b_13:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_5C:29:AA:F8:3B:13
+  name: 192.168.111.240 5c:29:aa:f8:3b:13
+  picture:
+  track: true
+
+192_168_111_240_4f_29_2a_61_c0_65:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_4F:29:2A:61:C0:65
+  name: 192.168.111.240 4f:29:2a:61:c0:65
+  picture:
+  track: true
+
+192_168_111_242_54_60_09_af_02_eb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.242_54:60:09:AF:02:EB
+  name: 192.168.111.242 54:60:09:af:02:eb
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_240_b0_4a_43_91_64_6d:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_B0:4A:43:91:64:6D
+  name: 192.168.111.240 b0:4a:43:91:64:6d
+  picture:
+  track: true
+
+192_168_111_237_21_df_b9_2b_05_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_21:DF:B9:2B:05:A1
+  name: 192.168.111.237 21:df:b9:2b:05:a1
+  picture:
+  track: true
+
+192_168_111_237_df_08_43_db_6e_ef:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_DF:08:43:DB:6E:EF
+  name: 192.168.111.237 df:08:43:db:6e:ef
+  picture:
+  track: true
+
+192_168_111_237_54_60_09_af_02_eb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_54:60:09:AF:02:EB
+  name: 192.168.111.237 54:60:09:af:02:eb
+  picture:
+  track: true
+
+192_168_111_237_f4_35_d8_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_F4:35:D8:C0:5E:87
+  name: 192.168.111.237 f4:35:d8:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_237_20_df_b9_2b_1d_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_20:DF:B9:2B:1D:A1
+  name: 192.168.111.237 20:df:b9:2b:1d:a1
+  picture:
+  track: true
+
+192_168_111_237_f4_f5_d8_c0_4a_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_F4:F5:D8:C0:4A:87
+  name: 192.168.111.237 f4:f5:d8:c0:4a:87
+  picture:
+  track: true
+
+192_168_111_237_a7_df_b9_2b_05_a1:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_A7:DF:B9:2B:05:A1
+  name: 192.168.111.237 a7:df:b9:2b:05:a1
+  picture:
+  track: true
+
+192_168_111_237_20_df_b9_2b_05_89:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_20:DF:B9:2B:05:89
+  name: 192.168.111.237 20:df:b9:2b:05:89
+  picture:
+  track: true
+
+192_168_111_237_9d_34_66_0f_bb_43:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_9D:34:66:0F:BB:43
+  name: 192.168.111.237 9d:34:66:0f:bb:43
+  picture:
+  track: true

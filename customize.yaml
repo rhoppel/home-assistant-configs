@@ -26,3 +26,19 @@ group.all_scripts:
 
 #media_player.plex
 #  hidden: false
+
+sensor.starman_speed:
+  icon: mdi:account-star
+sensor.starman_earth_distance:
+  icon: mdi:map-marker-distance
+sensor.spacex_next_rocket:
+  icon: mdi:rocket
+sensor.spacex_next_launch_day:
+  icon: mdi:calendar
+sensor.spacex_next_launch_time:
+  icon: mdi:clock-outline
+sensor.spacex_next_launch_site:
+  icon: mdi:map-marker-radius
+sensor.spacex_next_mission_name:
+  icon: mdi:information-outline
+  

@@ -63,6 +63,12 @@
                                     "entity": "switch.lava"
                                 },
                                 {
+                                    "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "type": "divider"
+                                },
+                                {
                                     "entity": "light.dakota"
                                 },
                                 {
@@ -249,6 +255,23 @@
                             ],
                             "title": "Input select",
                             "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.192_168_111_238_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_239_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_237_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "group.all_devices"
+                                }
+                            ],
+                            "type": "entities"
                         }
                     ],
                     "icon": "mdi:lightbulb-on",
@@ -317,22 +340,16 @@
                                     "entity": "automation.hass_theme"
                                 },
                                 {
-                                    "entity": "automation.clear_aq_1"
+                                    "entity": "automation.aquarium_on"
                                 },
                                 {
-                                    "entity": "automation.clear_aq_2"
+                                    "entity": "automation.aquarium_off"
                                 },
                                 {
-                                    "entity": "automation.clear_d3"
+                                    "entity": "automation.lava_on"
                                 },
                                 {
-                                    "entity": "automation.set_aq_1"
-                                },
-                                {
-                                    "entity": "automation.set_aq_2"
-                                },
-                                {
-                                    "entity": "automation.set_d3"
+                                    "entity": "automation.lava_off"
                                 },
                                 {
                                     "entity": "automation.cycle_garage_door"
@@ -2650,7 +2667,7 @@
                             "type": "shopping-list"
                         },
                         {
-                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n",
+                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n",
                             "type": "markdown"
                         },
                         {
@@ -2819,6 +2836,42 @@
                                 }
                             ],
                             "title": "groups",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.next_launch"
+                                }
+                            ],
+                            "title": "Space Launch",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.spacex_next_launch_day"
+                                },
+                                {
+                                    "entity": "sensor.spacex_next_launch_site"
+                                },
+                                {
+                                    "entity": "sensor.spacex_next_launch_time"
+                                },
+                                {
+                                    "entity": "sensor.spacex_next_mission_name"
+                                },
+                                {
+                                    "entity": "sensor.spacex_next_rocket"
+                                },
+                                {
+                                    "entity": "sensor.starman_earth_distance"
+                                },
+                                {
+                                    "entity": "sensor.starman_speed"
+                                }
+                            ],
+                            "title": "SpaceX",
                             "type": "entities"
                         }
                     ],

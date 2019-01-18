@@ -43,5 +43,5 @@
 
 #- platform: bluetooth_tracker
 #- platform: google_maps
-#   username: !secret google_user
-#   password: !secret google_passwd
+#  username: !secret google_user
+#  password: !secret google_password
