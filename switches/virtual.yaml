@@ -91,3 +91,39 @@
   payload_on: "on"
   payload_off: "off"
   retain: true
+
+- platform: mqtt
+  name: "Counter"
+  command_topic: "smartthings/Counter/switch"
+  state_topic: "smartthings/Counter/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "SL2"
+  command_topic: "smartthings/SL2/switch"
+  state_topic: "smartthings/SL2/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "SL3"
+  command_topic: "smartthings/SL3/switch"
+  state_topic: "smartthings/SL3/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "SL4"
+  command_topic: "smartthings/SL4/switch"
+  state_topic: "smartthings/SL4/switch"
+  qos: 2
+  payload_on: "on"
+  payload_off: "off"
+  retain: true

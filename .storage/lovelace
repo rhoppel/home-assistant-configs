@@ -1,7 +1,17 @@
 {
     "data": {
         "config": {
-            "title": "Home Assistant",
+            "resources": [
+                {
+                    "type": "js",
+                    "url": "/local/plugins/card-modder.js?v=3"
+                },
+                {
+                    "type": "js",
+                    "url": "/local/plugins/card-tools.js?v=3"
+                }
+            ],
+            "title": "Hoppel-Lodge",
             "views": [
                 {
                     "badges": [],
@@ -64,6 +74,9 @@
                                 },
                                 {
                                     "entity": "switch.outlet_a_workshop"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e32c3127"
                                 },
                                 {
                                     "type": "divider"
@@ -162,6 +175,9 @@
                                     "entity": "switch.outlet_c_kitchen"
                                 },
                                 {
+                                    "entity": "switch.counter"
+                                },
+                                {
                                     "entity": "sensor.outlet_a_workshop"
                                 },
                                 {
@@ -239,12 +255,19 @@
                                 },
                                 {
                                     "entity": "sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_237_1c_f2_9a_1b_10_b6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_91_66_6d"
                                 }
                             ],
                             "show_header_toggle": false,
                             "state_filter": [
                                 "active",
-                                "open"
+                                "open",
+                                "home"
                             ],
                             "title": "????",
                             "type": "entity-filter"
@@ -259,18 +282,57 @@
                         {
                             "entities": [
                                 {
+                                    "entity": "group.all_devices"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_237_1c_f2_9a_1b_10_b6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_1c_f2_9a_1b_10_b6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_239_1c_f2_9a_1b_10_b6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_240_1c_f2_9a_1b_10_b6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_241_1c_f2_9a_1b_10_b6"
+                                }
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.192_168_111_238_4c_fa_f2_de_f1_86"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_54_60_09_af_02_eb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_72_f8_d6_19_12_4e"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_78_f8_82_8d_32_69"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_a4_34_d9_aa_ec_c6"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_7b_ae_e9"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_91_66_6d"
+                                },
+                                {
                                     "entity": "device_tracker.192_168_111_238_d0_13_fd_f1_a4_cb"
                                 },
                                 {
-                                    "entity": "device_tracker.192_168_111_239_d0_13_fd_f1_a4_cb"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_237_d0_13_fd_f1_a4_cb"
-                                },
-                                {
-                                    "entity": "group.all_devices"
+                                    "entity": "device_tracker.192_168_111_238_f4_f5_d8_c0_5e_87"
                                 }
                             ],
+                            "title": "GHome Hub",
                             "type": "entities"
                         }
                     ],
@@ -475,27 +537,51 @@
                         },
                         {
                             "entities": [
-                                "sensor.dark_sky_icon",
-                                "sensor.dark_sky_icon_0",
-                                "sensor.dark_sky_icon_1",
-                                "sensor.dark_sky_icon_2",
-                                "sensor.dark_sky_icon_3",
-                                "sensor.dark_sky_icon_4",
-                                "sensor.dark_sky_icon_5",
-                                "sensor.dark_sky_summary",
-                                "sensor.dark_sky_summary_0",
-                                "sensor.dark_sky_summary_1",
-                                "sensor.dark_sky_summary_2",
-                                "sensor.dark_sky_summary_3",
-                                "sensor.dark_sky_summary_4",
-                                "sensor.dark_sky_summary_5",
-                                "sensor.dark_sky_temperature",
-                                "sensor.dark_sky_temperature_0",
-                                "sensor.dark_sky_temperature_1",
-                                "sensor.dark_sky_temperature_2",
-                                "sensor.dark_sky_temperature_3",
-                                "sensor.dark_sky_temperature_4",
-                                "sensor.dark_sky_temperature_5"
+                                {
+                                    "entity": "sensor.dark_sky_icon"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_0"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_1"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_2"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_3"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_4"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_icon_5"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_0"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_1"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_2"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_3"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_4"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_summary_5"
+                                },
+                                {
+                                    "entity": "sensor.dark_sky_temperature"
+                                }
                             ],
                             "title": "Dark Sky forecast",
                             "type": "entities"
@@ -546,18 +632,42 @@
                         },
                         {
                             "entities": [
-                                "sensor.lodge_thermostat_humidity",
-                                "sensor.lodge_thermostat_hvac_state",
-                                "sensor.lodge_thermostat_operation_mode",
-                                "sensor.lodge_thermostat_temperature",
-                                "sensor.lodge_thermostat_target",
-                                "binary_sensor.hoppellodge__away",
-                                "binary_sensor.lodge_thermostat_fan",
-                                "binary_sensor.lodge_thermostat_has_leaf",
-                                "binary_sensor.lodge_thermostat_is_using_emergency_heat",
-                                "binary_sensor.lodge_thermostat_online",
-                                "binary_sensor.lodge_thermostat_is_locked",
-                                "sensor.hoppellodge__eta"
+                                {
+                                    "entity": "sensor.lodge_thermostat_humidity"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_hvac_state"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_operation_mode"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_temperature"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_target"
+                                },
+                                {
+                                    "entity": "binary_sensor.hoppellodge_away"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_fan"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_has_leaf"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_is_using_emergency_heat"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_online"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_is_locked"
+                                },
+                                {
+                                    "entity": "sensor.hoppellodge_eta"
+                                }
                             ],
                             "title": "nest",
                             "type": "entities"
@@ -1163,13 +1273,17 @@
                                 "sun.sun",
                                 "sensor.moon"
                             ],
-                            "title": "environment",
                             "type": "entities"
                         },
                         {
                             "aspect_ratio": "120%",
                             "type": "iframe",
                             "url": "https://www.wunderground.com/personal-weather-station/dashboard?ID=KILLIBER6"
+                        },
+                        {
+                            "aspect_ratio": "90%",
+                            "type": "iframe",
+                            "url": "https://embed.windy.com/embed2.html?lat=42.127&lon=-88.053&zoom=9&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=true&detailLat=42.301&detailLon=-87.981&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
                         }
                     ],
                     "icon": "mdi:weather-partlycloudy",
@@ -1205,6 +1319,9 @@
                                 },
                                 {
                                     "entity": "media_player.kitchen"
+                                },
+                                {
+                                    "entity": "switch.outlet_c_kitchen"
                                 }
                             ],
                             "title": "kitchen",
@@ -1470,19 +1587,23 @@
                             "type": "media-control"
                         },
                         {
-                            "entity": "media_player.basement",
-                            "type": "media-control"
-                        },
-                        {
                             "entity": "media_player.ghome_bedroom",
                             "type": "media-control"
                         },
                         {
-                            "entity": "media_player.hoppellodge",
+                            "entity": "media_player.ghome_kitchen",
                             "type": "media-control"
                         },
                         {
-                            "entity": "media_player.ghome_kitchen",
+                            "entity": "media_player.garage_speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.main_display",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.sun_room_speaker",
                             "type": "media-control"
                         },
                         {
@@ -1502,15 +1623,7 @@
                             "type": "media-control"
                         },
                         {
-                            "entity": "media_player.garage_speaker",
-                            "type": "media-control"
-                        },
-                        {
                             "entity": "media_player.basement_2",
-                            "type": "media-control"
-                        },
-                        {
-                            "entity": "media_player.sun_room_speaker",
                             "type": "media-control"
                         },
                         {
@@ -1519,10 +1632,6 @@
                         },
                         {
                             "entity": "media_player.wholehouse",
-                            "type": "media-control"
-                        },
-                        {
-                            "entity": "media_player.main_display",
                             "type": "media-control"
                         }
                     ],
@@ -1906,18 +2015,42 @@
                     "cards": [
                         {
                             "entities": [
-                                "sensor.lodge_thermostat_humidity",
-                                "sensor.lodge_thermostat_hvac_state",
-                                "sensor.lodge_thermostat_operation_mode",
-                                "sensor.lodge_thermostat_temperature",
-                                "sensor.lodge_thermostat_target",
-                                "binary_sensor.hoppellodge__away",
-                                "binary_sensor.lodge_thermostat_fan",
-                                "binary_sensor.lodge_thermostat_has_leaf",
-                                "binary_sensor.lodge_thermostat_is_using_emergency_heat",
-                                "binary_sensor.lodge_thermostat_online",
-                                "binary_sensor.lodge_thermostat_is_locked",
-                                "sensor.hoppellodge__eta"
+                                {
+                                    "entity": "sensor.lodge_thermostat_humidity"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_hvac_state"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_operation_mode"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_temperature"
+                                },
+                                {
+                                    "entity": "sensor.lodge_thermostat_target"
+                                },
+                                {
+                                    "entity": "binary_sensor.hoppellodge_away"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_fan"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_has_leaf"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_is_using_emergency_heat"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_online"
+                                },
+                                {
+                                    "entity": "binary_sensor.lodge_thermostat_is_locked"
+                                },
+                                {
+                                    "entity": "sensor.hoppellodge_eta"
+                                }
                             ],
                             "title": "nest",
                             "type": "entities"
@@ -2493,6 +2626,27 @@
                             ],
                             "title": "outlets",
                             "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.18480742cc50e32c3127"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e357afb7"
+                                },
+                                {
+                                    "entity": "switch.88020554ecfabc9d2730"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e32c3b45"
+                                },
+                                {
+                                    "entity": "switch.counter"
+                                }
+                            ],
+                            "title": "WiFi switches",
+                            "type": "entities"
                         }
                     ],
                     "icon": "mdi:power-socket-us",
@@ -2645,9 +2799,6 @@
                                     "entity": "switch.w_d8"
                                 },
                                 {
-                                    "entity": "sensor.temp_lodge"
-                                },
-                                {
                                     "entity": "light.wildcat_fastled"
                                 }
                             ],
@@ -2667,7 +2818,7 @@
                             "type": "shopping-list"
                         },
                         {
-                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n",
+                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Plugins\n[plugins](https://community.home-assistant.io/t/my-lovelace-plugins/70726)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n### Thomas Loven GitHub\n- https://github.com/thomasloven/hass-fontawesome\n- https://community.home-assistant.io/t/my-lovelace-plugins/70726\n### Custom components\n- https://github.com/custom-components\n- https://api4.windy.com/examples/parameters/\n### HA Developer Documentation\n- https://developers.home-assistant.io/\n### known_devices.yaml\n- https://www.home-assistant.io/components/device_tracker/\n",
                             "type": "markdown"
                         },
                         {
@@ -3002,6 +3153,24 @@
                             ],
                             "title": "Dark Sky forecast",
                             "type": "entities"
+                        },
+                        {
+                            "card": {
+                                "entities": [
+                                    "light.table",
+                                    "light.desk-1",
+                                    "light.desk-2"
+                                ],
+                                "title": "Styled card",
+                                "type": "glance"
+                            },
+                            "style": {
+                                "--paper-card-background-color": "rgba(0, 100, 0, 0.2)",
+                                "--paper-item-icon-color": "white",
+                                "border-radius": "5px",
+                                "color": "rgb(0, 0, 100)"
+                            },
+                            "type": "custom:card-modder"
                         }
                     ],
                     "title": "TEMP"

@@ -123,11 +123,26 @@ shopping_list:
 
 #group:      !include groups.yaml
 group:      !include_dir_merge_named groups
+#group:      !include_dir_merge_list groups
 automation old: !include_dir_merge_list automations
 #automation: !include_dir_merge_list automations
 automation: !include automations.yaml
+#roku:       
+#  - host: 192.168.111.110
+#  - host: 192.168.111.111
+#  - host: 192.168.111.112
+#  - host: 192.168.111.113
+
+tuya:
+  username: !secret tuya_id
+  password: !secret tuya_password
+  country_code: 1
+  platform: smart_life
+
 script:     !include_dir_merge_list scripts
 sensor:     !include_dir_merge_list sensors
 light:      !include_dir_merge_list lights
 switch:     !include_dir_merge_list switches
 camera:     !include cameras.yaml
+
+

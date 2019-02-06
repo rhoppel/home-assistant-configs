@@ -30,13 +30,13 @@ nest_device:
     - sensor.lodge_thermostat_operation_mode
     - sensor.lodge_thermostat_temperature
     - sensor.lodge_thermostat_target
-    - binary_sensor.hoppellodge__away
+    - binary_sensor.hoppellodge_away
     - binary_sensor.lodge_thermostat_fan
     - binary_sensor.lodge_thermostat_has_leaf
     - binary_sensor.lodge_thermostat_is_using_emergency_heat
     - binary_sensor.lodge_thermostat_online
     - binary_sensor.lodge_thermostat_is_locked
-    - sensor.hoppellodge__eta
+    - sensor.hoppellodge_eta
 
 utility:
 #   view: true
@@ -94,19 +94,19 @@ water:
 #  view: true
   name: water - all sensors
   entities:
-    - sensor.water_sensor__pool_room
-    - sensor.water_sensor__pool_room_temp
-    - sensor.water_sensor__pool_room_battery
-    - sensor.water_sensor__sump_pump
-    - sensor.water_sensor__sump_pump_temp
-    - sensor.water_sensor__sump_pump_battery
+    - sensor.water_sensor_pool_room
+    - sensor.water_sensor_pool_room_temp
+    - sensor.water_sensor_pool_room_battery
+    - sensor.water_sensor_sump_pump
+    - sensor.water_sensor_sump_pump_temp
+    - sensor.water_sensor_sump_pump_battery
 
 water_present:
 #  view: true
   name: water present
   entities:
-    - sensor.water_sensor__pool_room
-    - sensor.water_sensor__sump_pump
+    - sensor.water_sensor_pool_room
+    - sensor.water_sensor_sump_pump
 
 motion:
 #  view: true

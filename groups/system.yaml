@@ -4,7 +4,7 @@ system:
   entities:
     - sensor.ipv6_address_enxb827eb3fa7f4
     - sensor.network_in_enxb827eb3fa7f4
-    - sensor.disk_free_
+    - sensor.disk_free
     - sensor.disk_use_percent_home
     - sensor.memory_free
     - sensor.memory_use_percent 

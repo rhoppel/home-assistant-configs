@@ -74,8 +74,6 @@
   condition:
   action:
   - data:
-#      entity_id: light.hutch_lamp
-#    service: light.turn_on
       entity_id: switch.aq_d2_relay_2
     service: switch.turn_on
 - id: spock_off
@@ -88,7 +86,7 @@
   condition:
   action:
   - data:
-#      entity_id: light.hutch_lamp
-#    service: light.turn_off
       entity_id: switch.aq_d2_relay_2
     service: switch.turn_off
+
+
