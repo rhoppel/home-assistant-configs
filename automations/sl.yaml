@@ -1,0 +1,101 @@
+- id: counter_on
+  alias: counter_on
+  trigger:
+  - entity_id: switch.counter
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e32c3127
+    service: switch.turn_on
+- id: counter_off
+  alias: counter_off
+  trigger:
+  - entity_id: switch.counter
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e32c3127
+    service: switch.turn_off
+
+- id: sl2_on
+  alias: sl2_on
+  trigger:
+  - entity_id: switch.sl2
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e357afb7
+    service: switch.turn_on
+- id: sl2_off
+  alias: sl2_off
+  trigger:
+  - entity_id: switch.sl2
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e357afb7
+    service: switch.turn_off
+
+
+- id: sl3_on
+  alias: sl3_on
+  trigger:
+  - entity_id: switch.sl3
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.88020554ecfabc9d2730
+    service: switch.turn_on
+- id: sl3_off
+  alias: sl3_off
+  trigger:
+  - entity_id: switch.sl3
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.88020554ecfabc9d2730
+    service: switch.turn_off
+
+
+- id: sl4_on
+  alias: sl4_on
+  trigger:
+  - entity_id: switch.sl4
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e32c3b45
+    service: switch.turn_on
+- id: sl4_off
+  alias: sl4_off
+  trigger:
+  - entity_id: switch.sl4
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  action:
+  - data:
+      entity_id: switch.18480742cc50e32c3b45
+    service: switch.turn_off
