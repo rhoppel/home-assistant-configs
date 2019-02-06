@@ -1,0 +1,45 @@
+- platform: launch_library
+
+- platform: rest
+  name: Starman
+  json_attributes:
+    - earth_distance_km
+  value_template: '{{ value_json["speed_kph"] }}'
+  unit_of_measurement: "km/h"
+  resource: 'https://api.spacexdata.com/v2/info/roadster'
+
+- platform: rest
+  name: SpaceX
+  json_attributes:
+    - mission_name
+    - launch_site
+    - rocket
+  value_template: '{{ value_json["launch_date_unix"] }}'
+  resource: 'https://api.spacexdata.com/v2/launches/next'
+
+- platform: template
+  sensors:
+    starman_speed:
+      friendly_name: 'Starman Speed'
+      value_template: '{{ states.sensor.starman.state | round(0) }}'
+      unit_of_measurement: 'km/h'
+    starman_earth_distance:
+      friendly_name: 'Starman Distance'
+      value_template: '{{ (states.sensor.starman.attributes["earth_distance_km"] | multiply(0.000001)) | round(2) }}'
+      unit_of_measurement: 'km x10⁶'
+    spacex_next_launch_day:
+      friendly_name: 'Next Launch Date'
+      value_template: '{{ states.sensor.spacex.state | int | timestamp_custom("%d.%m.%Y")}}'
+    spacex_next_launch_time:
+      friendly_name: 'Launch Time'
+      value_template: '{{ states.sensor.spacex.state | int | timestamp_custom("%H:%M")}}'
+      unit_of_measurement: 'h'
+    spacex_next_rocket:
+      friendly_name: 'Next Rocket'
+      value_template: '{{ states.sensor.spacex.attributes["rocket"]["rocket_name"] }}'
+    spacex_next_launch_site:
+      friendly_name: 'Launch Site'
+      value_template: '{{ states.sensor.spacex.attributes["launch_site"]["site_name"] }}'
+    spacex_next_mission_name:
+      friendly_name: 'Mission'
+      value_template: '{{ states.sensor.spacex.attributes["mission_name"] }}'
