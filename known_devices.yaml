@@ -2911,3 +2911,107 @@
   name: 192.168.111.239 f4:f5:d8:c0:5d:07
   picture:
   track: true
+
+192_168_111_240_54_60_09_af_02_eb:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_54:60:09:AF:02:EB
+  name: 192.168.111.240 54:60:09:af:02:eb
+  picture:
+  track: true
+
+192_168_111_241_f4_f5_d8_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_F4:F5:D8:C0:5E:87
+  name: 192.168.111.241 f4:f5:d8:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_237_f4_f5_3c_c0_5e_87:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.237_F4:F5:3C:C0:5E:87
+  name: 192.168.111.237 f4:f5:3c:c0:5e:87
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_240_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
+  name: 192.168.111.240 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
+
+192_168_111_241_1c_f2_9a_1b_10_b6:
+  hide_if_away: false
+  icon:
+  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
+  name: 192.168.111.241 1c:f2:9a:1b:10:b6
+  picture:
+  track: true
