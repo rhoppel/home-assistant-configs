@@ -3,42 +3,42 @@
   host: 192.168.111.237
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 # Google Home Hub
 - platform: googlehome
   host: 192.168.111.238
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 # ghome mini
 - platform: googlehome
   host: 192.168.111.239
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 # GHome Bedroom
 - platform: googlehome
   host: 192.168.111.240
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 # ghome mini mancave
 - platform: googlehome
   host: 192.168.111.241
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 # GHome Workshop
 - platform: googlehome
   host: 192.168.111.242
   rssi_threshold: -70    
   new_device_defaults:
-    track_new_devices: true
+    track_new_devices: false
     hide_if_away: false
 
 #- platform: bluetooth_tracker

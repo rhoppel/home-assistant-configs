@@ -11,10 +11,10 @@
 #    - delay:
 #        milliseconds: 500
     - service: light.turn_off
-      entity_id: light.durango
+      entity_id: light.durango_2
     - service: light.turn_off
-      entity_id: light.dakota
+      entity_id: light.dakota_2
     - service: light.turn_off
-      entity_id: light.bedroom_1
+      entity_id: light.bedroom_1_2
     - service: light.turn_off
-      entity_id: light.bedroom_2
+      entity_id: light.bedroom_2_2

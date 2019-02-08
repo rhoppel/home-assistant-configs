@@ -1,7 +1,7 @@
 - id: counter_on
   alias: counter_on
   trigger:
-  - entity_id: switch.counter
+  - entity_id: switch.sl1
     from: 'off'
     platform: state
     to: 'on'
@@ -13,7 +13,7 @@
 - id: counter_off
   alias: counter_off
   trigger:
-  - entity_id: switch.counter
+  - entity_id: switch.sl1
     from: 'on'
     platform: state
     to: 'off'
@@ -26,7 +26,7 @@
 - id: sl2_on
   alias: sl2_on
   trigger:
-  - entity_id: switch.sl2
+  - entity_id: switch.sl2_2
     from: 'off'
     platform: state
     to: 'on'
@@ -38,7 +38,7 @@
 - id: sl2_off
   alias: sl2_off
   trigger:
-  - entity_id: switch.sl2
+  - entity_id: switch.sl2_2
     from: 'on'
     platform: state
     to: 'off'
@@ -52,7 +52,7 @@
 - id: sl3_on
   alias: sl3_on
   trigger:
-  - entity_id: switch.sl3
+  - entity_id: switch.sl3_2
     from: 'off'
     platform: state
     to: 'on'
@@ -64,7 +64,7 @@
 - id: sl3_off
   alias: sl3_off
   trigger:
-  - entity_id: switch.sl3
+  - entity_id: switch.sl3_2
     from: 'on'
     platform: state
     to: 'off'
@@ -78,7 +78,7 @@
 - id: sl4_on
   alias: sl4_on
   trigger:
-  - entity_id: switch.sl4
+  - entity_id: switch.sl4_2
     from: 'off'
     platform: state
     to: 'on'
@@ -90,7 +90,7 @@
 - id: sl4_off
   alias: sl4_off
   trigger:
-  - entity_id: switch.sl4
+  - entity_id: switch.sl4_2
     from: 'on'
     platform: state
     to: 'off'

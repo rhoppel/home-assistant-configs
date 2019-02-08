@@ -1,25 +1,7 @@
-- id: '55845160'
-  alias: testme
-  trigger:
-  - entity_id: switch.sulu
-    platform: state
-    to: 'on'
-  condition:
-  action:
-  - data:
-      entity_id: switch.scotty
-    service: switch.turn_on
-  - delay: 00:00:03
-  - data:
-      entity_id: switch.scotty
-    service: switch.turn_off
-  - data:
-      entity_id: switch.sulu
-    service: switch.turn_off
 - id: aquarium_on
   alias: aquarium_on
   trigger:
-  - entity_id: switch.aquarium
+  - entity_id: switch.aquarium_2
     from: 'off'
     platform: state
     to: 'on'
@@ -31,7 +13,7 @@
 - id: aquarium_off
   alias: aquarium_off
   trigger:
-  - entity_id: switch.aquarium
+  - entity_id: switch.aquarium_2
     from: 'on'
     platform: state
     to: 'off'
@@ -43,7 +25,7 @@
 - id: lava_on
   alias: lava_on
   trigger:
-  - entity_id: switch.lava
+  - entity_id: switch.lava_2
     from: 'off'
     platform: state
     to: 'on'
@@ -55,7 +37,7 @@
 - id: lava_off
   alias: lava_off
   trigger:
-  - entity_id: switch.lava
+  - entity_id: switch.lava_2
     from: 'on'
     platform: state
     to: 'off'
@@ -67,7 +49,7 @@
 - id: spock_on
   alias: spock_on
   trigger:
-  - entity_id: switch.spock
+  - entity_id: switch.spock_2
     from: 'off'
     platform: state
     to: 'on'
@@ -79,7 +61,7 @@
 - id: spock_off
   alias: spock_off
   trigger:
-  - entity_id: switch.spock
+  - entity_id: switch.spock_2
     from: 'on'
     platform: state
     to: 'off'

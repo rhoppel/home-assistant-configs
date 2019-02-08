@@ -17,17 +17,17 @@
                     "badges": [],
                     "cards": [
                         {
-                            "entity": "light.durango",
+                            "entity": "light.durango_2",
                             "name": "Durango",
                             "type": "light"
                         },
                         {
-                            "entity": "light.dakota",
+                            "entity": "light.dakota_2",
                             "name": "Dakota",
                             "type": "light"
                         },
                         {
-                            "entity": "light.table",
+                            "entity": "light.table_3",
                             "name": "Table",
                             "type": "light"
                         },
@@ -67,10 +67,10 @@
                                     "entity": "sensor.door_garage_contact"
                                 },
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.aquarium_2"
                                 },
                                 {
-                                    "entity": "switch.lava"
+                                    "entity": "switch.lava_2"
                                 },
                                 {
                                     "entity": "switch.outlet_a_workshop"
@@ -79,31 +79,40 @@
                                     "entity": "switch.18480742cc50e32c3127"
                                 },
                                 {
+                                    "entity": "switch.18480742cc50e357afb7"
+                                },
+                                {
+                                    "entity": "switch.88020554ecfabc9d2730"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e32c3b45"
+                                },
+                                {
                                     "type": "divider"
                                 },
                                 {
-                                    "entity": "light.dakota"
+                                    "entity": "light.dakota_2"
                                 },
                                 {
-                                    "entity": "light.durango"
+                                    "entity": "light.durango_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_1"
+                                    "entity": "light.bedroom_1_2"
                                 },
                                 {
                                     "entity": "light.bedroom_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.sump"
+                                    "entity": "light.sump_2"
                                 },
                                 {
                                     "entity": "light.utility_room"
@@ -124,37 +133,37 @@
                                     "entity": "light.rear_stairway"
                                 },
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.bar_1"
+                                    "entity": "light.bar_1_2"
                                 },
                                 {
-                                    "entity": "light.bar_2"
+                                    "entity": "light.bar_2_2"
                                 },
                                 {
-                                    "entity": "light.bar_3"
+                                    "entity": "light.bar_3_2"
                                 },
                                 {
-                                    "entity": "light.bar_4"
+                                    "entity": "light.bar_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_5"
+                                    "entity": "light.bar_5_2"
                                 },
                                 {
-                                    "entity": "light.bar_6"
+                                    "entity": "light.bar_6_2"
                                 },
                                 {
-                                    "entity": "light.hall_1"
+                                    "entity": "light.hall_1_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_3"
+                                    "entity": "light.hall_3_2"
                                 },
                                 {
-                                    "entity": "light.hall_4"
+                                    "entity": "light.hall_4_2"
                                 },
                                 {
                                     "entity": "light.deck_bedroom_1"
@@ -173,9 +182,6 @@
                                 },
                                 {
                                     "entity": "switch.outlet_c_kitchen"
-                                },
-                                {
-                                    "entity": "switch.counter"
                                 },
                                 {
                                     "entity": "sensor.outlet_a_workshop"
@@ -198,22 +204,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.tgreen"
+                                    "entity": "light.tgreen_2"
                                 },
                                 {
-                                    "entity": "light.tgreen2"
+                                    "entity": "light.tgreen2_2"
                                 },
                                 {
-                                    "entity": "light.tred"
+                                    "entity": "light.tred_2"
                                 },
                                 {
-                                    "entity": "light.tred2"
+                                    "entity": "light.tred2_2"
                                 },
                                 {
-                                    "entity": "light.tyellow"
+                                    "entity": "light.tyellow_2"
                                 },
                                 {
-                                    "entity": "light.tyellow"
+                                    "entity": "light.tyellow_2"
                                 }
                             ],
                             "title": "traffic lights",
@@ -257,10 +263,22 @@
                                     "entity": "sensor.motion_workshop_motion"
                                 },
                                 {
-                                    "entity": "device_tracker.192_168_111_237_1c_f2_9a_1b_10_b6"
+                                    "entity": "device_tracker.192_168_111_237_d0_13_fd_f1_a4_cb"
                                 },
                                 {
-                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_91_66_6d"
+                                    "entity": "device_tracker.192_168_111_238_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_239_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_240_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_241_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_242_d0_13_fd_f1_a4_cb"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -282,58 +300,31 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "group.all_devices"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_237_1c_f2_9a_1b_10_b6"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_1c_f2_9a_1b_10_b6"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_239_1c_f2_9a_1b_10_b6"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_240_1c_f2_9a_1b_10_b6"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_241_1c_f2_9a_1b_10_b6"
-                                }
-                            ],
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "device_tracker.192_168_111_238_4c_fa_f2_de_f1_86"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_54_60_09_af_02_eb"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_72_f8_d6_19_12_4e"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_78_f8_82_8d_32_69"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_a4_34_d9_aa_ec_c6"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_7b_ae_e9"
-                                },
-                                {
-                                    "entity": "device_tracker.192_168_111_238_b0_2a_43_91_66_6d"
+                                    "entity": "device_tracker.192_168_111_237_d0_13_fd_f1_a4_cb"
                                 },
                                 {
                                     "entity": "device_tracker.192_168_111_238_d0_13_fd_f1_a4_cb"
                                 },
                                 {
-                                    "entity": "device_tracker.192_168_111_238_f4_f5_d8_c0_5e_87"
+                                    "entity": "device_tracker.192_168_111_239_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_240_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_241_d0_13_fd_f1_a4_cb"
+                                },
+                                {
+                                    "entity": "device_tracker.192_168_111_242_d0_13_fd_f1_a4_cb"
                                 }
                             ],
-                            "title": "GHome Hub",
+                            "title": "Track Rick",
                             "type": "entities"
+                        },
+                        {
+                            "content": " 192.168.111.237  __ghome-Sun__\n 192.168.111.238 __GHome-Hub-Lodge__\n 192.168.111.239 __ghome-garage__\n 192.168.111.240 __GHome-Bedroom__\n 192.168.111.241 __GHome-Workshop__\n 192.168.111.242 __ghome-Mancave__\n\n[device_tracker doc](https://www.home-assistant.io/components/device_tracker/)\n[bluetooth tradker doc](https://www.home-assistant.io/components/device_tracker.bluetooth_tracker/)\n[google Home tracker doc](https://www.home-assistant.io/components/device_tracker.googlehome/)",
+                            "title": "Google Home tracker",
+                            "type": "markdown"
                         }
                     ],
                     "icon": "mdi:lightbulb-on",
@@ -429,106 +420,100 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.dakota"
+                                    "entity": "light.dakota_2"
                                 },
                                 {
-                                    "entity": "light.durango"
+                                    "entity": "light.durango_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_1"
+                                    "entity": "light.bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_2"
+                                    "entity": "light.bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.bar_1"
+                                    "entity": "light.bar_1_2"
                                 },
                                 {
-                                    "entity": "light.bar_2"
+                                    "entity": "light.bar_2_2"
                                 },
                                 {
-                                    "entity": "light.bar_3"
+                                    "entity": "light.bar_3_2"
                                 },
                                 {
-                                    "entity": "light.bar_4"
+                                    "entity": "light.bar_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_5"
+                                    "entity": "light.bar_5_2"
                                 },
                                 {
-                                    "entity": "light.bar_6"
+                                    "entity": "light.bar_6_2"
                                 },
                                 {
-                                    "entity": "light.hall_1"
+                                    "entity": "light.hall_1_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_3"
+                                    "entity": "light.hall_3_2"
                                 },
                                 {
-                                    "entity": "light.hall_4"
+                                    "entity": "light.hall_4_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_1"
+                                    "entity": "light.deck_bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_2"
+                                    "entity": "light.deck_bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.sump"
+                                    "entity": "light.sump_2"
                                 },
                                 {
-                                    "entity": "light.utility_room"
+                                    "entity": "light.utility_room_2"
                                 },
                                 {
-                                    "entity": "light.hutch_lamp"
+                                    "entity": "light.hutch_lamp_2"
                                 },
                                 {
-                                    "entity": "light.pantry"
+                                    "entity": "light.pantry_2"
                                 },
                                 {
-                                    "entity": "light.spotlights"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.tgreen_2"
                                 },
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.tgreen2_2"
                                 },
                                 {
-                                    "entity": "light.tgreen"
+                                    "entity": "light.tred_2"
                                 },
                                 {
-                                    "entity": "light.tgreen2"
+                                    "entity": "light.tred2_2"
                                 },
                                 {
-                                    "entity": "light.tred"
+                                    "entity": "light.tyellow_2"
                                 },
                                 {
-                                    "entity": "light.tred2"
-                                },
-                                {
-                                    "entity": "light.tyellow"
-                                },
-                                {
-                                    "entity": "light.tyellow2"
+                                    "entity": "light.tyellow2_2"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -588,8 +573,12 @@
                         },
                         {
                             "entities": [
-                                "switch.aeon_labs_siren_gen_5",
-                                "sensor.aeon_labs_siren_gen_5"
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
+                                },
+                                {
+                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                }
                             ],
                             "title": "siren",
                             "type": "entities"
@@ -597,22 +586,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.spotlights"
+                                    "entity": "switch.spotlights_2"
                                 },
                                 {
-                                    "entity": "light.spotlights"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "sensor.spotlights"
+                                    "entity": "light.sump_2"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
-                                },
-                                {
-                                    "entity": "light.sump"
-                                },
-                                {
-                                    "entity": "light.utility_room"
+                                    "entity": "light.utility_room_2"
                                 }
                             ],
                             "title": "basement lights",
@@ -688,7 +671,7 @@
                                     "entity": "sensor.motion_workshop_battery"
                                 },
                                 {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.outlet_a_workshop_2"
                                 },
                                 {
                                     "entity": "sensor.outlet_a_workshop"
@@ -818,16 +801,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_1"
+                                    "entity": "light.deck_bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_2"
+                                    "entity": "light.deck_bedroom_2_2"
                                 }
                             ],
                             "title": "outside",
@@ -836,22 +819,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.pantry"
+                                    "entity": "light.pantry_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_1"
+                                    "entity": "light.hall_1_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -863,7 +846,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.outlet_a_workshop_2"
                                 },
                                 {
                                     "entity": "sensor.outlet_a_workshop"
@@ -872,7 +855,7 @@
                                     "entity": "sensor.outlet_a_workshop_power"
                                 },
                                 {
-                                    "entity": "switch.outlet_b_rover"
+                                    "entity": "switch.outlet_b_rover_2"
                                 },
                                 {
                                     "entity": "sensor.outlet_b_rover"
@@ -881,7 +864,7 @@
                                     "entity": "sensor.outlet_b_rover_power"
                                 },
                                 {
-                                    "entity": "switch.outlet_c_kitchen"
+                                    "entity": "switch.outlet_c_kitchen_2"
                                 },
                                 {
                                     "entity": "sensor.outlet_c_kitchen"
@@ -970,18 +953,24 @@
                         },
                         {
                             "entities": [
-                                "light.tred",
-                                "light.tyellow",
-                                "light.tgreen"
+                                {
+                                    "entity": "light.tred_2"
+                                },
+                                {
+                                    "entity": "light.tyellow_2"
+                                },
+                                {
+                                    "entity": "light.tgreen_2"
+                                }
                             ],
                             "title": "traffic light porch",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "light.tred2",
-                                "light.tyellow2",
-                                "light.tgreen2"
+                                "light.tred2_2",
+                                "light.tyellow2_2",
+                                "light.tgreen2_2"
                             ],
                             "title": "traffic light LodgeRoom",
                             "type": "entities"
@@ -989,10 +978,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 }
                             ],
                             "title": "stairs",
@@ -1033,14 +1022,51 @@
                         },
                         {
                             "entities": [
-                                "switch.virtual_switch_1",
-                                "switch.spock",
-                                "switch.kirk",
-                                "switch.sulu",
-                                "switch.scotty",
-                                "switch.bones",
-                                "switch.k9",
-                                "switch.tardis"
+                                {
+                                    "entity": "switch.k9_2"
+                                },
+                                {
+                                    "entity": "switch.tardis_2"
+                                },
+                                {
+                                    "entity": "switch.bones_2"
+                                },
+                                {
+                                    "entity": "switch.scotty_2"
+                                },
+                                {
+                                    "entity": "switch.kirk_2"
+                                },
+                                {
+                                    "entity": "switch.spock_2"
+                                },
+                                {
+                                    "entity": "switch.sulu_2"
+                                },
+                                {
+                                    "entity": "light.ceiling"
+                                },
+                                {
+                                    "entity": "switch.light_strip"
+                                },
+                                {
+                                    "entity": "switch.porch"
+                                },
+                                {
+                                    "entity": "switch.counter_2"
+                                },
+                                {
+                                    "entity": "switch.sl2_2"
+                                },
+                                {
+                                    "entity": "switch.sl3_2"
+                                },
+                                {
+                                    "entity": "switch.sl4_2"
+                                },
+                                {
+                                    "entity": "light.sengleled_control"
+                                }
                             ],
                             "title": "virtual switches",
                             "type": "entities"
@@ -1048,13 +1074,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.hall"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.hutch_lamp"
+                                    "entity": "light.hutch_lamp_2"
                                 }
                             ],
                             "title": "lights in main area",
@@ -1063,7 +1089,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
                                 },
                                 {
                                     "entity": "switch.aq_d0"
@@ -1093,10 +1119,10 @@
                                     "entity": "switch.aq_d8"
                                 },
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.aquarium_2"
                                 },
                                 {
-                                    "entity": "switch.bones"
+                                    "entity": "switch.bones_2"
                                 },
                                 {
                                     "entity": "switch.g_d0"
@@ -1126,37 +1152,34 @@
                                     "entity": "switch.g_d8"
                                 },
                                 {
-                                    "entity": "switch.k9"
+                                    "entity": "switch.k9_2"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.outlet_a_workshop_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_b_rover"
+                                    "entity": "switch.outlet_b_rover_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_c_kitchen"
+                                    "entity": "switch.outlet_c_kitchen_2"
                                 },
                                 {
-                                    "entity": "switch.scotty"
+                                    "entity": "switch.scotty_2"
                                 },
                                 {
-                                    "entity": "switch.spock"
+                                    "entity": "switch.spock_2"
                                 },
                                 {
-                                    "entity": "switch.spotlights"
+                                    "entity": "switch.spotlights_2"
                                 },
                                 {
-                                    "entity": "switch.sulu"
+                                    "entity": "switch.sulu_2"
                                 },
                                 {
-                                    "entity": "switch.tardis"
-                                },
-                                {
-                                    "entity": "switch.virtual_switch_1"
+                                    "entity": "switch.tardis_2"
                                 },
                                 {
                                     "entity": "switch.w_d0"
@@ -1297,22 +1320,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.pantry"
+                                    "entity": "light.pantry_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.kitchen_hall_1"
+                                    "entity": "light.kitchen_hall_1_2"
                                 },
                                 {
-                                    "entity": "light.kitchen_hall_2"
+                                    "entity": "light.kitchen_hall_2_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -1321,7 +1344,7 @@
                                     "entity": "media_player.kitchen"
                                 },
                                 {
-                                    "entity": "switch.outlet_c_kitchen"
+                                    "entity": "switch.18480742cc50e32c3127"
                                 }
                             ],
                             "title": "kitchen",
@@ -1348,22 +1371,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_1"
+                                    "entity": "light.deck_bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_2"
+                                    "entity": "light.deck_bedroom_2_2"
                                 },
                                 {
                                     "entity": "sensor.door_garage_contact"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.kirk_2"
                                 }
                             ],
                             "title": "outside",
@@ -1372,13 +1395,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.hutch_lamp"
+                                    "entity": "light.hutch_lamp_2"
                                 },
                                 {
                                     "entity": "group.bar"
@@ -1393,7 +1416,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.spotlights"
+                                    "entity": "switch.spotlights_2"
                                 },
                                 {
                                     "entity": "sensor.spotlights"
@@ -1411,7 +1434,7 @@
                                     "entity": "media_player.ghome_bedroom"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
                                     "entity": "sensor.door_rear_stairs_contact"
@@ -1426,16 +1449,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.bedroom_1"
+                                    "entity": "light.bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_2"
+                                    "entity": "light.bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.dakota"
+                                    "entity": "light.dakota_2"
                                 },
                                 {
-                                    "entity": "light.durango"
+                                    "entity": "light.durango_2"
                                 },
                                 {
                                     "entity": "media_player.ghome_bedroom"
@@ -1459,13 +1482,7 @@
                                     "entity": "sensor.motion_workshop_battery"
                                 },
                                 {
-                                    "entity": "sensor.outlet_a_workshop"
-                                },
-                                {
-                                    "entity": "sensor.outlet_a_workshop_power"
-                                },
-                                {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.18480742cc50e357afb7"
                                 },
                                 {
                                     "entity": "media_player.ghome_workshop"
@@ -1483,10 +1500,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.sump"
+                                    "entity": "light.sump_2"
                                 },
                                 {
-                                    "entity": "light.utility_room"
+                                    "entity": "light.utility_room_2"
                                 },
                                 {
                                     "entity": "group.water"
@@ -1541,6 +1558,54 @@
                                 }
                             ],
                             "title": "sun room",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.bar_dimmer"
+                                },
+                                {
+                                    "entity": "light.bar_1_2"
+                                },
+                                {
+                                    "entity": "light.bar_2_2"
+                                },
+                                {
+                                    "entity": "light.bar_3_2"
+                                },
+                                {
+                                    "entity": "light.bar_4_2"
+                                },
+                                {
+                                    "entity": "light.bar_5_2"
+                                },
+                                {
+                                    "entity": "light.bar_6_2"
+                                }
+                            ],
+                            "title": "Bar lights",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.hall_dimmer"
+                                },
+                                {
+                                    "entity": "light.hall_1_2"
+                                },
+                                {
+                                    "entity": "light.hall_2_2"
+                                },
+                                {
+                                    "entity": "light.hall_3_2"
+                                },
+                                {
+                                    "entity": "light.hall_4_2"
+                                }
+                            ],
+                            "title": "Hall lights",
                             "type": "entities"
                         }
                     ],
@@ -1645,13 +1710,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.hall"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.hutch_lamp"
+                                    "entity": "light.hutch_lamp_2"
                                 }
                             ],
                             "title": "lights in main area",
@@ -1660,16 +1725,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_1"
+                                    "entity": "light.deck_bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_2"
+                                    "entity": "light.deck_bedroom_2_2"
                                 }
                             ],
                             "title": "outside",
@@ -1678,22 +1743,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
-                                    "entity": "light.pantry"
+                                    "entity": "light.pantry_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.kitchen_hall_1"
+                                    "entity": "light.kitchen_hall_1_2"
                                 },
                                 {
-                                    "entity": "light.kitchen_hall_2"
+                                    "entity": "light.kitchen_hall_2_2"
                                 },
                                 {
                                     "entity": "input_number.dimmer"
@@ -1705,10 +1770,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.stairway"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 }
                             ],
                             "title": "stairs",
@@ -1716,18 +1781,30 @@
                         },
                         {
                             "entities": [
-                                "light.tred",
-                                "light.tyellow",
-                                "light.tgreen"
+                                {
+                                    "entity": "light.tred_2"
+                                },
+                                {
+                                    "entity": "light.tyellow_2"
+                                },
+                                {
+                                    "entity": "light.tgreen_2"
+                                }
                             ],
                             "title": "traffic light [porch]",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "light.tred2",
-                                "light.tyellow2",
-                                "light.tgreen2"
+                                {
+                                    "entity": "light.tred2_2"
+                                },
+                                {
+                                    "entity": "light.tyellow2_2"
+                                },
+                                {
+                                    "entity": "light.tgreen2_2"
+                                }
                             ],
                             "title": "traffic light LodgeRoom",
                             "type": "entities"
@@ -1735,22 +1812,19 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.spotlights"
-                                },
-                                {
-                                    "entity": "light.spotlights"
+                                    "entity": "switch.spotlights_2"
                                 },
                                 {
                                     "entity": "sensor.spotlights"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "light.sump"
+                                    "entity": "light.sump_2"
                                 },
                                 {
-                                    "entity": "light.utility_room"
+                                    "entity": "light.utility_room_2"
                                 }
                             ],
                             "title": "basement lights",
@@ -1763,16 +1837,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.bedroom_1"
+                                    "entity": "light.bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_2"
+                                    "entity": "light.bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.dakota"
+                                    "entity": "light.dakota_2"
                                 },
                                 {
-                                    "entity": "light.durango"
+                                    "entity": "light.durango_2"
                                 },
                                 {
                                     "entity": "media_player.ghome_bedroom"
@@ -1791,16 +1865,16 @@
                             },
                             "entities": [
                                 {
-                                    "entity": "light.bedroom_1"
+                                    "entity": "light.bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.bedroom_2"
+                                    "entity": "light.bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.dakota"
+                                    "entity": "light.dakota_2"
                                 },
                                 {
-                                    "entity": "light.durango"
+                                    "entity": "light.durango_2"
                                 }
                             ],
                             "show_empty": true,
@@ -1888,8 +1962,12 @@
                         },
                         {
                             "entities": [
-                                "switch.aeon_labs_siren_gen_5",
-                                "sensor.aeon_labs_siren_gen_5"
+                                {
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
+                                },
+                                {
+                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                }
                             ],
                             "title": "siren",
                             "type": "entities"
@@ -1963,7 +2041,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
                                 },
                                 {
                                     "entity": "sensor.aeon_labs_siren_gen_5"
@@ -2070,34 +2148,34 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.deck_bedroom_1"
+                                    "entity": "light.deck_bedroom_1_2"
                                 },
                                 {
-                                    "entity": "light.deck_bedroom_2"
+                                    "entity": "light.deck_bedroom_2_2"
                                 },
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 },
                                 {
-                                    "entity": "light.sump"
+                                    "entity": "light.sump_2"
                                 },
                                 {
-                                    "entity": "light.utility_room"
+                                    "entity": "light.utility_room_2"
                                 },
                                 {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "light.hall"
+                                    "entity": "light.hall_2"
                                 },
                                 {
                                     "entity": "light.hall_1"
@@ -2130,40 +2208,37 @@
                                     "entity": "light.bar_6"
                                 },
                                 {
-                                    "entity": "light.hutch_lamp"
+                                    "entity": "light.hutch_lamp_2"
                                 },
                                 {
-                                    "entity": "light.pantry"
+                                    "entity": "light.pantry_2"
                                 },
                                 {
-                                    "entity": "light.spotlights"
+                                    "entity": "light.stairway_2"
                                 },
                                 {
-                                    "entity": "light.stairway"
-                                },
-                                {
-                                    "entity": "light.rear_stairway"
+                                    "entity": "light.rear_stairway_2"
                                 },
                                 {
                                     "entity": "light.table"
                                 },
                                 {
-                                    "entity": "light.tgreen"
+                                    "entity": "light.tgreen_2"
                                 },
                                 {
-                                    "entity": "light.tgreen2"
+                                    "entity": "light.tgreen2_2"
                                 },
                                 {
-                                    "entity": "light.tred"
+                                    "entity": "light.tred_2"
                                 },
                                 {
-                                    "entity": "light.tred2"
+                                    "entity": "light.tred2_2"
                                 },
                                 {
-                                    "entity": "light.tyellow"
+                                    "entity": "light.tyellow_2"
                                 },
                                 {
-                                    "entity": "light.tyellow2"
+                                    "entity": "light.tyellow2_2"
                                 }
                             ],
                             "title": "all lights",
@@ -2172,19 +2247,31 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.outlet_a_workshop_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_b_rover"
+                                    "entity": "switch.outlet_b_rover_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_c_kitchen"
+                                    "entity": "switch.outlet_c_kitchen_2"
                                 },
                                 {
-                                    "entity": "switch.spotlights"
+                                    "entity": "switch.spotlights_2"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e32c3127"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e357afb7"
+                                },
+                                {
+                                    "entity": "switch.88020554ecfabc9d2730"
+                                },
+                                {
+                                    "entity": "switch.18480742cc50e32c3b45"
                                 }
                             ],
                             "title": "all switches",
@@ -2364,22 +2451,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.tgreen"
+                                    "entity": "light.tgreen_2"
                                 },
                                 {
-                                    "entity": "light.tgreen2"
+                                    "entity": "light.tgreen2_2"
                                 },
                                 {
-                                    "entity": "light.tred"
+                                    "entity": "light.tred_2"
                                 },
                                 {
-                                    "entity": "light.tred2"
+                                    "entity": "light.tred2_2"
                                 },
                                 {
-                                    "entity": "light.tyellow"
+                                    "entity": "light.tyellow_2"
                                 },
                                 {
-                                    "entity": "light.tyellow2"
+                                    "entity": "light.tyellow2_2"
                                 }
                             ],
                             "title": "all traffic lights",
@@ -2388,16 +2475,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.deck_rear"
+                                    "entity": "light.deck_rear_2"
                                 },
                                 {
-                                    "entity": "light.desk_1"
+                                    "entity": "light.desk_1_2"
                                 },
                                 {
-                                    "entity": "light.desk_2"
+                                    "entity": "light.desk_2_2"
                                 },
                                 {
-                                    "entity": "light.entrance"
+                                    "entity": "light.entrance_2"
                                 }
                             ],
                             "title": "all outside lights",
@@ -2597,13 +2684,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.outlet_a_workshop"
+                                    "entity": "switch.outlet_a_workshop_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_b_rover"
+                                    "entity": "switch.outlet_b_rover_2"
                                 },
                                 {
-                                    "entity": "switch.outlet_c_kitchen"
+                                    "entity": "switch.outlet_c_kitchen_2"
                                 },
                                 {
                                     "entity": "sensor.outlet_a_workshop"
@@ -2640,9 +2727,6 @@
                                 },
                                 {
                                     "entity": "switch.18480742cc50e32c3b45"
-                                },
-                                {
-                                    "entity": "switch.counter"
                                 }
                             ],
                             "title": "WiFi switches",
@@ -2818,7 +2902,7 @@
                             "type": "shopping-list"
                         },
                         {
-                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Plugins\n[plugins](https://community.home-assistant.io/t/my-lovelace-plugins/70726)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n### Thomas Loven GitHub\n- https://github.com/thomasloven/hass-fontawesome\n- https://community.home-assistant.io/t/my-lovelace-plugins/70726\n### Custom components\n- https://github.com/custom-components\n- https://api4.windy.com/examples/parameters/\n### HA Developer Documentation\n- https://developers.home-assistant.io/\n### known_devices.yaml\n- https://www.home-assistant.io/components/device_tracker/\n",
+                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Plugins\n[plugins](https://community.home-assistant.io/t/my-lovelace-plugins/70726)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha044/\n-  https://hasspodcast.io/ha043/\n-  https://hasspodcast.io/ha042/\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n### Thomas Loven GitHub\n- https://github.com/thomasloven/hass-fontawesome\n- https://community.home-assistant.io/t/my-lovelace-plugins/70726\n### Custom components\n- https://github.com/custom-components\n- https://api4.windy.com/examples/parameters/\n### HA Developer Documentation\n- https://developers.home-assistant.io/\n### known_devices.yaml\n- https://www.home-assistant.io/components/device_tracker/\n-https://www.home-assistant.io/components/device_tracker.googlehome/\n",
                             "type": "markdown"
                         },
                         {
@@ -3024,6 +3108,11 @@
                             ],
                             "title": "SpaceX",
                             "type": "entities"
+                        },
+                        {
+                            "content": " # HA Lovelace\n[Jame Mcarthy](https://github.com/JamesMcCarthy79/Home-Assistant-Config)",
+                            "title": "Cool Links",
+                            "type": "markdown"
                         }
                     ],
                     "icon": "mdi:star",
@@ -3035,7 +3124,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5"
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
                                 },
                                 {
                                     "entity": "sensor.aeon_labs_siren_gen_5"
