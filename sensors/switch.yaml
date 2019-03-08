@@ -1,4 +1,0 @@
-#### SWITCH #####
-  - platform: mqtt
-    name: "Spotlights"
-    state_topic: "smartthings/Spotlights/switch"

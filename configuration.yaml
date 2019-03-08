@@ -16,13 +16,15 @@ homeassistant:
 # Show links to resources in log and frontend
 introduction:
 
+zeroconf:
+
 lovelace:
 
 input_select: !include input_select.yaml
 
 http:
   base_url: https://hass.hoppel.us:54102
-  api_password: !secret ha_password 
+#  api_password: !secret ha_password 
 
 system_health:
 
@@ -37,10 +39,6 @@ nest:
 
 # Enables configuration UI
 config:
-
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -61,28 +59,38 @@ discovery:
 #
 #cast: !include cast.yaml
 
-#media_player:
-#  - platform: plex
-#    entity_namespace: 'plex'
-#    include_non_clients: true
-#    scan_interval: 5
-#    show_all_controls: false
-#    use_custom_entity_ids: true
-#    use_episode_art: true
-#    remove_unavailable_clients: true
-#    client_remove_interval: 600
-
 #    
 # Allows you to issue voice commands from the frontend in enabled browsers
 #conversation:
 
-device_tracker: !include device_trackers.yaml
+#device_tracker: !include device_trackers.yaml
+googlehome: !include googlehome.yaml
 
+#device_tracker:
+#  - platform: google_maps
+#    username: !secret google_user
+#    password: !secret google_password
+
+person:
+  - name: rick
+    id: rick
+    device_trackers:
+      - device_tracker.192_168_111_237_d0_13_fd_f1_a4_cb
+      - device_tracker.192_168_111_238_d0_13_fd_f1_a4_cb
+      - device_tracker.192_168_111_239_d0_13_fd_f1_a4_cb
+      - device_tracker.192_168_111_240_d0_13_fd_f1_a4_cb
+      - device_tracker.192_168_111_241_d0_13_fd_f1_a4_cb
+      - device_tracker.192_168_111_242_d0_13_fd_f1_a4_cb
+   
 # Enables support for tracking state changes over time
 history:
 
 # View all events in a logbook
 logbook:
+
+#recorder
+recorder: !include recorder.yaml
+
 
 # Enables a map showing the location of tracked devices
 map:
@@ -90,7 +98,7 @@ map:
 # Track the sun
 sun:
 
-# Sensors
+# Sensor
 #sensor: 
   # Weather prediction
 #  - platform: yr
@@ -106,7 +114,7 @@ mqtt:
   broker:  192.168.111.250
   discovery: true
   #  discovery_prefix: smartthings
-  #discovery_prefix: homeassistant
+  #  discovery_prefix: homeassistant
 
 input_number:
   dimmer:
@@ -118,7 +126,7 @@ input_number:
 
 # !include_dir_list will return the content of a directory as a list with each file content being an entry in the list.
 # !include_dir_named will return the content of a directory as a dictionary which maps filename => content of file.
-# !include_dir_merge_list will return the content of a directory as a list by merging all files (which should contain a list) into 1 big list.
+# !include_dir_merge_list will return the content of a directory as a list by merging all fsmartiles (which should contain a list) into 1 big list.
 # !include_dir_merge_named will return the content of a directory as a dictionary by loading each file and merging it into 1 big dictionary.
 
 weather: 
@@ -127,17 +135,13 @@ weather:
 
 shopping_list:
 
-#group:      !include groups.yaml
-group:      !include_dir_merge_named groups
-#group:      !include_dir_merge_list groups
-automation old: !include_dir_merge_list automations
-#automation: !include_dir_merge_list automations
-automation: !include automations.yaml
-#roku:       
-#  - host: 192.168.111.110
-#  - host: 192.168.111.111
-#  - host: 192.168.111.112
-#  - host: 192.168.111.113
+#group:      !include_dir_merge_named groups
+automation: !include_dir_merge_list automations
+
+panel_iframe:
+  configurator:
+    title: "configurator"
+    url: "http://raspi2A:3218"
 
 tuya:
   username: !secret tuya_id
@@ -151,4 +155,8 @@ light:      !include_dir_merge_list lights
 switch:     !include_dir_merge_list switches
 camera:     !include cameras.yaml
 
+#logger:
+#  default: info  # critical, fatal,cerror, warning, warn, info, debug, notset
+#  logs:
+#    homeassistant.components.smartthings: debug
 

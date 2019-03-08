@@ -2,7 +2,7 @@
   alias: 'cycle_garage_door'
   trigger:
     platform: state
-    entity_id: switch.kirk
+    entity_id: switch.tardis_2
     to: 'on'
   condition:
   action:
@@ -13,4 +13,4 @@
     - service: switch.turn_off
       entity_id: switch.g_d1_relay
     - service: switch.turn_off
-      entity_id: switch.kirk
+      entity_id: switch.tardis_2

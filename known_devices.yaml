@@ -30,7 +30,6 @@
   picture:
   track: true
 
-
 192_168_111_241_d0_13_fd_f1_a4_cb:
   hide_if_away: false
   icon:
@@ -48,42 +47,52 @@
   track: true
 
 
-192_168_111_240_1c_f2_9a_1b_10_b6:
-  hide_if_away: false
-  icon:
-  mac: 192.168.111.240_1C:F2:9A:1B:10:B6
-  name: 192.168.111.240 1c:f2:9a:1b:10:b6
-  picture:
-  track: false
 
-192_168_111_238_f4_f5_d8_c0_5e_87:
+google_maps_105445842503262261759:
   hide_if_away: false
   icon:
-  mac: 192.168.111.238_F4:F5:D8:C0:5E:87
-  name: 192.168.111.238 f4:f5:d8:c0:5e:87
-  picture:
-  track: false
+  mac:
+  name: google maps 105445842503262261759
+  picture: https://lh3.googleusercontent.com/a-/AAuE7mCIEetQJyYFz6Qonpanh-Y8o0_BA3AiQMCjff-oLO0
+  track: true
 
-192_168_111_241_1c_f2_9a_1b_10_b6:
-  hide_if_away: false
-  icon:
-  mac: 192.168.111.241_1C:F2:9A:1B:10:B6
-  name: 192.168.111.241 1c:f2:9a:1b:10:b6
-  picture:
-  track: false
 
-192_168_111_240_54_60_09_af_02_eb:
+ricknexus_5x:
   hide_if_away: false
   icon:
-  mac: 192.168.111.240_54:60:09:AF:02:EB
-  name: 192.168.111.240 54:60:09:af:02:eb
+  mac:
+  name: RickNexus 5X
   picture:
-  track: false
+  track: true
 
-192_168_111_239_1c_f2_9a_1b_10_b6:
+192_168_111_240_b8_ad_3e_c8_5c_2f:
   hide_if_away: false
   icon:
-  mac: 192.168.111.239_1C:F2:9A:1B:10:B6
-  name: 192.168.111.239 1c:f2:9a:1b:10:b6
+  mac:
+  name: 192 168 111 240 b8 ad 3e c8 5c 2f
   picture:
-  track: false
+  track: true
+
+192_168_111_238_0f_ea_4b_b3_de_87:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 111 238 0f ea 4b b3 de 87
+  picture:
+  track: true
+
+192_168_111_237_0f_ea_4b_b3_de_87:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 111 237 0f ea 4b b3 de 87
+  picture:
+  track: true
+
+192_168_111_240_78_f8_82_8d_32_69:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 111 240 78 f8 82 8d 32 69
+  picture:
+  track: true

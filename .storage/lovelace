@@ -53,8 +53,7 @@
                                     "state": "open"
                                 }
                             ],
-                            "show_header_toggle": true,
-                            "title": "XXXXXXXXX",
+                            "title": "Garage Door",
                             "type": "conditional"
                         },
                         {
@@ -74,18 +73,6 @@
                                 },
                                 {
                                     "entity": "switch.outlet_a_workshop"
-                                },
-                                {
-                                    "entity": "switch.18480742cc50e32c3127"
-                                },
-                                {
-                                    "entity": "switch.18480742cc50e357afb7"
-                                },
-                                {
-                                    "entity": "switch.88020554ecfabc9d2730"
-                                },
-                                {
-                                    "entity": "switch.18480742cc50e32c3b45"
                                 },
                                 {
                                     "type": "divider"
@@ -191,6 +178,27 @@
                                 },
                                 {
                                     "entity": "sensor.outlet_c_kitchen"
+                                },
+                                {
+                                    "entity": "light.wildcat_fastled"
+                                },
+                                {
+                                    "entity": "switch.counter_2"
+                                },
+                                {
+                                    "entity": "switch.workshop"
+                                },
+                                {
+                                    "entity": "switch.porch"
+                                },
+                                {
+                                    "entity": "switch.light_strip"
+                                },
+                                {
+                                    "entity": "light.ceiling"
+                                },
+                                {
+                                    "entity": "switch.porch"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -236,7 +244,7 @@
                                     "name": "Toggle Garage Door"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
                                     "entity": "sensor.door_front_contact"
@@ -322,9 +330,27 @@
                             "type": "entities"
                         },
                         {
-                            "content": " 192.168.111.237  __ghome-Sun__\n 192.168.111.238 __GHome-Hub-Lodge__\n 192.168.111.239 __ghome-garage__\n 192.168.111.240 __GHome-Bedroom__\n 192.168.111.241 __GHome-Workshop__\n 192.168.111.242 __ghome-Mancave__\n\n[device_tracker doc](https://www.home-assistant.io/components/device_tracker/)\n[bluetooth tradker doc](https://www.home-assistant.io/components/device_tracker.bluetooth_tracker/)\n[google Home tracker doc](https://www.home-assistant.io/components/device_tracker.googlehome/)",
+                            "content": " 192.168.111.237  [__ghome-Sun__](http://192.168.111.237:8008/setup/bluetooth/scan_results)\n 192.168.111.238 [__GHome-Hub-Lodge__](http://192.168.111.238:8008/setup/bluetooth/scan_results)  [more](http://192.168.111.238:8008/setup/eureka_info)\n 192.168.111.239 [__ghome-garage__](http://192.168.111.239:8008/setup/bluetooth/scan_results)\n 192.168.111.240 [__GHome-Bedroom__](http://192.168.111.240:8008/setup/bluetooth/scan_results)\n 192.168.111.241 [__GHome-Workshop__](http://192.168.111.241:8008/setup/bluetooth/scan_results)\n 192.168.111.242 [__ghome-Mancave__](http://192.168.111.242:8008/setup/bluetooth/scan_results)\n\n[device_tracker doc](https://www.home-assistant.io/components/device_tracker/)\n[bluetooth tradker doc](https://www.home-assistant.io/components/device_tracker.bluetooth_tracker/)\n[google Home tracker doc](https://www.home-assistant.io/components/device_tracker.googlehome/)\n[google home api](https://rithvikvibhu.github.io/GHLocalApi/)",
                             "title": "Google Home tracker",
                             "type": "markdown"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.wildcat_fastled"
+                                },
+                                {
+                                    "entity": "light.entrance_2"
+                                },
+                                {
+                                    "entity": "switch.porch"
+                                },
+                                {
+                                    "entity": "switch.light_strip"
+                                }
+                            ],
+                            "title": "common",
+                            "type": "entities"
                         }
                     ],
                     "icon": "mdi:lightbulb-on",
@@ -412,6 +438,24 @@
                                 },
                                 {
                                     "entity": "automation.wildcat_node"
+                                },
+                                {
+                                    "entity": "automation.sl2_on"
+                                },
+                                {
+                                    "entity": "automation.sl2_off"
+                                },
+                                {
+                                    "entity": "automation.sl3_on"
+                                },
+                                {
+                                    "entity": "automation.sl3_off"
+                                },
+                                {
+                                    "entity": "automation.sl4_on"
+                                },
+                                {
+                                    "entity": "automation.sl4_off"
                                 }
                             ],
                             "title": "all automations",
@@ -668,7 +712,7 @@
                                     "entity": "sensor.motion_workshop_temp"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_battery"
+                                    "entity": "sensor.motion_workshop_battery_2"
                                 },
                                 {
                                     "entity": "switch.outlet_a_workshop_2"
@@ -685,27 +729,57 @@
                         },
                         {
                             "entities": [
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_battery"
+                                }
                             ],
                             "title": "smoke alarm",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.door_front_contact",
-                                "sensor.door_front_temp",
-                                "sensor.door_front_battery",
-                                "sensor.door_garage_contact",
-                                "sensor.door_garage_temp",
-                                "sensor.door_garage_battery",
-                                "sensor.door_garageentry_contact",
-                                "sensor.door_garageentry_temp",
-                                "sensor.door_garageentry_battery",
-                                "sensor.door_rear_stairs_contact",
-                                "sensor.door_rear_stairs_temp",
-                                "sensor.door_rear_stairs_battery"
+                                {
+                                    "entity": "sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_front_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temp"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery_2"
+                                }
                             ],
                             "title": "doors - all sensors",
                             "type": "entities"
@@ -729,7 +803,7 @@
                                     "entity": "sensor.water_sensor_pool_pump_temp"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                    "entity": "sensor.water_sensor_pool_pump_battery_2"
                                 },
                                 {
                                     "entity": "sensor.water_sensor_sump_water"
@@ -738,7 +812,7 @@
                                     "entity": "sensor.water_sensor_sump_temp"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_battery"
+                                    "entity": "sensor.water_sensor_sump_battery_2"
                                 }
                             ],
                             "title": "water - all sensors",
@@ -765,7 +839,7 @@
                                     "entity": "sensor.motion_hallway_temp"
                                 },
                                 {
-                                    "entity": "sensor.motion_hallway_battery"
+                                    "entity": "sensor.motion_hallway_battery_2"
                                 },
                                 {
                                     "entity": "sensor.motion_kitchen_motion"
@@ -774,7 +848,7 @@
                                     "entity": "sensor.motion_kitchen_temp"
                                 },
                                 {
-                                    "entity": "sensor.motion_kitchen_battery"
+                                    "entity": "sensor.motion_kitchen_battery_2"
                                 },
                                 {
                                     "entity": "sensor.motion_workshop_motion"
@@ -783,7 +857,7 @@
                                     "entity": "sensor.motion_workshop_temp"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_battery"
+                                    "entity": "sensor.motion_workshop_battery_2"
                                 },
                                 {
                                     "entity": "sensor.motion_basement_motion"
@@ -792,7 +866,7 @@
                                     "entity": "sensor.motion_basement_temp"
                                 },
                                 {
-                                    "entity": "sensor.motion_basement_battery"
+                                    "entity": "sensor.motion_basement_battery_2"
                                 }
                             ],
                             "title": "motion",
@@ -918,34 +992,34 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.door_front_battery"
+                                    "entity": "sensor.door_front_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_battery"
+                                    "entity": "sensor.door_garage_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garageentry_battery"
+                                    "entity": "sensor.door_garageentry_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_battery"
+                                    "entity": "sensor.door_rear_stairs_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_hallway_battery"
+                                    "entity": "sensor.motion_hallway_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_kitchen_battery"
+                                    "entity": "sensor.motion_kitchen_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_battery"
+                                    "entity": "sensor.motion_workshop_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_basement_battery"
+                                    "entity": "sensor.motion_basement_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                    "entity": "sensor.water_sensor_pool_pump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_battery"
+                                    "entity": "sensor.water_sensor_sump_battery_2"
                                 }
                             ],
                             "title": "battery levels",
@@ -1051,6 +1125,9 @@
                                 },
                                 {
                                     "entity": "switch.porch"
+                                },
+                                {
+                                    "entity": "switch.workshop"
                                 },
                                 {
                                     "entity": "switch.counter_2"
@@ -1307,6 +1384,16 @@
                             "aspect_ratio": "90%",
                             "type": "iframe",
                             "url": "https://embed.windy.com/embed2.html?lat=42.127&lon=-88.053&zoom=9&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=true&detailLat=42.301&detailLon=-87.981&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
+                        },
+                        {
+                            "aspect_ratio": "200%",
+                            "type": "iframe",
+                            "url": "https://forecast-v3.weather.gov/point/42.3433,-88.0389?mode=min"
+                        },
+                        {
+                            "content": " [NOAA Radar IL](https://radar.weather.gov/ridge/radar.php?rid=lot&product=N0R&overlay=11101111&loop=no)\n[NOAA API](https://forecast-v3.weather.gov/documentation)\n[NOAA Web API](https://www.weather.gov/documentation/services-web-api)\n[WGN Radar](https://wgntv.com/weather/maps-and-radar/interactive-radar/)",
+                            "title": "Links",
+                            "type": "markdown"
                         }
                     ],
                     "icon": "mdi:weather-partlycloudy",
@@ -1352,24 +1439,6 @@
                         },
                         {
                             "entities": [
-                                "sensor.door_front_contact",
-                                "sensor.door_front_temp",
-                                "sensor.door_front_battery",
-                                "sensor.door_garage_contact",
-                                "sensor.door_garage_temp",
-                                "sensor.door_garage_battery",
-                                "sensor.door_garageentry_contact",
-                                "sensor.door_garageentry_temp",
-                                "sensor.door_garageentry_battery",
-                                "sensor.door_rear_stairs_contact",
-                                "sensor.door_rear_stairs_temp",
-                                "sensor.door_rear_stairs_battery"
-                            ],
-                            "title": "doors - all sensors",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
                                 {
                                     "entity": "light.entrance_2"
                                 },
@@ -1383,13 +1452,82 @@
                                     "entity": "light.deck_bedroom_2_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_contact"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
-                                    "entity": "switch.kirk_2"
+                                    "entity": "switch.porch"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garage_contact"
                                 }
                             ],
                             "title": "outside",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_front_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_rear_stairs_contact"
+                                }
+                            ],
+                            "title": "doors - all sensors",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.xms_2_motion"
+                                },
+                                {
+                                    "entity": "light.ceiling"
+                                },
+                                {
+                                    "entity": "light.bedroom_1_2"
+                                },
+                                {
+                                    "entity": "light.bedroom_2_2"
+                                },
+                                {
+                                    "entity": "light.dakota_2"
+                                },
+                                {
+                                    "entity": "light.durango_2"
+                                },
+                                {
+                                    "entity": "switch.disable_bedroom_motion"
+                                },
+                                {
+                                    "entity": "light.bedroom_dimmer"
+                                },
+                                {
+                                    "entity": "media_player.ghome_bedroom"
+                                },
+                                {
+                                    "entity": "media_player.bedroom"
+                                }
+                            ],
+                            "title": "bedroom",
                             "type": "entities"
                         },
                         {
@@ -1404,10 +1542,13 @@
                                     "entity": "light.hutch_lamp_2"
                                 },
                                 {
-                                    "entity": "group.bar"
+                                    "entity": "light.bar_dimmer"
                                 },
                                 {
-                                    "entity": "group.hall"
+                                    "entity": "switch.light_strip"
+                                },
+                                {
+                                    "entity": "light.hall_dimmer"
                                 }
                             ],
                             "title": "lights in main area",
@@ -1417,9 +1558,6 @@
                             "entities": [
                                 {
                                     "entity": "switch.spotlights_2"
-                                },
-                                {
-                                    "entity": "sensor.spotlights"
                                 },
                                 {
                                     "entity": "media_player.basement_2"
@@ -1437,10 +1575,13 @@
                                     "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_contact"
+                                    "entity": "binary_sensor.door_rear_stairs_contact"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_temp"
+                                    "entity": "sensor.door_rear_stairs_temperature_measurement"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_rear_stairs_acceleration"
                                 }
                             ],
                             "title": "basement",
@@ -1449,37 +1590,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.bedroom_1_2"
-                                },
-                                {
-                                    "entity": "light.bedroom_2_2"
-                                },
-                                {
-                                    "entity": "light.dakota_2"
-                                },
-                                {
-                                    "entity": "light.durango_2"
-                                },
-                                {
-                                    "entity": "media_player.ghome_bedroom"
-                                },
-                                {
-                                    "entity": "media_player.bedroom"
-                                }
-                            ],
-                            "title": "bedroom",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.motion_workshop_motion"
-                                },
-                                {
-                                    "entity": "sensor.motion_workshop_temp"
-                                },
-                                {
-                                    "entity": "sensor.motion_workshop_battery"
+                                    "entity": "sensor.motion_workshop_battery_2"
                                 },
                                 {
                                     "entity": "switch.18480742cc50e357afb7"
@@ -1492,6 +1603,15 @@
                                 },
                                 {
                                     "entity": "media_player.office"
+                                },
+                                {
+                                    "entity": "binary_sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temperature_measurement"
+                                },
+                                {
+                                    "entity": "switch.workshop"
                                 }
                             ],
                             "title": "workshop",
@@ -1512,22 +1632,22 @@
                                     "entity": "group.water_present"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                    "entity": "sensor.water_sensor_pool_pump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_water"
+                                    "entity": "sensor.water_sensor_sump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                    "entity": "binary_sensor.water_sensor_pool_pump_water"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_temp"
+                                    "entity": "binary_sensor.water_sensor_sump_water"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                    "entity": "sensor.water_sensor_pool_pump_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_battery"
+                                    "entity": "sensor.water_sensor_sump_temperature_measurement"
                                 }
                             ],
                             "title": "utility",
@@ -1643,6 +1763,35 @@
                     "icon": "mdi:television",
                     "path": "video",
                     "title": "video"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "camera.front_yard"
+                                },
+                                {
+                                    "entity": "camera.raspi2a_workshop"
+                                },
+                                {
+                                    "entity": "camera.raspi2b_sump"
+                                },
+                                {
+                                    "entity": "camera.raspi3a_office"
+                                },
+                                {
+                                    "entity": "camera.raspi3b_demo"
+                                }
+                            ],
+                            "title": "Camera",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:camera",
+                    "path": "cameras",
+                    "title": "cameras"
                 },
                 {
                     "badges": [],
@@ -1895,39 +2044,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "camera.front_yard"
+                                    "entity": "binary_sensor.water_sensor_pool_pump_water"
                                 },
                                 {
-                                    "entity": "camera.raspi2a_workshop"
-                                },
-                                {
-                                    "entity": "camera.raspi2b_sump"
-                                },
-                                {
-                                    "entity": "camera.raspi3a_office"
-                                },
-                                {
-                                    "entity": "camera.raspi3b_demo"
-                                }
-                            ],
-                            "title": "Camera",
-                            "type": "entities"
-                        }
-                    ],
-                    "icon": "mdi:camera",
-                    "path": "cameras",
-                    "title": "cameras"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.water_sensor_pool_pump_water"
-                                },
-                                {
-                                    "entity": "sensor.water_sensor_sump_water"
+                                    "entity": "binary_sensor.water_sensor_sump_water"
                                 }
                             ],
                             "title": "water present",
@@ -1936,16 +2056,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.door_front_contact"
+                                    "entity": "binary_sensor.door_front_contact"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_contact"
+                                    "entity": "binary_sensor.door_garage_contact"
                                 },
                                 {
-                                    "entity": "sensor.door_garageentry_contact"
+                                    "entity": "binary_sensor.door_garageentry_contact"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_contact"
+                                    "entity": "binary_sensor.door_rear_stairs_contact"
                                 }
                             ],
                             "title": "door contacts",
@@ -1953,9 +2073,18 @@
                         },
                         {
                             "entities": [
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_battery"
+                                },
+                                {
+                                    "entity": "persistent_notification.config_warning"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_carbon_monoxide_detector"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_smoke_detector"
+                                }
                             ],
                             "title": "smoke alarm",
                             "type": "entities"
@@ -1963,10 +2092,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5_2"
+                                    "entity": "sensor.aeon_labs_siren_gen_5_alarm"
                                 },
                                 {
-                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                    "entity": "switch.aeon_labs_siren_gen_5_2"
                                 }
                             ],
                             "title": "siren",
@@ -1987,34 +2116,34 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.virtual_switch_1"
+                                    "entity": "switch.spock_2"
                                 },
                                 {
-                                    "entity": "switch.spock"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.sulu_2"
                                 },
                                 {
-                                    "entity": "switch.sulu"
+                                    "entity": "switch.scotty_2"
                                 },
                                 {
-                                    "entity": "switch.scotty"
+                                    "entity": "switch.bones_2"
                                 },
                                 {
-                                    "entity": "switch.bones"
+                                    "entity": "switch.k9_2"
                                 },
                                 {
-                                    "entity": "switch.k9"
+                                    "entity": "switch.tardis_2"
                                 },
                                 {
-                                    "entity": "switch.tardis"
+                                    "entity": "switch.aquarium_2"
                                 },
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.lava_2"
                                 },
                                 {
-                                    "entity": "switch.lava"
+                                    "entity": "switch.counter_2"
                                 }
                             ],
                             "title": "virtual switches",
@@ -2023,16 +2152,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.motion_hallway_motion"
+                                    "entity": "binary_sensor.motion_basement_motion"
                                 },
                                 {
-                                    "entity": "sensor.motion_kitchen_motion"
+                                    "entity": "binary_sensor.motion_hallway_motion"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_motion"
+                                    "entity": "binary_sensor.motion_kitchen_motion"
                                 },
                                 {
-                                    "entity": "sensor.motion_basement_motion"
+                                    "entity": "binary_sensor.motion_workshop_motion"
                                 }
                             ],
                             "title": "motion contact",
@@ -2041,46 +2170,31 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aeon_labs_siren_gen_5_2"
+                                    "entity": "switch.sl1"
                                 },
                                 {
-                                    "entity": "sensor.aeon_labs_siren_gen_5"
+                                    "entity": "switch.sl2_2"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.sl3_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_contact"
+                                    "entity": "switch.sl4_2"
                                 },
                                 {
-                                    "entity": "sensor.door_front_contact"
+                                    "entity": "switch.workshop"
                                 },
                                 {
-                                    "entity": "sensor.door_garageentry_contact"
+                                    "entity": "switch.counter_2"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_contact"
+                                    "entity": "switch.porch"
                                 },
                                 {
-                                    "entity": "sensor.motion_hallway_motion"
-                                },
-                                {
-                                    "entity": "sensor.motion_kitchen_motion"
-                                },
-                                {
-                                    "entity": "sensor.motion_workshop_motion"
-                                },
-                                {
-                                    "entity": "sensor.motion_basement_motion"
-                                },
-                                {
-                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo"
-                                },
-                                {
-                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2"
+                                    "entity": "switch.light_strip"
                                 }
                             ],
-                            "title": "security",
+                            "title": "switch contact",
                             "type": "entities"
                         }
                     ],
@@ -2175,37 +2289,37 @@
                                     "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_1"
+                                    "entity": "light.hall_1_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_3"
+                                    "entity": "light.hall_3_2"
                                 },
                                 {
-                                    "entity": "light.hall_4"
+                                    "entity": "light.hall_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_1"
+                                    "entity": "light.bar_1_2"
                                 },
                                 {
-                                    "entity": "light.bar_2"
+                                    "entity": "light.bar_2_2"
                                 },
                                 {
-                                    "entity": "light.bar_3"
+                                    "entity": "light.bar_3_2"
                                 },
                                 {
-                                    "entity": "light.bar_4"
+                                    "entity": "light.bar_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_5"
+                                    "entity": "light.bar_5_2"
                                 },
                                 {
-                                    "entity": "light.bar_6"
+                                    "entity": "light.bar_6_2"
                                 },
                                 {
                                     "entity": "light.hutch_lamp_2"
@@ -2220,7 +2334,7 @@
                                     "entity": "light.rear_stairway_2"
                                 },
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 },
                                 {
                                     "entity": "light.tgreen_2"
@@ -2307,10 +2421,10 @@
                                     "entity": "switch.aq_d8"
                                 },
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.aquarium_2"
                                 },
                                 {
-                                    "entity": "switch.bones"
+                                    "entity": "switch.bones_2"
                                 },
                                 {
                                     "entity": "switch.g_d0"
@@ -2340,19 +2454,10 @@
                                     "entity": "switch.g_d8"
                                 },
                                 {
-                                    "entity": "switch.k9"
+                                    "entity": "switch.k9_2"
                                 },
                                 {
                                     "entity": "switch.w_d0"
-                                },
-                                {
-                                    "entity": "switch.w_d1_relay"
-                                },
-                                {
-                                    "entity": "switch.w_d2"
-                                },
-                                {
-                                    "entity": "switch.w_d3"
                                 },
                                 {
                                     "entity": "switch.w_d4_led"
@@ -2379,31 +2484,28 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.aquarium_2"
                                 },
                                 {
-                                    "entity": "switch.bones"
+                                    "entity": "switch.bones_2"
                                 },
                                 {
-                                    "entity": "switch.k9"
+                                    "entity": "switch.k9_2"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
-                                    "entity": "switch.scotty"
+                                    "entity": "switch.scotty_2"
                                 },
                                 {
-                                    "entity": "switch.spock"
+                                    "entity": "switch.spock_2"
                                 },
                                 {
-                                    "entity": "switch.sulu"
+                                    "entity": "switch.sulu_2"
                                 },
                                 {
-                                    "entity": "switch.tardis"
-                                },
-                                {
-                                    "entity": "switch.virtual_switch_1"
+                                    "entity": "switch.tardis_2"
                                 }
                             ],
                             "title": "all virtual switches",
@@ -2412,37 +2514,37 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "light.hall_1"
+                                    "entity": "light.hall_1_2"
                                 },
                                 {
-                                    "entity": "light.hall_2"
+                                    "entity": "light.hall_2_2"
                                 },
                                 {
-                                    "entity": "light.hall_3"
+                                    "entity": "light.hall_3_2"
                                 },
                                 {
-                                    "entity": "light.hall_4"
+                                    "entity": "light.hall_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_1"
+                                    "entity": "light.bar_1_2"
                                 },
                                 {
-                                    "entity": "light.bar_2"
+                                    "entity": "light.bar_2_2"
                                 },
                                 {
-                                    "entity": "light.bar_3"
+                                    "entity": "light.bar_3_2"
                                 },
                                 {
-                                    "entity": "light.bar_4"
+                                    "entity": "light.bar_4_2"
                                 },
                                 {
-                                    "entity": "light.bar_5"
+                                    "entity": "light.bar_5_2"
                                 },
                                 {
-                                    "entity": "light.bar_6"
+                                    "entity": "light.bar_6_2"
                                 },
                                 {
-                                    "entity": "light.table"
+                                    "entity": "light.table_3"
                                 }
                             ],
                             "title": "all sengled lights",
@@ -2501,13 +2603,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.outlet_a_workshop_power"
+                                    "entity": "sensor.outlet_a_workshop_power_meter"
                                 },
                                 {
-                                    "entity": "sensor.outlet_b_rover_power"
+                                    "entity": "sensor.outlet_b_rover_power_meter"
                                 },
                                 {
-                                    "entity": "sensor.outlet_c_kitchen_power"
+                                    "entity": "sensor.outlet_c_kitchen_power_meter"
                                 }
                             ],
                             "title": "power",
@@ -2516,22 +2618,22 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_water"
+                                    "entity": "sensor.water_sensor_pool_pump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                    "entity": "sensor.water_sensor_sump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                    "entity": "binary_sensor.water_sensor_pool_pump_water"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_water"
+                                    "entity": "binary_sensor.water_sensor_sump_water"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_temp"
+                                    "entity": "sensor.water_sensor_pool_pump_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_battery"
+                                    "entity": "sensor.water_sensor_sump_temperature_measurement"
                                 }
                             ],
                             "title": "water sensors",
@@ -2539,47 +2641,134 @@
                         },
                         {
                             "entities": [
-                                "sensor.motion_hallway_motion",
-                                "sensor.motion_kitchen_motion",
-                                "sensor.motion_workshop_motion",
-                                "sensor.motion_basement_motion",
-                                "sensor.motion_hallway_temp",
-                                "sensor.motion_kitchen_temp",
-                                "sensor.motion_workshop_temp",
-                                "sensor.motion_basement_temp",
-                                "sensor.motion_hallway_battery",
-                                "sensor.motion_kitchen_battery",
-                                "sensor.motion_workshop_battery",
-                                "sensor.motion_basement_battery"
+                                {
+                                    "entity": "binary_sensor.motion_basement_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.motion_hallway_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.motion_kitchen_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.xms_1_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.xms_2_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.motion_workshop_motion"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.xms_1_battery"
+                                },
+                                {
+                                    "entity": "sensor.xms_2_battery"
+                                },
+                                {
+                                    "entity": "sensor.motion_basement_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.motion_hallway_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.motion_kitchen_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.motion_workshop_temperature_measurement"
+                                }
                             ],
                             "title": "motion",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.door_front_contact",
-                                "sensor.door_garage_contact",
-                                "sensor.door_garageentry_contact",
-                                "sensor.door_rear_stairs_contact",
-                                "sensor.door_front_temp",
-                                "sensor.door_garage_temp",
-                                "sensor.door_garageentry_temp",
-                                "sensor.door_rear_stairs_temp",
-                                "sensor.door_front_battery",
-                                "sensor.door_garage_battery",
-                                "sensor.door_garageentry_battery",
-                                "sensor.door_rear_stairs_battery"
+                                {
+                                    "entity": "binary_sensor.door_front_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garage_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garageentry_contact"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_rear_stairs_contact"
+                                },
+                                {
+                                    "entity": "sensor.door_front_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.door_front_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.door_garage_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.door_garageentry_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.door_rear_stairs_temperature_measurement"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_front_acceleration"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garage_acceleration"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_garageentry_acceleration"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_rear_stairs_acceleration"
+                                }
                             ],
                             "title": "multi sensors",
                             "type": "entities"
                         },
                         {
                             "entities": [
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_2",
-                                "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_3"
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_battery"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_carbon_monoxide_detector"
+                                },
+                                {
+                                    "entity": "sensor.first_alert_smoke_detector_and_carbon_monoxide_alarm_zcombo_smoke_detector"
+                                }
                             ],
                             "title": "smoke alarm",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.spotlights"
+                                }
+                            ],
+                            "title": "switch sensor",
                             "type": "entities"
                         }
                     ],
@@ -2596,34 +2785,40 @@
                                     "entity": "sensor.weather_temperature"
                                 },
                                 {
-                                    "entity": "sensor.door_front_temp"
+                                    "entity": "sensor.door_front_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_temp"
+                                    "entity": "sensor.door_garage_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.door_garageentry_temp"
+                                    "entity": "sensor.door_garageentry_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_temp"
+                                    "entity": "sensor.door_rear_stairs_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.motion_hallway_temp"
+                                    "entity": "sensor.hoppel_lodge_nest_weather_device_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.motion_kitchen_temp"
+                                    "entity": "sensor.motion_basement_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_temp"
+                                    "entity": "sensor.motion_hallway_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.motion_basement_temp"
+                                    "entity": "sensor.motion_hallway_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_temp"
+                                    "entity": "sensor.motion_kitchen_temperature_measurement"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_temp"
+                                    "entity": "sensor.motion_workshop_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_pool_pump_temperature_measurement"
+                                },
+                                {
+                                    "entity": "sensor.water_sensor_sump_temperature_measurement"
                                 }
                             ],
                             "title": "temperature",
@@ -2640,34 +2835,37 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.door_front_battery"
+                                    "entity": "sensor.door_front_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garage_battery"
+                                    "entity": "sensor.door_garage_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_garageentry_battery"
+                                    "entity": "sensor.door_garageentry_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.door_rear_stairs_battery"
+                                    "entity": "sensor.door_rear_stairs_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_hallway_battery"
+                                    "entity": "sensor.motion_hallway_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_kitchen_battery"
+                                    "entity": "sensor.motion_kitchen_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_workshop_battery"
+                                    "entity": "sensor.motion_workshop_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.motion_basement_battery"
+                                    "entity": "sensor.motion_basement_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_pool_pump_battery"
+                                    "entity": "sensor.water_sensor_pool_pump_battery_2"
                                 },
                                 {
-                                    "entity": "sensor.water_sensor_sump_battery"
+                                    "entity": "sensor.water_sensor_sump_battery_2"
+                                },
+                                {
+                                    "entity": "sensor.xms_1_battery"
                                 }
                             ],
                             "title": "battery levels",
@@ -2693,22 +2891,13 @@
                                     "entity": "switch.outlet_c_kitchen_2"
                                 },
                                 {
-                                    "entity": "sensor.outlet_a_workshop"
+                                    "entity": "sensor.outlet_a_workshop_power_meter"
                                 },
                                 {
-                                    "entity": "sensor.outlet_c_kitchen"
+                                    "entity": "sensor.outlet_b_rover_power_meter"
                                 },
                                 {
-                                    "entity": "sensor.outlet_b_rover"
-                                },
-                                {
-                                    "entity": "sensor.outlet_a_workshop_power"
-                                },
-                                {
-                                    "entity": "sensor.outlet_b_rover_power"
-                                },
-                                {
-                                    "entity": "sensor.outlet_c_kitchen_power"
+                                    "entity": "sensor.outlet_c_kitchen_power_meter"
                                 }
                             ],
                             "title": "outlets",
@@ -2847,10 +3036,10 @@
                                     "entity": "switch.aq_d8"
                                 },
                                 {
-                                    "entity": "switch.lava"
+                                    "entity": "switch.lava_2"
                                 },
                                 {
-                                    "entity": "switch.aquarium"
+                                    "entity": "switch.aquarium_2"
                                 }
                             ],
                             "title": "aquarium",
@@ -2902,7 +3091,7 @@
                             "type": "shopping-list"
                         },
                         {
-                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n## Plugins\n[plugins](https://community.home-assistant.io/t/my-lovelace-plugins/70726)\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n### Show Notes\n-  https://hasspodcast.io/ha044/\n-  https://hasspodcast.io/ha043/\n-  https://hasspodcast.io/ha042/\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n### Thomas Loven GitHub\n- https://github.com/thomasloven/hass-fontawesome\n- https://community.home-assistant.io/t/my-lovelace-plugins/70726\n### Custom components\n- https://github.com/custom-components\n- https://api4.windy.com/examples/parameters/\n### HA Developer Documentation\n- https://developers.home-assistant.io/\n### known_devices.yaml\n- https://www.home-assistant.io/components/device_tracker/\n-https://www.home-assistant.io/components/device_tracker.googlehome/\n",
+                            "content": "## HA Releases\n[releases](https://github.com/home-assistant/home-assistant/releases)\n\n## CLI\n[cli blog](https://www.home-assistant.io/blog/2019/02/04/introducing-home-assistant-cli/)\n[github](https://github.com/home-assistant/home-assistant-cli)\n\n## add-ons\n- https://github.com/hassio-addons\n- https://github.com/danielperna84/hass-configurator\n- https://github.com/hassio-addons/addon-log-viewer\n\n## Plugins\n[plugins](https://community.home-assistant.io/t/my-lovelace-plugins/70726)\n\n## Podcast \nhttps://hasspodcast.io/\nhttps://hasspodcast.io/episodes/\n\n### Show Notes\n-  https://hasspodcast.io/ha044/\n-  https://hasspodcast.io/ha043/\n-  https://hasspodcast.io/ha042/\n-  https://hasspodcast.io/ha041/\n- https://hasspodcast.io/ha040/\n- https://hasspodcast.io/ha039/\n- https://hasspodcast.io/ha038/\n\n### DIY\n- [DIY Home curtains](https://www.youtube.com/watch?v=nrUu21NXrx0)\n- https://github.com/thehookup\n- [motorized shades](https://github.com/thehookup/MQTT_Motorized_Shades)\n- [stepper motor](https://www.omc-stepperonline.com/nema-17-stepper-motor-bipolar-l48mm-w-gear-raio-51-planetary-gearbox-17hs19-1684s-pg5.html?search=17HS19-1684S-PG5?tracking%3D5b5dbb450f064)\n- [DIY Shades youtbube](https://www.youtube.com/watch?v=ocOO-8X_-Rk)\n\n\n### Thomas Loven GitHub\n- https://github.com/thomasloven/hass-fontawesome\n- https://community.home-assistant.io/t/my-lovelace-plugins/70726\n\n### Custom components\n- https://github.com/custom-components\n- https://api4.windy.com/examples/parameters/\n\n### HA Developer Documentation\n- https://developers.home-assistant.io/\n\n### known_devices.yaml\n- https://www.home-assistant.io/components/device_tracker/\n-https://www.home-assistant.io/components/device_tracker.googlehome/\n\n### google home tracking\n- [discussion](https://community.home-assistant.io/t/new-google-home-device-tracker-component-introduced-in-ha-0-83/81755/86)\n- [reliable BT detection ??](https://community.home-assistant.io/t/monitor-reliable-multi-user-distributed-bt-occupancy-presence-detection/68505/1)\n- http://google_homes_ip:8008/setup/bluetooth/scan_results\n- [monitor.sh](https://github.com/andrewjfreyer/monitor)\n- [possible solution](https://community.home-assistant.io/t/new-google-home-device-tracker-component-introduced-in-ha-0-83/81755/108)\n- [locationlib documentation](https://locationsharinglib.readthedocs.io)\n\n",
                             "type": "markdown"
                         },
                         {
@@ -3113,6 +3302,11 @@
                             "content": " # HA Lovelace\n[Jame Mcarthy](https://github.com/JamesMcCarthy79/Home-Assistant-Config)",
                             "title": "Cool Links",
                             "type": "markdown"
+                        },
+                        {
+                            "content": "### dashboard\n- [dashboard](http://localhost:6052/)\n\n### github\n- https://github.com/esphome/esphome-c\n- https://github.com/esphome/esphome\n\n### docs\n- https://esphome.io/\n[dashboard](https://esphome.io/guides/cli.html?highlight=dashboard#dashboard-command)\n\n### command line\n- [command line](https://esphome.io/guides/cli.html?highlight=dashboard#dashboard-command)",
+                            "title": "esphomelib",
+                            "type": "markdown"
                         }
                     ],
                     "icon": "mdi:star",
@@ -3130,7 +3324,7 @@
                                     "entity": "sensor.aeon_labs_siren_gen_5"
                                 },
                                 {
-                                    "entity": "switch.kirk"
+                                    "entity": "switch.kirk_2"
                                 },
                                 {
                                     "entity": "sensor.door_garage_contact"
@@ -3220,24 +3414,6 @@
                                 },
                                 {
                                     "entity": "sensor.dark_sky_summary_5"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_0"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_1"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_2"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_3"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_4"
-                                },
-                                {
-                                    "entity": "sensor.dark_sky_temperature_5"
                                 }
                             ],
                             "title": "Dark Sky forecast",
